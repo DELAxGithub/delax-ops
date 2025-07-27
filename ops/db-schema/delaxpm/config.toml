@@ -133,7 +133,6 @@ template = "Your code is {{ .Code }} ."
 
 [functions]
 # pg_net extension must be enabled for Edge Functions to make HTTP requests
-verify_jwt = false
 
 [analytics]
 enabled = false
