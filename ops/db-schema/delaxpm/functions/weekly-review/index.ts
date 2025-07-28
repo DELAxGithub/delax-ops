@@ -54,6 +54,16 @@ interface WeeklyReviewData {
     completedEpisodes: number;
     inProgressEpisodes: number;
   };
+  teamStats: {
+    liberary: {
+      totalPrograms: number;
+      byStatus: Record<string, number>;
+    };
+    platto: {
+      totalPrograms: number;
+      byStatus: Record<string, number>;
+    };
+  };
 }
 
 const corsHeaders = {
@@ -171,7 +181,32 @@ async function generateWeeklyReview(supabase: any): Promise<WeeklyReviewData> {
     ep.current_status !== '台本作成中'
   ).length;
 
-  // 8. 週次レビューデータを構築
+  // 8. チーム別統計を取得
+  const { data: liberaryPrograms, error: liberaryError } = await supabase
+    .from('programs')
+    .select('*')
+    .ilike('notes', '%[LIBERARY]%');
+
+  const { data: plattoPrograms, error: plattoError } = await supabase
+    .from('programs')
+    .select('*')
+    .ilike('notes', '%[PLATTO]%');
+
+  // チーム別の統計を計算
+  const liberaryStatusCounts: Record<string, number> = {};
+  const plattoStatusCounts: Record<string, number> = {};
+
+  (liberaryPrograms || []).forEach(program => {
+    const status = program.current_status || '未設定';
+    liberaryStatusCounts[status] = (liberaryStatusCounts[status] || 0) + 1;
+  });
+
+  (plattoPrograms || []).forEach(program => {
+    const status = program.current_status || '未設定';
+    plattoStatusCounts[status] = (plattoStatusCounts[status] || 0) + 1;
+  });
+
+  // 9. 週次レビューデータを構築
   const weeklyReviewData: WeeklyReviewData = {
     weeklySchedule: {
       tasks: safeTasks.map(task => ({
@@ -191,6 +226,16 @@ async function generateWeeklyReview(supabase: any): Promise<WeeklyReviewData> {
       newEpisodes,
       completedEpisodes,
       inProgressEpisodes,
+    },
+    teamStats: {
+      liberary: {
+        totalPrograms: (liberaryPrograms || []).length,
+        byStatus: liberaryStatusCounts,
+      },
+      platto: {
+        totalPrograms: (plattoPrograms || []).length,
+        byStatus: plattoStatusCounts,
+      },
     },
   };
 
@@ -310,6 +355,27 @@ function formatSlackMessage(data: WeeklyReviewData): any {
       text: {
         type: "mrkdwn",
         text: `*🎬 エピソード種別*\n${typeText}`
+      }
+    });
+  }
+
+  // チーム別統計
+  if (data.teamStats) {
+    const liberaryStatus = Object.entries(data.teamStats.liberary.byStatus)
+      .map(([status, count]) => `${status}: ${count}件`)
+      .join(', ');
+    
+    const plattoStatus = Object.entries(data.teamStats.platto.byStatus)
+      .map(([status, count]) => `${status}: ${count}件`)
+      .join(', ');
+
+    message.blocks.push({
+      type: "section",
+      text: {
+        type: "mrkdwn",
+        text: `*🏢 チーム別統計*\n` +
+              `• リベラリーチーム: ${data.teamStats.liberary.totalPrograms}番組 (${liberaryStatus})\n` +
+              `• プラットチーム: ${data.teamStats.platto.totalPrograms}番組 (${plattoStatus})`
       }
     });
   }
