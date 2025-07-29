@@ -132,11 +132,11 @@ ALTER TABLE series ENABLE ROW LEVEL SECURITY;
 ALTER TABLE episodes ENABLE ROW LEVEL SECURITY;
 ALTER TABLE status_master ENABLE ROW LEVEL SECURITY;
 
--- フルアクセスポリシー（ゲスト対応）
-CREATE POLICY "programs_full_access" ON programs FOR ALL USING (true) WITH CHECK (true);
-CREATE POLICY "series_full_access" ON series FOR ALL USING (true) WITH CHECK (true);
-CREATE POLICY "episodes_full_access" ON episodes FOR ALL USING (true) WITH CHECK (true);
-CREATE POLICY "status_master_read" ON status_master FOR SELECT USING (true);
+-- 認証ユーザー向けアクセスポリシー
+CREATE POLICY "programs_full_access" ON programs FOR ALL TO authenticated USING (true) WITH CHECK (true);
+CREATE POLICY "series_full_access" ON series FOR ALL TO authenticated USING (true) WITH CHECK (true);
+CREATE POLICY "episodes_full_access" ON episodes FOR ALL TO authenticated USING (true) WITH CHECK (true);
+CREATE POLICY "status_master_read" ON status_master FOR SELECT TO authenticated USING (true);
 
 -- =========================================
 -- STEP 5: トリガー設定
