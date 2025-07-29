@@ -33,12 +33,23 @@ CREATE INDEX IF NOT EXISTS idx_team_dashboard_is_active ON team_dashboard(is_act
 -- RLSの有効化
 ALTER TABLE team_dashboard ENABLE ROW LEVEL SECURITY;
 
--- RLSポリシー（チーム全体で共有、認証ユーザーは全てのCRUD操作が可能）
-CREATE POLICY "Enable read access for authenticated users" ON team_dashboard
-  FOR SELECT TO authenticated USING (true);
+-- RLSポリシー（チーム全体で共有、全ユーザーは全てのCRUD操作が可能）
+DO $$ 
+BEGIN
+  -- Drop existing policies if they exist
+  DROP POLICY IF EXISTS "Enable read access for authenticated users" ON team_dashboard;
+  DROP POLICY IF EXISTS "Enable write access for authenticated users" ON team_dashboard;
+EXCEPTION
+  WHEN undefined_object THEN
+    -- Policy doesn't exist, continue
+    NULL;
+END $$;
 
-CREATE POLICY "Enable write access for authenticated users" ON team_dashboard
-  FOR ALL TO authenticated USING (true) WITH CHECK (true);
+CREATE POLICY "Enable read access for all users" ON team_dashboard
+  FOR SELECT USING (true);
+
+CREATE POLICY "Enable write access for all users" ON team_dashboard
+  FOR ALL USING (true) WITH CHECK (true);
 
 -- 更新日時のトリガー
 CREATE OR REPLACE FUNCTION update_team_dashboard_updated_at()
