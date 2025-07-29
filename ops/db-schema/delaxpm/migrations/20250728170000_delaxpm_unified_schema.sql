@@ -8,19 +8,17 @@
 -- STEP 1: 既存テーブルのバックアップ・削除
 -- =========================================
 
--- 既存テーブルをバックアップ（存在する場合）
-CREATE TABLE IF NOT EXISTS programs_backup AS SELECT * FROM programs WHERE false;
-CREATE TABLE IF NOT EXISTS episodes_backup AS SELECT * FROM episodes WHERE false;
-
 -- 既存データがあればバックアップに移動
 DO $$
 BEGIN
+    -- programsテーブルのバックアップ
     IF EXISTS (SELECT FROM information_schema.tables WHERE table_name = 'programs' AND table_schema = 'public') THEN
-        INSERT INTO programs_backup SELECT * FROM programs;
+        CREATE TABLE IF NOT EXISTS programs_backup AS SELECT * FROM programs;
     END IF;
     
+    -- episodesテーブルのバックアップ
     IF EXISTS (SELECT FROM information_schema.tables WHERE table_name = 'episodes' AND table_schema = 'public') THEN
-        INSERT INTO episodes_backup SELECT * FROM episodes;
+        CREATE TABLE IF NOT EXISTS episodes_backup AS SELECT * FROM episodes;
     END IF;
 END
 $$;
