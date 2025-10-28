@@ -1,0 +1,69 @@
+# Orion Pipeline v2 - Global Configuration
+
+pipeline:
+  name: "Orion Production Pipeline"
+  version: "2.0.0"
+
+# 入力ファイル優先順位
+source_priority:
+  - "ep{N}.srt"              # テロップ原稿（最優先）
+  - "ep{N}nare.md"           # ナレ原稿
+  - "ep{N}nareyaml.yaml"     # YAML形式ナレ原稿
+  - "orionep{N}_script.csv"  # オーバーライド
+
+# テキスト処理設定
+text_processing:
+  preserve_spaces: true       # スペース保持（削除禁止）
+  auto_finalize: false        # 文末句読点自動付与禁止
+  ssml_to_punctuation: true   # (間0.7) → 句読点変換のみ許可
+
+# タイムコード設定
+timeline:
+  timebase: 30
+  ntsc: true
+  scene_lead_in_sec: 3.0      # シーン切り替え間
+
+# 出力設定
+output:
+  audio:
+    format: "mp3"
+    sample_rate: 44100
+    naming: "{project}_{index:03d}.mp3"
+
+  srt:
+    encoding: "utf-8"
+    max_lines: 2               # 字幕最大行数
+
+  xml:
+    format: "fcp7"
+    pretty_print: true
+
+# バリデーション設定
+validation:
+  entry_count_tolerance: 0.05  # エントリ数差異許容率（5%）
+  text_similarity_min: 0.95    # テキスト類似度最小値
+  timecode_continuity: true    # タイムコード連続性チェック
+
+  fail_fast: false             # エラー時即座に停止（入力SRTタイムコードは再生成されるため）
+
+# TTS設定
+tts:
+  default_engine: "gemini"
+  request_delay_sec: 5
+  timeout_sec: 30
+  retry_count: 3
+
+# Google TTS with Gemini設定
+google_tts:
+  gemini_dialogue:
+    enabled: true
+    allow_narration: true
+    rewrite_enabled: false  # テキストの書き直しを無効化（そのまま読み上げる）
+    tts_model: "gemini-2.5-flash-preview-tts"
+    voice_name: "kore"
+
+# デバッグ設定
+debug:
+  enabled: false
+  output_intermediate: false   # 中間ファイル出力
+  verbose_logging: false
