@@ -1,0 +1,41 @@
+# Sample template definition for prototyping.
+id: "sample_show_v0.1"
+version: 0.1
+fps:
+  timebase: 24
+  ntsc: true
+tracks:
+  video:
+    - name: V1
+      source: 0619_0727.MXF
+    - name: V2
+      source: C4170.MP4
+    - name: V3
+      source: C6194.MP4
+  audio:
+    - name: A1
+      source: 0619_0727.MXF
+      source_channel: 1
+    - name: A2
+      source: 0619_0727.MXF
+      source_channel: 2
+    - name: A3
+      source: 0619_0727.MXF
+      source_channel: 3
+    - name: A4
+      source: 0619_0727.MXF
+      source_channel: 4
+    - name: A5
+      source: C4170.MP4
+      source_channel: 1
+    - name: A6
+      source: C6194.MP4
+      source_channel: 1
+color_map:
+  pink: Rose
+  cyan: Caribbean
+  mint: Mango
+gap_seconds: 5
+path_map:
+  mac: "/Volumes/P-40/Dropbox/LIBERARY"
+  win: "\\\\nas01\\LIBERARY"
