@@ -17,6 +17,8 @@ Orion Pipeline v2 は、スクリプトから DaVinci Resolve 用XMLまでを自
 
 事前に `ops/media/orion/` へ移動して実行します。
 
+TTSだけ使う場合は `TTS_ONLY.md` を参照してください。
+
 ### 0. 脚本から下準備（フェーズ0）
 
 ```bash
