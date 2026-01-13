@@ -7,6 +7,7 @@
 - davinci-ai-commander
 - csvtoxml
 - roughcutpremiere
+- rclone_mini
 
 ## experiment
 - tatsutory
