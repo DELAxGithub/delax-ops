@@ -8,6 +8,7 @@
 - csvtoxml
 - roughcutpremiere
 - rclone_mini
+- handover-player
 
 ## experiment
 - tatsutory
@@ -21,7 +22,6 @@
 - delax100daysworkout
 - CycleandStrengthLogger
 - quiz2025
-- handover-player
 
 ## archive (design/automation extraction only)
 - delax-unified-pm
