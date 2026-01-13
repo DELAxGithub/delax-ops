@@ -15,7 +15,7 @@ SELECT cron.schedule(
   $$
   SELECT net.http_post(
     url := 'https://pfrzcteapmwufnovmmfc.supabase.co/functions/v1/weekly-review',
-    headers := '{"Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBmcnpjdGVhcG13dWZub3ZtbWZjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTMwMDAwNTAsImV4cCI6MjA2ODU3NjA1MH0.We0I0UDqKfS9jPSzDvWtQmB7na8YvCld6_Kko4uBCdU"}'::jsonb
+    headers := '{"Authorization": "Bearer <REDACTED_JWT>"}'::jsonb
   );
   $$
 );
@@ -27,7 +27,7 @@ SELECT cron.schedule(
 /*
 SELECT net.http_post(
   url := 'https://pfrzcteapmwufnovmmfc.supabase.co/functions/v1/weekly-review',
-  headers := '{"Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBmcnpjdGVhcG13dWZub3ZtbWZjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTMwMDAwNTAsImV4cCI6MjA2ODU3NjA1MH0.We0I0UDqKfS9jPSzDvWtQmB7na8YvCld6_Kko4uBCdU"}'::jsonb
+  headers := '{"Authorization": "Bearer <REDACTED_JWT>"}'::jsonb
 );
 */
 
