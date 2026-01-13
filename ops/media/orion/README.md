@@ -15,6 +15,8 @@ Orion Pipeline v2 は、スクリプトから DaVinci Resolve 用XMLまでを自
 
 ## クイックスタート
 
+事前に `ops/media/orion/` へ移動して実行します。
+
 ### 0. 脚本から下準備（フェーズ0）
 
 ```bash
@@ -63,9 +65,10 @@ PYTHONPATH=pipeline python pipeline/core.py --project OrionEp13
 ## ディレクトリ構造
 
 ```
-prototype/orion-v2/
+ops/media/orion/
 ├── README.md              # このファイル
 ├── WORKFLOW.md            # 完全ワークフローガイド
+├── MODULES.md             # モジュール分割の方針
 ├── generate_tts.py        # 汎用TTS生成スクリプト
 ├── pipeline/              # パイプラインコア
 │   ├── core.py
@@ -92,6 +95,12 @@ prototype/orion-v2/
         └── exports/
             └── orionep13_merged.srt
 ```
+
+---
+## モジュール分割について
+
+オリオン系は「TTS」「字幕」「タイムライン生成」が混在しやすいため、保守性向上のため
+段階的にモジュール分割を進める方針です。詳細は `MODULES.md` を参照してください。
 
 ---
 
