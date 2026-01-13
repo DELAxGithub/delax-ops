@@ -3,3 +3,5 @@
 *.local.*
 settings.local.json
 .DS_Store
+**/supabase/.temp/
+**/supabase/.branches/
