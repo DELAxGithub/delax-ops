@@ -10,6 +10,9 @@ Operational nucleus for DELAx. This repo holds shared ops docs, DB schemas, and 
 ## References
 See references/repos.md for the current repo map and labels.
 
+## Operations
+See OPERATIONS.md for rules on references, extraction, and safety.
+
 ## Dependencies
 This repo does not vendor shared packages. Reference them instead:
 - delax-shared-packages: https://github.com/DELAxGithub/delax-shared-packages
