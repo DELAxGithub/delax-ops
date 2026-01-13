@@ -1,0 +1,64 @@
+# PMPlatto Supabase Local Development Configuration
+
+[api]
+enabled = true
+port = 54321
+schemas = ["public", "graphql_public"]
+extra_search_path = ["public", "extensions"]
+max_rows = 1000
+
+[graphql]
+enabled = true
+port = 54322
+
+[inbucket]
+enabled = true
+port = 54324
+smtp_port = 54325
+pop3_port = 54326
+
+[realtime]
+enabled = true
+ip_version = "ipv4"
+
+[studio]
+enabled = true
+port = 54323
+api_url = "http://localhost:54321"
+
+# Email template configuration
+[auth.email.template.invite]
+subject = "You have been invited"
+content_path = "./supabase/templates/invite.html"
+
+[auth.email.template.confirmation]
+subject = "Confirm your signup"
+content_path = "./supabase/templates/confirmation.html"
+
+[auth.email.template.recovery]
+subject = "Reset your password"
+content_path = "./supabase/templates/recovery.html"
+
+[auth.email.template.email_change]
+subject = "Confirm your new email"
+content_path = "./supabase/templates/email_change.html"
+
+# Database configuration
+[db]
+port = 54322
+major_version = 15
+
+# Migration configuration
+[migrations]
+version = "20250311"
+
+# Project-specific settings for PMPlatto
+[project]
+name = "pmplatto-migration-test"
+description = "PMPlatto migration testing environment"
+
+# Feature flags for migration testing
+[feature_flags]
+enable_episodes = true
+enable_team_events = true
+enable_status_history = true
