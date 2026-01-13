@@ -16,18 +16,17 @@ from pathlib import Path
 import yaml
 from dotenv import load_dotenv
 
-# Load .env from repository root (davinciauto/)
+# Load .env from orion/ root
 REPO_ROOT = Path(__file__).resolve().parent
-ENV_FILE = REPO_ROOT.parent / ".env"
+ENV_FILE = REPO_ROOT / ".env"
 if ENV_FILE.exists():
     load_dotenv(ENV_FILE, override=True)  # Override existing env vars
 
-PIPELINE_DIR = REPO_ROOT / "pipeline"
-ENGINES_DIR = PIPELINE_DIR / "engines"
+TTS_DIR = REPO_ROOT / "tts"
 
-# Add pipeline/engines to path
-if str(ENGINES_DIR) not in sys.path:
-    sys.path.insert(0, str(ENGINES_DIR))
+# Add tts to path
+if str(TTS_DIR) not in sys.path:
+    sys.path.insert(0, str(TTS_DIR))
 
 from tts_config_loader import load_merged_tts_config  # type: ignore  # noqa: E402
 from orion_tts_generator import OrionTTSGenerator  # type: ignore  # noqa: E402

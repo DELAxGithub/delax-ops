@@ -48,7 +48,7 @@ GOOGLE_APPLICATION_CREDENTIALS=/path/to/google-credentials.json  # オプショ�
 脚本MDから字幕・ナレーション・Gemini TTS YAML を準備するためのプロンプトを自動生成します。
 
 ```bash
-PYTHONPATH=pipeline python pipeline/core.py --project OrionEp{N} --generate-inputs
+python pipeline/core.py --project OrionEp{N} --generate-inputs
 ```
 
 - `generated/prompts/` に `srt_prompt.md`・`nare_prompt.md`・`yaml_prompt.md` が出力されます。
@@ -67,7 +67,7 @@ PYTHONPATH=pipeline python pipeline/core.py --project OrionEp{N} --generate-inpu
 レビュー済みのドラフトを本入力にコピーします。既存ファイルを上書きする場合は `--force-regenerate` を併用してください。
 
 ```bash
-PYTHONPATH=pipeline python pipeline/core.py \\
+python pipeline/core.py \\
   --project OrionEp{N} \\
   --generate-inputs --apply-generated-inputs [--force-regenerate]
 ```
@@ -293,12 +293,12 @@ ls -lh projects/OrionEp12/output/audio/
 
 ```bash
 cd prototype/orion-v2
-PYTHONPATH=pipeline python pipeline/core.py --project OrionEp{N}
+python pipeline/core.py --project OrionEp{N}
 ```
 
 **例（EP12）**:
 ```bash
-PYTHONPATH=pipeline python pipeline/core.py --project OrionEp12
+python pipeline/core.py --project OrionEp12
 ```
 
 ### 4.3 出力ファイル
@@ -400,7 +400,7 @@ PYTHONPATH=pipeline python pipeline/core.py --project OrionEp12
 生成物を再利用して検証だけ行いたい場合は、以下のコマンドでフェーズ6（＋入力検証）を単体で実行できます。
 
 ```bash
-PYTHONPATH=pipeline python pipeline/core.py --project OrionEp{N} --validate-only
+python pipeline/core.py --project OrionEp{N} --validate-only
 ```
 
 `--report` を付けると詳細レポート（`validate_pipeline_run` ベース）が出力されます。
@@ -415,7 +415,8 @@ PYTHONPATH=pipeline python pipeline/core.py --project OrionEp{N} --validate-only
 
 **解決**:
 ```bash
-PYTHONPATH=/path/to/experiments:/path/to/scripts python generate_tts.py ...
+cd /Users/delaxstudio/src/delax-ops/ops/media/orion
+python generate_tts.py --episode 13
 ```
 
 ---
@@ -451,7 +452,7 @@ A: 制限なし。`--episode 13`, `--episode 100` など任意の番号が使用
 
 ### Q2: Gemini TTS以外のTTSエンジンは使えますか？
 
-A: はい。`orion_tts_generator.py` がGoogle Cloud TTSにフォールバックします。
+A: はい。`tts/orion_tts_generator.py` がGoogle Cloud TTSにフォールバックします。
 
 ### Q3: 見出しマーカーなしでパイプライン実行できますか？
 

@@ -22,7 +22,7 @@ Orion Pipeline v2 で生成した音声ファイルに対し、正確なタイ�
 4. **音声尺ベース配分**: マッチングできなかった字幕を音声の長さに比例して配分
 5. **最大剰余法**: 残りを公平に配り切る（各音声クリップに最低1字幕保証）
 
-実装場所: `orion/pipeline/writers/srt.py`
+実装場所: `orion/core/writers/srt.py`
 - `_segment_durations()` (L74-80): 音声セグメント尺の計算
 - `_distribute_counts_by_duration()` (L83-133): 比例配分ロジック
 - フォールバック処理 (L239-269): 未割り当て字幕の補充
@@ -255,11 +255,11 @@ done
 ### 関連ファイル
 
 - `regenerate_srt_timecode.py`: SRT再生成スクリプト（新パイプライン対応）
-- `orion/pipeline/writers/srt.py`: SRT生成ロジック（比例配分 + フォールバック）
-- `orion/pipeline/parsers/srt.py`: SRT解析
-- `orion/pipeline/parsers/markdown.py`: Markdown/YAML台本解析
-- `orion/pipeline/engines/timeline.py`: タイムライン計算
-- `orion/pipeline/engines/tts.py`: AudioSegment定義
+- `orion/core/writers/srt.py`: SRT生成ロジック（比例配分 + フォールバック）
+- `orion/core/parsers/srt.py`: SRT解析
+- `orion/core/parsers/markdown.py`: Markdown/YAML台本解析
+- `orion/core/timeline.py`: タイムライン計算
+- `orion/tts/tts.py`: AudioSegment定義
 
 ### 実装履歴
 

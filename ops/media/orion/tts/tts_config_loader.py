@@ -50,8 +50,9 @@ class TTSConfig:
 
 
 _FILE_PATH = Path(__file__).resolve()
-_WORKSPACE_ROOT = _FILE_PATH.parents[3]
-_ORION_ROOT = _FILE_PATH.parents[2]
+# tts/ -> orion/ -> media/ -> ops/ -> delax-ops/
+_ORION_ROOT = _FILE_PATH.parents[1]
+_WORKSPACE_ROOT = _FILE_PATH.parents[4]
 _ROOT_CANDIDATES: List[Path] = []
 for candidate in (_WORKSPACE_ROOT, _ORION_ROOT, Path.cwd()):
     resolved = candidate.resolve()

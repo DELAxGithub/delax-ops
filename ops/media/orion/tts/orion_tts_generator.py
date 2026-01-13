@@ -12,7 +12,7 @@ from typing import Any, Dict, Optional
 
 from google.cloud import texttospeech
 
-from orion_ssml_builder import build_ssml
+from .orion_ssml_builder import build_ssml
 
 
 logger = logging.getLogger(__name__)

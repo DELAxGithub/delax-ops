@@ -22,20 +22,20 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
-from parsers.srt import (
+from core.parsers.srt import (
     Subtitle,
     parse_srt_file,
     write_srt
 )
-from parsers.markdown import parse_narration_file, parse_narration_yaml, parse_script_section_markers, validate_audio_files
-from engines.tts import TTSEngine, AudioSegment
-from engines.timeline import TimelineCalculator, TimelineSegment, detect_scene_markers
-from engines.mapper import find_audio_subtitle_mapping, SubtitleMapping
+from core.parsers.markdown import parse_narration_file, parse_narration_yaml, parse_script_section_markers, validate_audio_files
+from tts.tts import TTSEngine, AudioSegment
+from core.timeline import TimelineCalculator, TimelineSegment, detect_scene_markers
+from core.mapper import find_audio_subtitle_mapping, SubtitleMapping
 from pipeline.preprocess.generator import generate_inputs_from_script
-from writers.srt import write_timecode_srt, write_merged_srt
-from writers.csv import write_timeline_csv
-from writers.xml import write_fcp7_xml
-from validator import (
+from core.writers.srt import write_timecode_srt, write_merged_srt
+from core.writers.csv import write_timeline_csv
+from core.writers.xml import write_fcp7_xml
+from core.validator import (
     validate_pipeline_run,
     print_validation_report,
     validate_output_consistency,

@@ -242,31 +242,28 @@ assert text_similarity > 0.95  # テキスト類似度95%以上
 ## プロジェクト構造（v2）
 
 ```
-prototype/orion-v2/
+ops/media/orion/
+├── core/
+│   ├── validator.py         # 入出力検証
+│   ├── mapper.py            # 字幕・音声マッピング
+│   ├── timeline.py          # タイムコード計算
+│   ├── parsers/
+│   │   ├── srt.py            # SRT専用パーサー
+│   │   └── markdown.py       # Markdown脚本パーサー
+│   └── writers/
+│       ├── srt.py            # SRT出力
+│       ├── csv.py            # CSV出力
+│       └── xml.py            # FCP7 XML出力
+├── tts/
+│   ├── tts.py               # TTS生成エンジン
+│   ├── tts_config_loader.py # TTS設定ローダー
+│   ├── orion_tts_generator.py
+│   └── orion_ssml_builder.py
 ├── pipeline/
 │   ├── core.py              # メインオーケストレーター
-│   ├── validator.py         # 入出力検証
-│   ├── parsers/
-│   │   ├── srt.py          # SRT専用パーサー
-│   │   ├── markdown.py     # Markdown脚本パーサー
-│   │   └── yaml_config.py  # TTS設定パーサー
-│   ├── engines/
-│   │   ├── tts.py          # TTS生成エンジン
-│   │   └── timeline.py     # タイムコード計算
-│   └── writers/
-│       ├── srt.py          # SRT出力
-│       ├── csv.py          # CSV出力
-│       ├── xml.py          # FCP7 XML出力
-│       └── merger.py       # SRTマージ処理
-├── tests/
-│   ├── test_pipeline.py
-│   ├── test_validator.py
-│   ├── test_parsers.py
-│   └── fixtures/
-│       └── OrionEp11/      # テストデータ
+│   └── preprocess/
 ├── config/
-│   ├── global.yaml         # グローバル設定
-│   └── schema.yaml         # 設定スキーマ定義
+│   └── global.yaml         # グローバル設定
 ├── projects/
 │   └── OrionEp11/          # プロトタイプ用プロジェクト
 │       ├── inputs/
@@ -331,7 +328,7 @@ prototype/orion-v2/
 python3 pipeline/core.py --project OrionEp11
 
 # 検証レポート生成
-python3 pipeline/validator.py --project OrionEp11 --report
+python3 core/validator.py --project OrionEp11 --report
 
 # 期待される出力:
 # ✅ Input validation: PASS
@@ -359,7 +356,7 @@ python3 pipeline/validator.py --project OrionEp11 --report
    │   ├── old-scripts/
    │   │   ├── run_tts_pipeline.py
    │   │   ├── srt_merge.py
-   │   │   └── orion_tts_generator.py
+   │   │   └── tts/orion_tts_generator.py
    │   └── old-projects/
    │       └── OrionEp7-12/
    └── orion-v2/          # 新実装

@@ -17,24 +17,25 @@ Orion v2パイプラインを別のMacで使用するための完全ガイドで
 ```
 orion/
 ├── generate_tts.py                    # TTS生成スクリプト
-├── pipeline/                          # パイプラインコア（全ファイル必須）
-│   ├── core.py
+├── core/                              # パーサ/ライター/検証（API無し）
 │   ├── validator.py
-│   ├── engines/
-│   │   ├── mapper.py
-│   │   ├── orion_ssml_builder.py
-│   │   ├── orion_tts_generator.py
-│   │   ├── timeline.py
-│   │   ├── tts.py
-│   │   └── tts_config_loader.py
+│   ├── mapper.py
+│   ├── timeline.py
 │   ├── parsers/
 │   │   ├── markdown.py
 │   │   └── srt.py
 │   └── writers/
-│       ├── __init__.py
 │       ├── csv.py
 │       ├── srt.py
 │       └── xml.py
+├── tts/                               # TTSエンジン（外部API境界）
+│   ├── tts.py
+│   ├── tts_config_loader.py
+│   ├── orion_tts_generator.py
+│   └── orion_ssml_builder.py
+├── pipeline/                          # パイプラインオーケストレーター
+│   ├── core.py
+│   └── preprocess/
 ├── config/
 │   └── global.yaml                    # グローバル設定
 ├── README.md                          # 使い方
@@ -170,7 +171,7 @@ cd ~/orion-pipeline
 python orion/generate_tts.py --episode 1 --limit 3
 
 # パイプライン実行テスト
-PYTHONPATH=orion/pipeline python orion/pipeline/core.py --project OrionEp01
+python orion/pipeline/core.py --project OrionEp01
 ```
 
 ---
@@ -196,7 +197,7 @@ cd ~/orion-pipeline
 python orion/generate_tts.py --episode 2 --delay 3.0
 
 # パイプライン実行
-PYTHONPATH=orion/pipeline python orion/pipeline/core.py --project OrionEp02
+python orion/pipeline/core.py --project OrionEp02
 ```
 
 ---
@@ -273,7 +274,7 @@ export GEMINI_API_KEY="your_actual_api_key"
 **解決**:
 ```bash
 # PYTHONPATHを明示的に指定
-PYTHONPATH=orion/pipeline python orion/pipeline/core.py --project OrionEp01
+python orion/pipeline/core.py --project OrionEp01
 ```
 
 ### 音声ファイルが見つからない

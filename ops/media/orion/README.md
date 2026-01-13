@@ -23,14 +23,14 @@ TTSだけ使う場合は `TTS_ONLY.md` を参照してください。
 
 ```bash
 # プロンプト生成（generated/ 以下に下書きを出力）
-PYTHONPATH=pipeline python pipeline/core.py --project OrionEp13 --generate-inputs
+python pipeline/core.py --project OrionEp13 --generate-inputs
 ```
 
 `projects/OrionEp13/generated/` に出力されるプロンプトを Sonnet 4.5 で処理し、
 レビュー後に `--apply-generated-inputs` を付けて再実行すると `inputs/` へコピーされます。
 
 ```bash
-PYTHONPATH=pipeline python pipeline/core.py --project OrionEp13 --generate-inputs --apply-generated-inputs
+python pipeline/core.py --project OrionEp13 --generate-inputs --apply-generated-inputs
 ```
 
 ### 1. 新しいエピソードの作成
@@ -55,7 +55,7 @@ python generate_tts.py --episode 13 --delay 3.0
 ### 3. パイプライン実行
 
 ```bash
-PYTHONPATH=pipeline python pipeline/core.py --project OrionEp13
+python pipeline/core.py --project OrionEp13
 ```
 
 ### 4. DaVinci Resolve インポート
@@ -72,11 +72,11 @@ ops/media/orion/
 ├── WORKFLOW.md            # 完全ワークフローガイド
 ├── MODULES.md             # モジュール分割の方針
 ├── generate_tts.py        # 汎用TTS生成スクリプト
-├── pipeline/              # パイプラインコア
+├── core/                  # パーサ/ライター/検証（API無し）
+├── tts/                   # TTSエンジン（外部API境界）
+├── pipeline/              # パイプラインオーケストレーター
 │   ├── core.py
-│   ├── engines/
-│   ├── parsers/
-│   └── writers/
+│   └── preprocess/
 └── projects/              # エピソードごとのプロジェクト
     ├── OrionEp11/
     ├── OrionEp12/

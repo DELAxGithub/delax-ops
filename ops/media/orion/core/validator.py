@@ -16,7 +16,7 @@ from typing import Dict, List, Optional
 
 import yaml
 
-from parsers.srt import Subtitle, parse_srt_file, validate_srt_continuity
+from .parsers.srt import Subtitle, parse_srt_file, validate_srt_continuity
 
 
 @dataclass

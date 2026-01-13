@@ -3,7 +3,9 @@
 Goal: reduce coupling by separating core processing, TTS adapters, and pipeline orchestration.
 
 ## Current layout (now)
-- pipeline/: orchestration + engines + parsers + writers
+- core/: parsers + writers + validator + timeline + mapper (no external API calls)
+- tts/: TTS engines and config loaders (external API boundary)
+- pipeline/: orchestration + preprocess
 - config/: global config and prompts
 - generate_tts.py: convenience entrypoint
 
@@ -12,6 +14,8 @@ Goal: reduce coupling by separating core processing, TTS adapters, and pipeline 
   - parsers/ (SRT, markdown, script markers)
   - writers/ (SRT, CSV, XML)
   - validator.py
+  - timeline.py
+  - mapper.py
 - tts/
   - tts_config_loader.py
   - orion_tts_generator.py
@@ -20,7 +24,7 @@ Goal: reduce coupling by separating core processing, TTS adapters, and pipeline 
 - pipeline/
   - core.py (CLI + orchestration)
   - preprocess/
-  - engines/mapper.py, engines/timeline.py (pure timeline logic)
+  - (no engines inside)
 
 ## Migration rules
 - core must stay API-only (no network calls)
@@ -30,4 +34,5 @@ Goal: reduce coupling by separating core processing, TTS adapters, and pipeline 
 ## Next steps
 1) Move parsers/writers/validator into core/
 2) Move TTS-related engines into tts/
-3) Update imports and run validate-only smoke test
+3) Move timeline/mapper into core/
+4) Update imports and run validate-only smoke test
