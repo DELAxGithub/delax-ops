@@ -26,3 +26,9 @@ Goal: keep only modules that are verifiably runnable. Others stay in davinciauto
    - ops/media/premiere/nle_autoedit/common/timeline_builder.py
    - ops/media/premiere/tools/autocut/csv_xml_cutter.py
 2) If OK, extract additional scripts from davinciauto/scripts by explicit list.
+
+## Smoke test results (2026-01-13)
+- timeline_builder: OK with sample CSV + sample_template.yaml
+  - Requires: PyYAML (`pip install pyyaml`)
+- csv_xml_cutter: core logic OK, but tkinter initialization aborts in this environment
+  - Workaround: run in CLI with tkinter stub or ensure Tk can initialize
