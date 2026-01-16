@@ -1,0 +1,255 @@
+episodes:
+  - episode_number: "S2E06"
+    title: "板挟みの幾何学"
+    duration_target: "8:00"
+    
+    segments:
+      # アバン (3セグメント)
+      - speaker: "kore"
+        style: "contemplative documentary narration, frustrated undertone"
+        text: "「大胆に攻めてくれ」と言われた直後に、「慎重にね」と言われる。どちらを選んでも、どちらかに怒られる——"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, questioning"
+        text: "そんな板挟みに、身動きが取れなくなったことはありませんか？"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "warm documentary welcome"
+        text: "ようこそ、<sub alias='オリオン'>Orion</sub>の会議室へ。今夜のテーマは「板挟みの幾何学」。"
+        break_after: 1500
+      
+      # 星座の提示 (4セグメント)
+      - speaker: "kore"
+        style: "contemplative documentary narration, introducing concept"
+        text: "<sub alias='ここんとうざい'>古今東西</sub>の叡智を星座のように結び、現代の悩みに新しい視座を見つける8分間。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, presenting framework"
+        text: "今夜めぐる星々は——矛盾する<sub alias='メッセージ'>message</sub>に閉じ込められる「二重拘束」という構造。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration"
+        text: "他者の命令ではなく、自らの理性に従う「自律」という尊厳。臨界点を超えた瞬間、質が一気に変わる「相転移」という跳躍。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, connecting threads"
+        text: "そして、「片手の音を聞け」という禅の問い。バラバラの星々が、「AかBか」という問いそのものを揺さぶり始めます。"
+        break_after: 1500
+      
+      # 没入 (5セグメント)
+      - speaker: "aoede"
+        style: "introspective narration, tense"
+        text: "金曜の夕方。部長から<sub alias='メール'>mail</sub>が来る。「来週の企画書、もっと大胆に攻めてくれ」"
+        break_after: 900
+      
+      - speaker: "aoede"
+        style: "introspective narration, anxious"
+        text: "返信しようとした瞬間、課長が席に来る。「あの企画、<sub alias='リスク'>risk</sub>管理の観点から慎重にね」"
+        break_after: 1000
+      
+      - speaker: "aoede"
+        style: "introspective narration, confused"
+        text: "大胆に攻めろ。でも慎重に。どっちなんですか、と聞きたい。でも聞けない。"
+        break_after: 1100
+      
+      - speaker: "aoede"
+        style: "introspective narration, trapped"
+        text: "「どちらかを選べば、どちらかに怒られる」"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, empathetic"
+        text: "その構造の中で、身動きが取れなくなっていく。"
+        break_after: 1500
+      
+      # 展開1：ベイトソンの「ダブルバインド」 (8セグメント)
+      - speaker: "kore"
+        style: "documentary narration, historical introduction"
+        text: "1950年代、<sub alias='カリフォルニア'>California</sub>・<sub alias='パロアルト'>Palo Alto</sub>。人類学者<sub alias='グレゴリー・ベイトソン'>Gregory Bateson</sub>は——"
+        break_after: 900
+      
+      - speaker: "kore"
+        style: "documentary narration"
+        text: "統合失調症の患者と、面会に来た母親の会話を観察していました。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "documentary narration, describing scene"
+        text: "母親が息子を抱きしめる。息子が身を固くする。母親が言う。「私を愛していないの？」"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "documentary narration, explaining insight"
+        text: "<sub alias='ベイトソン'>Bateson</sub>は気づきました。母親の言葉は「愛情」を求めている。しかし、その硬い表情と声の<sub alias='トーン'>tone</sub>は「近づくな」と言っている。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, questioning"
+        text: "息子はどちらに従えばいい？　抱きしめ返せば「空気が読めない」。離れれば「冷たい子」。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "documentary narration, naming concept"
+        text: "彼はこの構造に名前をつけました。「<sub alias='ダブルバインド'>double bind</sub>（二重拘束）」。"
+        break_after: 1200
+      
+      - speaker: "charon"
+        style: "anthropological insight, measured tone"
+        text: "「『犠牲者』は、その<sub alias='コミュニケーション'>communication</sub>自体について語ることができない」"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, explaining structure"
+        text: "矛盾する二つの<sub alias='メッセージ'>message</sub>を同時に受け取り、どちらにも従えず、しかもその場から逃げられない状態。さらに厄介なのは、「この状況おかしくないですか？」と問うこと自体が許されないこと。生活のため、責任のため、逃げることも許されない。その拘束の中で矛盾を突きつけられる時、心は悲鳴を上げます。問題は、<sub alias='メッセージ'>message</sub>の「内容」ではありません。「どちらを選んでも罰せられる」という構造そのものが、人を追い詰めるのです。"
+        break_after: 1500
+      
+      # 展開2：カントの「自律」 (6セグメント)
+      - speaker: "kore"
+        style: "documentary narration, transitioning"
+        text: "では、その迷路から抜け出す鍵はどこにあるのか。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "documentary narration, historical introduction"
+        text: "18世紀、ドイツ・<sub alias='ケーニヒスベルク'>Königsberg</sub>。生涯この街を離れなかった哲学者<sub alias='イマヌエル・カント'>Immanuel Kant</sub>は——"
+        break_after: 900
+      
+      - speaker: "kore"
+        style: "documentary narration"
+        text: "人間の尊厳の根拠を「自律」に置きました。"
+        break_after: 1200
+      
+      - speaker: "charon"
+        style: "philosophical conviction, profound authority"
+        text: "「意志の自律とは、意志がそれ自身に対して法則となるという性質である」"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, contrasting concepts"
+        text: "上司Aの命令に従う。それは「他律」です。上司Bの命令に従う。それも「他律」。では、「自律」とは何か。どちらの命令が、自分の理性から見て正しいのかを、自分で判断すること。"
+        break_after: 1300
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, key insight"
+        text: "板挟みの苦しさは、「どちらに従うか」で悩んでいるから生まれる。しかし<sub alias='カント'>Kant</sub>なら、こう問い直すでしょう。「あなた自身は、何が正しいと考えるのか」と。他者の命令に翻弄されている限り、私たちは板挟みから逃れられない。しかし、最終的な判断の座を自分の理性に取り戻した時、構造は変わり始めます。"
+        break_after: 1500
+      
+      # 転換：相転移という跳躍 (5セグメント)
+      - speaker: "kore"
+        style: "documentary narration, acknowledging difficulty"
+        text: "とはいえ、「正しい答え」が最初から分かっていれば苦労しません。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "documentary narration, shifting to physics"
+        text: "ここで、物理学の「相転移」という現象に目を向けてみましょう。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "documentary narration, explaining phenomenon"
+        text: "水は、冷やしていくと氷になる。温めていくと水蒸気になる。しかし、その変化は「徐々に」起こるのではありません。温度や圧力の変化が蓄積され、臨界点に達した瞬間——液体から気体へ、質的に、一気に変わる。"
+        break_after: 1300
+      
+      - speaker: "kore"
+        style: "documentary narration, applying metaphor"
+        text: "板挟みの中でもがき続ける時間。それは無駄ではありません。小さく動いてみる。反応を見る。また考える。その試行錯誤の熱量が蓄積されていく。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, hopeful"
+        text: "臨界点に達した時、「AでもBでもない第三の状態」への跳躍が起こる。それは「妥協」ではありません。質的な変化——新しい視座への相転移です。"
+        break_after: 1500
+      
+      # リフレーミング：隻手の声 (8セグメント)
+      - speaker: "kore"
+        style: "documentary narration, transitioning to zen"
+        text: "江戸時代中期、駿河国・原宿。東海道沿いの小さな寺・松蔭寺に、全国から修行僧が集まっていました。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "documentary narration, introducing figure"
+        text: "住職の<sub alias='はくいんえかく'>白隠慧鶴</sub>。この人には、壮絶な過去がありました。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "documentary narration, backstory"
+        text: "若い頃、悟りを求めて激しい修行に打ち込み、心身を壊した。眠れない。食べられない。幻聴が止まらない。「禅病」と呼ばれる状態です。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, recovery story"
+        text: "救ったのは、山中に住む<sub alias='はくゆうし'>白幽子</sub>という仙人でした。「頭で考えすぎだ。腹に意識を落とせ」——その教えで、白隠は回復します。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, connecting to teaching"
+        text: "頭で答えを出そうとして、袋小路に陥る。その苦しみを、誰よりも知っていた白隠。彼が、同じように行き詰まった弟子たちに、繰り返し投げかけた問いがあります。"
+        break_after: 1200
+      
+      - speaker: "charon"
+        style: "zen master, profound koan delivery"
+        text: "「両掌打って声あり、隻手に何の声やある」——「両手を打てば音がする。では、片手の音を聞いてみよ」"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, explaining koan"
+        text: "これは「答えのない問い」ではありません。「AかBか」という問いの構造そのものを壊す問いです。板挟みとは、「Aか、Bか」という二択を突きつけられている状態。しかし、片手の音を聞こうとする時、私たちは「そもそも問いの立て方が間違っているのではないか」と気づく。"
+        break_after: 1300
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, liberating insight"
+        text: "上司Aの「<sub alias='スピード'>speed</sub>」と上司Bの「品質」。本当に、どちらか一方しか選べないのでしょうか。片手の音を聞こうとする時、私たちは二択の外に出る。"
+        break_after: 1500
+      
+      # 着地 (4セグメント)
+      - speaker: "aoede"
+        style: "gentle, introspective narration"
+        text: "月曜日の朝。企画書を開く。まだ、答えは見えない。"
+        break_after: 1000
+      
+      - speaker: "aoede"
+        style: "gentle, introspective narration, realizing"
+        text: "でも、一つだけわかったことがある。「どちらを選ぶか」で悩んでいる限り、この迷路は終わらない。"
+        break_after: 1100
+      
+      - speaker: "aoede"
+        style: "gentle, introspective narration, patient"
+        text: "答えを急がなくていい。問いそのものを、疑っていい。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, zen-like"
+        text: "片手の音は、探すのをやめた時に聞こえてくるらしい。今はまだ、静かに耳を澄ませている。"
+        break_after: 1500
+      
+      # クロージング (3セグメント)
+      - speaker: "kore"
+        style: "contemplative documentary narration, looking up"
+        text: "夜空を見上げると、<sub alias='オリオン'>Orion</sub>座が輝いています。星々は、引力で引き合いながら、それぞれの軌道を守っている。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, poetic wisdom"
+        text: "「AかBか」の外に、道はある。知識の星座は、見る人によって違う物語を紡ぎます。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "warm documentary narration, gentle blessing"
+        text: "今夜、あなたの板挟みが、新しい問いに変わりますように。"
+        break_after: 2000
+
+production_notes:
+  - "総セグメント数: 42（目標40前後）"
+  - "各セグメントは意味のまとまりを重視"
+  - "外国語原文（独・英）はすべてスキップし、日本語訳のみ使用"
+  - "kore: メインナレーター（瞑想的ドキュメンタリー）"
+  - "charon: 人類学者・哲学者・禅師の引用"
+  - "aoede: 没入シーンと着地部分の内省的ナレーション"
+  - "英単語・外来語・固有名詞・仏教用語に発音ガイド適用"
+  - "「古今東西」に<sub alias='ここんとうざい'>を適用（定型ルール）"
+  - "ブレークタイムは文脈に応じて900ms-1500msで調整"
