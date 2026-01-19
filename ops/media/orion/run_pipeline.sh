@@ -23,12 +23,25 @@ if [ ! -d "$INPUTS_DIR" ]; then
   exit 1
 fi
 
+# Load .env if present
+if [ -f "$ORION_ROOT/.env" ]; then
+  set -a
+  # shellcheck disable=SC1090
+  . "$ORION_ROOT/.env"
+  set +a
+fi
+
 # Basic input checks
 if ! ls "$INPUTS_DIR"/ep*.srt >/dev/null 2>&1; then
   echo "Missing ep*.srt in $INPUTS_DIR"
   exit 1
 fi
 
-# Run pipeline
+# Run pipeline (prefer local venv if present)
 cd "$ORION_ROOT"
-python3 pipeline/core.py --project "$PROJECT" "$@"
+PYTHON_BIN="$ORION_ROOT/.venv/bin/python3"
+if [ -x "$PYTHON_BIN" ]; then
+  "$PYTHON_BIN" pipeline/core.py --project "$PROJECT" "$@"
+else
+  python3 pipeline/core.py --project "$PROJECT" "$@"
+fi

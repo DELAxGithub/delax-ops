@@ -24,12 +24,11 @@ if ENV_FILE.exists():
 
 TTS_DIR = REPO_ROOT / "tts"
 
-# Add tts to path
-if str(TTS_DIR) not in sys.path:
-    sys.path.insert(0, str(TTS_DIR))
+# Add REPO_ROOT to path so we can import tts package
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
 
-from tts_config_loader import load_merged_tts_config  # type: ignore  # noqa: E402
-from orion_tts_generator import OrionTTSGenerator  # type: ignore  # noqa: E402
+from tts import load_merged_tts_config, OrionTTSGenerator  # type: ignore  # noqa: E402
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger(__name__)
@@ -74,7 +73,44 @@ def load_yaml_segments(yaml_path: Path, limit: int | None = None) -> list[dict]:
 
     segments = data.get("gemini_tts", {}).get("segments", [])
     if not segments:
+        segments = data.get("segments", [])
+
+    # Support episodes structure (e.g., episodes[0].segments)
+    if not segments and "episodes" in data and isinstance(data["episodes"], list):
+        if len(data["episodes"]) > 0 and "segments" in data["episodes"][0]:
+            segments = data["episodes"][0]["segments"]
+
+    if not segments:
         raise ValueError(f"No segments found in {yaml_path}")
+
+    # Load voice_config if present
+    voice_config = data.get("voice_config", {})
+
+    # Process each segment
+    for segment in segments:
+        speaker = segment.get("speaker", "narrator")
+
+        # Map voice and style from voice_config if available
+        if voice_config and speaker in voice_config:
+            config = voice_config[speaker]
+            # Only set if not already present in segment
+            if "voice" not in segment and "voice" in config:
+                segment["voice"] = config["voice"]
+            if "style_prompt" not in segment and "style" in config:
+                segment["style_prompt"] = config["style"]
+
+        # If no voice field, use speaker as voice (for Ep17 format where speaker="kore")
+        if "voice" not in segment:
+            voice_name = speaker
+            segment["voice"] = voice_name
+            # Normalize speaker to "narrator" if it's a voice name
+            voice_names = ["kore", "aoede", "charon", "fenrir", "puck", "coral"]
+            if speaker.lower() in voice_names:
+                segment["speaker"] = "narrator"
+
+        # If style field exists but not style_prompt, copy it
+        if "style_prompt" not in segment and "style" in segment:
+            segment["style_prompt"] = segment["style"]
 
     logger.info("Total segments in YAML: %d", len(segments))
 

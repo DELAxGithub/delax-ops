@@ -240,44 +240,54 @@ def write_timecode_srt(
 
             remaining_subs = total_subs - sub_idx
 
-    # Ensure all subtitles are assigned by falling back to duration-based distribution
+    # Use text-matched results as base, fill gaps with duration-based distribution
     segment_count = min(len(timeline_segments), len(nare_to_srt))
-    segment_durations = _segment_durations(timeline_segments[:segment_count])
-
-    desired_counts = _distribute_counts_by_duration(total_subs, segment_durations)
     text_matched = len(used_srt)
-    if text_matched and text_matched != total_subs:
-        print(f"  ⚠️ Text match covered {text_matched}/{total_subs} subtitles; switching to sequential duration mapping")
-    elif text_matched == 0:
+
+    if text_matched > 0:
+        # Start with text-matched results
+        segment_to_srt: List[List[int]] = [list(nare_to_srt[i]) for i in range(segment_count)]
+        print(f"  → Text matched {text_matched}/{total_subs} subtitles")
+
+        # Find unmatched subtitles and distribute them
+        unmatched = [i for i in range(total_subs) if i not in used_srt]
+        if unmatched:
+            print(f"  → Distributing {len(unmatched)} unmatched subtitles by position")
+            # Distribute unmatched subtitles to segments based on their original position
+            for srt_idx in unmatched:
+                # Find the best segment based on position ratio
+                position_ratio = srt_idx / total_subs
+                target_seg = min(int(position_ratio * segment_count), segment_count - 1)
+                segment_to_srt[target_seg].append(srt_idx)
+
+        # Sort each segment's subtitles by index
+        for seg_idx in range(segment_count):
+            segment_to_srt[seg_idx].sort()
+    else:
+        # Fallback: purely duration-based distribution
         print(f"  ⚠️ No reliable text matches; using sequential duration mapping")
+        segment_durations = _segment_durations(timeline_segments[:segment_count])
+        desired_counts = _distribute_counts_by_duration(total_subs, segment_durations)
 
-    segment_to_srt: List[List[int]] = [[] for _ in range(segment_count)]
-    cursor = 0
+        segment_to_srt = [[] for _ in range(segment_count)]
+        cursor = 0
 
-    for seg_idx, desired in enumerate(desired_counts):
-        if cursor >= total_subs:
-            break
+        for seg_idx, desired in enumerate(desired_counts):
+            if cursor >= total_subs:
+                break
 
-        take = max(0, min(desired, total_subs - cursor))
+            take = max(0, min(desired, total_subs - cursor))
+            if take == 0 and (total_subs - cursor) > 0:
+                take = min(1, total_subs - cursor)
 
-        if take == 0 and (total_subs - cursor) > 0:
-            # Ensure we keep progressing when subtitles remain
-            take = min(1, total_subs - cursor)
+            if take:
+                indices = list(range(cursor, cursor + take))
+                segment_to_srt[seg_idx].extend(indices)
+                cursor += take
 
-        if take:
-            indices = list(range(cursor, cursor + take))
-            segment_to_srt[seg_idx].extend(indices)
-            cursor += take
-
-    if cursor < total_subs and segment_to_srt:
-        # Assign any leftover subtitles to the final segment
-        remaining_indices = list(range(cursor, total_subs))
-        segment_to_srt[-1].extend(remaining_indices)
-        cursor = total_subs
-
-    if cursor < total_subs:
-        print(f"  ⚠️ Unable to allocate {total_subs - cursor} subtitles; please review inputs")
-        return False
+        if cursor < total_subs and segment_to_srt:
+            remaining_indices = list(range(cursor, total_subs))
+            segment_to_srt[-1].extend(remaining_indices)
 
     # Fill in any empty mapping lists to keep downstream logic simple
     if not segment_to_srt:

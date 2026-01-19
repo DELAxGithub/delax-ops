@@ -15,6 +15,9 @@ Goal: generate narration audio without running the full pipeline.
 2) Export env vars (example)
 ```bash
 export GEMINI_API_KEY="..."
+export GEMINI_API_KEY_1="..."  # optional: rotate keys when quota hits
+export GEMINI_API_KEY_2="..."
+export GEMINI_API_KEY_3="..."
 ```
 
 3) Run

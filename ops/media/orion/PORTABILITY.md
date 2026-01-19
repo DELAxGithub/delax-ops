@@ -158,10 +158,16 @@ pip install google-cloud-texttospeech pyyaml
 # .envファイル作成（orion/ ディレクトリ内）
 cat << 'ENV' > orion/.env
 GEMINI_API_KEY=your_api_key_here
+GEMINI_API_KEY_1=your_api_key_here  # optional: rotate keys on quota
+GEMINI_API_KEY_2=your_api_key_here
+GEMINI_API_KEY_3=your_api_key_here
 ENV
 
 # または直接exportで設定
 export GEMINI_API_KEY="your_api_key_here"
+export GEMINI_API_KEY_1="your_api_key_here"
+export GEMINI_API_KEY_2="your_api_key_here"
+export GEMINI_API_KEY_3="your_api_key_here"
 ```
 
 ### 5. 動作確認
@@ -260,12 +266,14 @@ pip install google-cloud-texttospeech pyyaml
 ```bash
 # 環境変数を確認
 echo $GEMINI_API_KEY
+echo $GEMINI_API_KEY_1
 
 # .envファイルを確認
 cat orion/.env
 
 # 正しく設定
 export GEMINI_API_KEY="your_actual_api_key"
+export GEMINI_API_KEY_1="your_actual_api_key"
 ```
 
 ### パイプライン実行時にモジュールが見つからない

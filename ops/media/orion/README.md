@@ -126,6 +126,7 @@ gemini_tts:
       text: "テキスト..."
       style_prompt: "スタイル指示..."
 ```
+`segments` はトップレベルに置いても動作します（`gemini_tts.segments` と互換）。
 
 ### `orinonep{N}.md` - オリジナル脚本
 見出しマーカー（`【HH:MM-HH:MM】セクション名`）で章立てを定義。
@@ -199,6 +200,9 @@ Google の Gemini TTS API を使用した高品質音声生成。
 ```bash
 # .env に追加
 GEMINI_API_KEY=your_api_key_here
+GEMINI_API_KEY_1=your_api_key_here  # optional: rotate keys on quota
+GEMINI_API_KEY_2=your_api_key_here
+GEMINI_API_KEY_3=your_api_key_here
 ```
 
 ### 字幕タイミングがズレる

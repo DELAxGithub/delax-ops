@@ -18,6 +18,9 @@
 `.env`ファイルに以下を設定：
 ```bash
 GEMINI_API_KEY=your_gemini_api_key_here
+GEMINI_API_KEY_1=your_gemini_api_key_here  # optional: rotate keys on quota
+GEMINI_API_KEY_2=your_gemini_api_key_here
+GEMINI_API_KEY_3=your_gemini_api_key_here
 GOOGLE_APPLICATION_CREDENTIALS=/path/to/google-credentials.json  # オプション
 ```
 
@@ -175,6 +178,8 @@ gemini_tts:
       text: "この数値化は、進歩の証なのか、それとも本質からの逸脱なのか？"
       style_prompt: "Speak with intellectual depth and documentary-style narration, calm and authoritative."
 ```
+
+`segments` はトップレベルに置いても動作します（`gemini_tts.segments` と互換）。
 
 **フィールド説明**:
 - `speaker`: 話者名（ログ表示用）

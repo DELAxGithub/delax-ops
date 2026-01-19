@@ -145,11 +145,16 @@ def parse_narration_yaml(path: Path) -> List[NarrationSegment]:
     except yaml.YAMLError as exc:
         raise ValueError(f"Failed to parse YAML: {path}") from exc
 
-    segments_data = (
-        data.get("gemini_tts", {}).get("segments", [])
-        if isinstance(data, dict)
-        else []
-    )
+    segments_data = []
+    if isinstance(data, dict):
+        segments_data = data.get("gemini_tts", {}).get("segments", [])
+        if not segments_data:
+            segments_data = data.get("segments", [])
+
+        # Support episodes structure (e.g., episodes[0].segments)
+        if not segments_data and "episodes" in data and isinstance(data["episodes"], list):
+            if len(data["episodes"]) > 0 and "segments" in data["episodes"][0]:
+                segments_data = data["episodes"][0]["segments"]
 
     if not segments_data:
         raise ValueError(f"No segments found in narration YAML: {path.name}")

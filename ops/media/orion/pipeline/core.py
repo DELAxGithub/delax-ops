@@ -13,6 +13,7 @@ from pathlib import Path
 from typing import Dict, List, Optional
 
 import yaml
+from dotenv import load_dotenv
 
 # Add parent directory to path for imports
 # __file__ = orion/pipeline/core.py
@@ -21,6 +22,10 @@ import yaml
 REPO_ROOT = Path(__file__).resolve().parent.parent
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
+
+ENV_PATH = REPO_ROOT / ".env"
+if ENV_PATH.exists():
+    load_dotenv(ENV_PATH, override=False)
 
 from core.parsers.srt import (
     Subtitle,
@@ -56,6 +61,7 @@ class PipelineConfig:
     timebase: int = 30
     ntsc: bool = True
     scene_lead_in_sec: float = 3.0
+    clip_gap_frames: int = 10  # Gap between audio clips in frames
 
     # Validation
     entry_count_tolerance: float = 0.05
@@ -83,6 +89,7 @@ class PipelineConfig:
             timebase=data.get("timeline", {}).get("timebase", 30),
             ntsc=data.get("timeline", {}).get("ntsc", True),
             scene_lead_in_sec=data.get("timeline", {}).get("scene_lead_in_sec", 3.0),
+            clip_gap_frames=data.get("timeline", {}).get("clip_gap_frames", 10),
             entry_count_tolerance=data.get("validation", {}).get("entry_count_tolerance", 0.05),
             text_similarity_min=data.get("validation", {}).get("text_similarity_min", 0.95),
             fail_fast=data.get("validation", {}).get("fail_fast", True),
@@ -407,7 +414,8 @@ def run_pipeline(ctx: PipelineContext) -> bool:
         # Initialize timeline calculator
         calculator = TimelineCalculator(
             fps=ctx.fps,
-            scene_lead_in_sec=ctx.config.scene_lead_in_sec
+            scene_lead_in_sec=ctx.config.scene_lead_in_sec,
+            clip_gap_frames=ctx.config.clip_gap_frames
         )
 
         # Calculate audio-based timeline with dynamic gaps
@@ -461,8 +469,26 @@ def run_pipeline(ctx: PipelineContext) -> bool:
             print(f"    ❌ Failed to write timeline CSV")
             output_success = False
 
-        # 3. Write FCP7 XML (output/)
+        # 3. Write FCP7 XML (output/) - with subtitles from timecode SRT
         print(f"  → Writing FCP7 XML: {ctx.timeline_xml.name}")
+
+        # Load subtitles from generated timecode SRT for XML embedding
+        xml_subtitles = None
+        if ctx.output_srt.exists():
+            try:
+                srt_subs = parse_srt_file(ctx.output_srt)
+                xml_subtitles = [
+                    {
+                        "start_sec": sub.start_ms() / 1000.0,
+                        "end_sec": sub.end_ms() / 1000.0,
+                        "text": sub.text.replace("\n", " ")  # Single line for XML
+                    }
+                    for sub in srt_subs
+                ]
+                print(f"    → Embedding {len(xml_subtitles)} subtitles in XML")
+            except Exception as e:
+                print(f"    ⚠️ Could not load subtitles for XML: {e}")
+
         if write_fcp7_xml(
             ctx.timeline_xml,
             timeline_segments,
@@ -471,7 +497,8 @@ def run_pipeline(ctx: PipelineContext) -> bool:
             ctx.fps,
             audio_sample_rate=24000,
             timebase=ctx.config.timebase,
-            audio_dir=ctx.audio_dir
+            audio_dir=ctx.audio_dir,
+            subtitles=xml_subtitles
         ):
             print(f"    ✅ {ctx.timeline_xml}")
         else:

@@ -135,8 +135,10 @@ def seconds_to_timecode(seconds: float, fps: float) -> str:
     """
     total_frames = int(seconds * fps)
 
-    frames = total_frames % int(fps)
-    total_seconds = total_frames // int(fps)
+    # Use rounded fps (30 for NTSC 29.97) for frame counting
+    fps_rounded = int(round(fps))
+    frames = total_frames % fps_rounded
+    total_seconds = total_frames // fps_rounded
 
     hours = total_seconds // 3600
     minutes = (total_seconds % 3600) // 60
@@ -177,16 +179,20 @@ class TimelineCalculator:
     def __init__(
         self,
         fps: float,
-        scene_lead_in_sec: float = 3.0
+        scene_lead_in_sec: float = 3.0,
+        clip_gap_frames: int = 0
     ):
         """Initialize timeline calculator.
 
         Args:
             fps: Frames per second (e.g., 29.97 for NTSC)
             scene_lead_in_sec: Lead-in time before each scene (default: 3.0s)
+            clip_gap_frames: Gap in frames between audio clips (default: 0)
         """
         self.fps = fps
         self.scene_lead_in_sec = scene_lead_in_sec
+        self.clip_gap_frames = clip_gap_frames
+        self.clip_gap_sec = clip_gap_frames / fps if fps > 0 else 0.0
 
     def calculate_timeline(
         self,
@@ -248,9 +254,10 @@ class TimelineCalculator:
 
             timeline_segments.append(timeline_seg)
 
-            # Advance current time WITHOUT gap (audio files are continuous)
-            # Gaps are only used for scene transitions (scene_lead_in)
+            # Advance current time with optional clip gap
             current_time = end_time
+            if self.clip_gap_sec > 0 and i < len(audio_segments) - 1:
+                current_time += self.clip_gap_sec
 
         return timeline_segments
 

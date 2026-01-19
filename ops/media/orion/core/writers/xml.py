@@ -43,7 +43,8 @@ def write_fcp7_xml(
     fps: float,
     audio_sample_rate: int = 24000,
     timebase: int = 30,
-    audio_dir: Path = None
+    audio_dir: Path = None,
+    subtitles: List = None  # List of subtitle dicts with start_sec, end_sec, text
 ) -> bool:
     """Write FCP7 XML timeline compatible with DaVinci Resolve.
 
@@ -55,6 +56,7 @@ def write_fcp7_xml(
         audio_sample_rate: Audio sample rate (default: 24000 for Gemini TTS)
         timebase: Video timebase (default: 30)
         audio_dir: Directory containing audio files (for absolute paths)
+        subtitles: List of subtitle dicts with start_sec, end_sec, text keys
 
     Returns:
         True if successful, False otherwise
@@ -128,9 +130,45 @@ def write_fcp7_xml(
         # Media
         media = ET.SubElement(sequence, "media")
 
-        # Video track (empty but required)
+        # Video track with subtitles
         video = ET.SubElement(media, "video")
         ET.SubElement(video, "format")
+
+        # Add subtitle track if subtitles provided
+        if subtitles:
+            video_track = ET.SubElement(video, "track")
+            for idx, sub in enumerate(subtitles, 1):
+                start_frame = int(sub["start_sec"] * fps)
+                end_frame = int(sub["end_sec"] * fps)
+                duration_frames = end_frame - start_frame
+
+                genitem = ET.SubElement(video_track, "generatoritem", id=f"subtitle-{idx}")
+                ET.SubElement(genitem, "name").text = f"Subtitle {idx}"
+                ET.SubElement(genitem, "enabled").text = "TRUE"
+                ET.SubElement(genitem, "duration").text = str(duration_frames)
+
+                gen_rate = ET.SubElement(genitem, "rate")
+                ET.SubElement(gen_rate, "timebase").text = str(timebase)
+                ET.SubElement(gen_rate, "ntsc").text = "TRUE"
+
+                ET.SubElement(genitem, "start").text = str(start_frame)
+                ET.SubElement(genitem, "end").text = str(end_frame)
+                ET.SubElement(genitem, "in").text = "0"
+                ET.SubElement(genitem, "out").text = str(duration_frames)
+
+                # Effect definition for text generator
+                effect = ET.SubElement(genitem, "effect")
+                ET.SubElement(effect, "name").text = "Text"
+                ET.SubElement(effect, "effectid").text = "Text"
+                ET.SubElement(effect, "effectcategory").text = "Text"
+                ET.SubElement(effect, "effecttype").text = "generator"
+                ET.SubElement(effect, "mediatype").text = "video"
+
+                # Text parameter
+                param = ET.SubElement(effect, "parameter")
+                ET.SubElement(param, "parameterid").text = "str"
+                ET.SubElement(param, "name").text = "Text"
+                ET.SubElement(param, "value").text = sub["text"]
 
         # Audio track
         audio_media = ET.SubElement(media, "audio")

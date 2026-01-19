@@ -144,24 +144,12 @@ class TTSEngine:
 
         self._gemini_client = None
         self._google_tts_client = None
+        self._gemini_api_keys: List[str] = []
+        self._gemini_key_index = 0
 
         # Initialize APIs if not using existing files
         if not self.use_existing:
-            if GEMINI_AVAILABLE:
-                # Try both GEMINI_API_KEY and GOOGLE_API_KEY
-                api_key = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
-                if api_key:
-                    self._gemini_client = genai.Client(api_key=api_key)
-                    print(f"  ✅ Gemini API configured")
-                else:
-                    print(f"  ⚠️  GEMINI_API_KEY/GOOGLE_API_KEY not found")
-
-            if GOOGLE_TTS_AVAILABLE:
-                try:
-                    self._google_tts_client = texttospeech.TextToSpeechClient()
-                    print(f"  ✅ Google Cloud TTS configured (fallback)")
-                except Exception as e:
-                    print(f"  ⚠️  Google Cloud TTS unavailable: {e}")
+            self._init_clients()
 
     def generate_segments(
         self,
@@ -211,6 +199,8 @@ class TTSEngine:
 
             # Generate new audio with Gemini TTS
             try:
+                if not self._gemini_client and not self._google_tts_client:
+                    self._init_clients()
                 audio_seg = self._generate_gemini_tts(
                     segment=segment,
                     output_path=output_path,
@@ -291,6 +281,24 @@ class TTSEngine:
 
         raise RuntimeError("No TTS clients available")
 
+    def _init_clients(self) -> None:
+        if GEMINI_AVAILABLE and not self._gemini_client:
+            self._load_env_file()
+            self._gemini_api_keys = self._gather_gemini_keys()
+            api_key = self._current_gemini_key()
+            if api_key:
+                self._gemini_client = genai.Client(api_key=api_key)
+                print(f"  ✅ Gemini API configured (keys: {len(self._gemini_api_keys)})")
+            else:
+                print(f"  ⚠️  GEMINI_API_KEY not found")
+
+        if GOOGLE_TTS_AVAILABLE and not self._google_tts_client:
+            try:
+                self._google_tts_client = texttospeech.TextToSpeechClient()
+                print(f"  ✅ Google Cloud TTS configured (fallback)")
+            except Exception as e:
+                print(f"  ⚠️  Google Cloud TTS unavailable: {e}")
+
     def _try_gemini_tts(self, text: str, output_path: Path) -> bool:
         """Try to generate audio with Gemini TTS.
 
@@ -324,6 +332,7 @@ class TTSEngine:
                 if not response or not response.candidates:
                     logger.warning(f"Gemini TTS returned no candidates (attempt {attempt}/{max_attempts})")
                     print(f"    ⚠️  Gemini TTS returned no candidates (attempt {attempt}/{max_attempts})")
+                    self._rotate_gemini_key()
                     if attempt < max_attempts:
                         time.sleep(2.0)
                         continue
@@ -333,6 +342,7 @@ class TTSEngine:
                 if not parts:
                     logger.warning(f"Gemini TTS returned no audio parts (attempt {attempt}/{max_attempts})")
                     print(f"    ⚠️  Gemini TTS returned no audio parts (attempt {attempt}/{max_attempts})")
+                    self._rotate_gemini_key()
                     if attempt < max_attempts:
                         time.sleep(2.0)
                         continue
@@ -343,6 +353,7 @@ class TTSEngine:
                 pcm_bytes = base64.b64decode(raw_data) if isinstance(raw_data, str) else raw_data
 
                 if not pcm_bytes:
+                    print("    ⚠️  Gemini TTS returned empty audio payload")
                     logger.warning("Gemini TTS returned empty audio payload")
                     return False
 
@@ -354,11 +365,24 @@ class TTSEngine:
                 error_msg = str(e)
                 # Check for quota/rate limit errors
                 if "RESOURCE_EXHAUSTED" in error_msg or "429" in error_msg or "quota" in error_msg.lower():
+                    if self._rotate_gemini_key():
+                        continue
                     retry_delay = min(5.0 * attempt, 15.0)
+                    print(f"    ⚠️  Gemini TTS quota exceeded; retrying in {retry_delay}s (attempt {attempt}/{max_attempts})")
                     logger.info(f"Gemini TTS quota exceeded; retrying in {retry_delay}s (attempt {attempt}/{max_attempts})")
                     time.sleep(retry_delay)
                     continue
+                # Retry transient server errors
+                if "500" in error_msg or "INTERNAL" in error_msg:
+                    if self._rotate_gemini_key():
+                        continue
+                    retry_delay = min(5.0 * attempt, 15.0)
+                    print(f"    ⚠️  Gemini TTS transient error; retrying in {retry_delay}s (attempt {attempt}/{max_attempts})")
+                    logger.info(f"Gemini TTS transient error; retrying in {retry_delay}s (attempt {attempt}/{max_attempts})")
+                    time.sleep(retry_delay)
+                    continue
                 else:
+                    print(f"    ❌ Gemini TTS request failed: {e}")
                     logger.warning(f"Gemini TTS request failed: {e}")
                     return False
 
@@ -426,6 +450,52 @@ class TTSEngine:
 
         if result.returncode != 0:
             raise RuntimeError(f"ffmpeg conversion failed: {result.stderr.decode()}")
+
+    def _current_gemini_key(self) -> Optional[str]:
+        if not self._gemini_api_keys:
+            return None
+        index = self._gemini_key_index % len(self._gemini_api_keys)
+        return self._gemini_api_keys[index]
+
+    def _rotate_gemini_key(self) -> bool:
+        if len(self._gemini_api_keys) <= 1 or not GEMINI_AVAILABLE:
+            return False
+        self._gemini_key_index = (self._gemini_key_index + 1) % len(self._gemini_api_keys)
+        api_key = self._current_gemini_key()
+        if not api_key:
+            return False
+        self._gemini_client = genai.Client(api_key=api_key)
+        logger.info("Rotated Gemini API key for TTS.")
+        return True
+
+    def _gather_gemini_keys(self) -> List[str]:
+        keys: List[str] = []
+
+        def add(value: Optional[str]) -> None:
+            if value and value not in keys:
+                keys.append(value)
+
+        add(os.getenv("GEMINI_API_KEY"))
+        for idx in range(1, 10):
+            add(os.getenv(f"GEMINI_API_KEY_{idx}"))
+        if not keys:
+            add(os.getenv("GOOGLE_API_KEY"))
+        return keys
+
+    def _load_env_file(self) -> None:
+        env_path = ORION_ROOT / ".env"
+        if not env_path.exists():
+            return
+        for line in env_path.read_text(encoding="utf-8").splitlines():
+            if not line or line.strip().startswith("#"):
+                continue
+            if "=" not in line:
+                continue
+            key, value = line.split("=", 1)
+            key = key.strip()
+            if not key or key in os.environ:
+                continue
+            os.environ[key] = value.strip()
 
     def validate_audio_completeness(
         self,
