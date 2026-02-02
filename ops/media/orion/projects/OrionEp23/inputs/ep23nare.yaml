@@ -1,0 +1,256 @@
+episodes:
+  - episode_number: "S2E08"
+    title: "派閥という名の引力"
+    duration_target: "8:00"
+    
+    segments:
+      # アバン (4セグメント)
+      - speaker: "kore"
+        style: "contemplative documentary narration, cautious undertone"
+        text: "「あの人、どっち派？」"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, observing hidden structures"
+        text: "会社には、組織図に載らない「もうひとつの地図」がある。誰と誰が繋がっていて、誰と誰が対立しているか。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, questioning"
+        text: "その見えない境界線に、私たちは日々怯えています。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "warm documentary welcome"
+        text: "ようこそ、<sub alias='オリオン'>Orion</sub>の会議室へ。今夜のテーマは「派閥という名の引力」。"
+        break_after: 1500
+      
+      # 星座の提示 (4セグメント)
+      - speaker: "kore"
+        style: "contemplative documentary narration, introducing concept"
+        text: "<sub alias='ここんとうざい'>古今東西</sub>の叡智を星座のように結び、現代の悩みに新しい視座を見つける8分間。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, presenting framework"
+        text: "今夜めぐる星々は——二者関係を変える「第三者」の力学。権力の外で信義だけを武器にした游侠の生き方。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration"
+        text: "繋がっていない者同士の「隙間」が持つ価値。そして、二つの巨大な力が釣り合う宇宙の均衡点。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, connecting threads"
+        text: "バラバラの星々が、「どちらにも属さない」という生き方を照らし始めます。"
+        break_after: 1500
+      
+      # 没入 (6セグメント)
+      - speaker: "aoede"
+        style: "introspective narration, cautious"
+        text: "昼休み。A部長派の先輩に誘われて、一緒に<sub alias='ランチ'>lunch</sub>へ行く。"
+        break_after: 900
+      
+      - speaker: "aoede"
+        style: "introspective narration, sensing subtext"
+        text: "「最近、B部長のところとうまくやってるみたいだね」何気ない言葉。でも、その裏にある意味は分かる。"
+        break_after: 1100
+      
+      - speaker: "aoede"
+        style: "introspective narration, conflicted"
+        text: "午後、B部長から声をかけられる。「今度の企画、君に任せたいんだけど」"
+        break_after: 1000
+      
+      - speaker: "aoede"
+        style: "introspective narration, torn"
+        text: "嬉しい。でも、これを受けたらA部長派から睨まれる。"
+        break_after: 1000
+      
+      - speaker: "aoede"
+        style: "introspective narration, questioning"
+        text: "どちらにつくべきか。いや、そもそも「つかなければならない」のか。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, empathetic"
+        text: "派閥の境界線上で、足がすくむ。"
+        break_after: 1500
+      
+      # 展開1：ジンメルの「第三者」 (6セグメント)
+      - speaker: "kore"
+        style: "documentary narration, historical introduction"
+        text: "20世紀初頭、<sub alias='ベルリン'>Berlin</sub>。<sub alias='ゲオルク・ジンメル'>Georg Simmel</sub>は、大学の正教授になれないまま、私講師として社会学を講じていました。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "documentary narration, explaining marginalization"
+        text: "<sub alias='ユダヤ'>Jewish</sub>系であること、そして<sub alias='アカデミズム'>academism</sub>の「派閥」に属さなかったことが理由でした。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "documentary narration, ironic insight"
+        text: "皮肉にも、その outsider の視点が、人間関係の構造を見抜く眼を与えます。"
+        break_after: 1200
+      
+      - speaker: "charon"
+        style: "sociological insight, measured tone"
+        text: "「第三者の登場によって、普遍性の契機が加わる」"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, explaining dynamics"
+        text: "二者関係は不安定です。対立すれば、どちらかが勝つまで終わらない。しかし、そこに「第三者」が加わると、力学が変わる。<sub alias='ジンメル'>Simmel</sub>は、第三者の役割を三つに分類しました。「仲裁者」「漁夫の利を得る者」「分割統治者」。"
+        break_after: 1300
+      
+      - speaker: "kore"
+        style: "documentary narration, key insight"
+        text: "重要なのは、第三者こそが関係の鍵を握るということ。二つの派閥の間にいる人間は、弱い立場ではない。むしろ、両者の関係を左右できる、戦略的な位置にいるのです。"
+        break_after: 1500
+      
+      # 展開2：『史記』游侠列伝 (5セグメント)
+      - speaker: "kore"
+        style: "documentary narration, transitioning to ancient China"
+        text: "紀元前1世紀、中国・漢。司馬遷は、宮刑という屈辱を受けながら、『史記』を書き続けていました。友人を弁護したために、皇帝の怒りを買ったのです。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, introducing concept"
+        text: "権力に翻弄された彼が、特別な敬意を込めて記録した人々がいます。「游侠」。"
+        break_after: 1200
+      
+      - speaker: "charon"
+        style: "ancient Chinese historian, reverent tone"
+        text: "「その言は必ず信、その行いは必ず果たす」"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, explaining way of life"
+        text: "游侠とは、正式な官職を持たず、権力の外にいながら、信義だけで人々を繋いだ者たち。朝廷の命令ではなく、自らの信念で動いた。困っている者を助け、約束を守り、時には権力者にも物申した。"
+        break_after: 1300
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, key principle"
+        text: "どの派閥にも属さない。だからこそ、誰からも信頼される。游侠の力は、「どこにも属さないこと」から生まれていたのです。"
+        break_after: 1500
+      
+      # 展開3：構造的空隙 (6セグメント)
+      - speaker: "kore"
+        style: "documentary narration, transitioning to Japanese history"
+        text: "1867年、京都。坂本龍馬は、薩摩藩でも長州藩でもない場所に立っていました。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "documentary narration, explaining position"
+        text: "土佐藩を脱藩した浪人。どこにも属さない。だからこそ、犬猿の仲だった薩摩と長州を結びつけ、薩長同盟を実現できた。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, modern theory"
+        text: "1990年代、<sub alias='シカゴ'>Chicago</sub>大学。社会学者<sub alias='ロナルド・バート'>Ronald Burt</sub>は、龍馬のような存在を理論化しました。"
+        break_after: 1100
+      
+      - speaker: "charon"
+        style: "sociological insight, clear explanation"
+        text: "「社会構造の穴の近くに立つ人間は、良い<sub alias='アイデア'>idea</sub>を持つ可能性が高い」"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, explaining concept"
+        text: "繋がっていない<sub alias='グループ'>group</sub>同士の「隙間」——構造的空隙——に位置する人間。その人は、両方の情報に<sub alias='アクセス'>access</sub>でき、両方に影響を与えられる。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, reframing position"
+        text: "派閥Aと派閥Bの間にいるあなた。それは「板挟み」ではなく、構造的空隙を占めているのです。"
+        break_after: 1500
+      
+      # 転換：ラグランジュ点 (5セグメント)
+      - speaker: "kore"
+        style: "documentary narration, shifting to physics"
+        text: "「隙間に立つ」という戦略。実は、宇宙もこの原理で動いています。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "documentary narration, historical introduction"
+        text: "1772年、<sub alias='フランス'>France</sub>。数学者<sub alias='ジョゼフ＝ルイ・ラグランジュ'>Joseph-Louis Lagrange</sub>は、三体問題——三つの天体が互いに引き合う運動——を解析していました。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, explaining discovery"
+        text: "彼が発見したのは、二つの大きな天体の重力が釣り合う「安定点」。現在「<sub alias='ラグランジュ'>Lagrange</sub>点」と呼ばれるものです。たとえば地球と月の間には、どちらの重力にも引っ張られながら、絶妙な<sub alias='バランス'>balance</sub>で留まれる点が存在する。"
+        break_after: 1300
+      
+      - speaker: "kore"
+        style: "documentary narration, explaining significance"
+        text: "そこは、ただ流されている場所ではありません。双方の重力を感じながら、自らの位置を保ち続ける、高度な均衡点。宇宙では、この点に人工衛星が配置されています。どちらの天体にも「属さない」からこそ、両方を観測できる特等席になる。"
+        break_after: 1300
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, connecting metaphor"
+        text: "派閥もまた、巨大な重力です。その間には、<sub alias='ラグランジュ'>Lagrange</sub>点がある。"
+        break_after: 1500
+      
+      # リフレーミング (3セグメント)
+      - speaker: "kore"
+        style: "documentary narration, reframing perspective"
+        text: "派閥に「入らない」ことは、弱さではありません。むしろ、それは「選ばれなかった」のではなく「選ばなかった」という、能動的な態度です。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, empowering"
+        text: "どちらにも属さないからこそ、どちらからも必要とされる。境界線の上に立つ人間だけが、境界線を消すことができる。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, affirming freedom"
+        text: "あなたは「どっちつかず」ではない。「どちらにも行ける自由」を持っているのです。"
+        break_after: 1500
+      
+      # 着地 (4セグメント)
+      - speaker: "aoede"
+        style: "gentle, introspective narration"
+        text: "明日、また派閥の境界線を感じる瞬間があるでしょう。「あの人、どっち派？」という視線。どちらかに寄るよう促す圧力。"
+        break_after: 1100
+      
+      - speaker: "aoede"
+        style: "gentle, introspective narration, recalling wisdom"
+        text: "そんな時、思い出してください。無理にどちらかに飛び込む必要はない。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, strategic wisdom"
+        text: "両方から信頼を得て、両方を繋ぐ。游侠のように、龍馬のように、属さないことを力に変える。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, affirming position"
+        text: "派閥の「間」にこそ、あなたの居場所があるのかもしれません。"
+        break_after: 1500
+      
+      # クロージング (3セグメント)
+      - speaker: "kore"
+        style: "contemplative documentary narration, looking up"
+        text: "夜空を見上げると、<sub alias='オリオン'>Orion</sub>座が輝いています。星々は、互いの重力で引き合いながら、それぞれの位置を保っている。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, poetic wisdom"
+        text: "引力の「間」に、道はある。知識の星座は、見る人によって違う物語を紡ぎます。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "warm documentary narration, gentle blessing"
+        text: "今夜、あなたの「属さない勇気」に、静かな光が届きますように。"
+        break_after: 2000
+
+production_notes:
+  - "総セグメント数: 42（目標40前後）"
+  - "各セグメントは意味のまとまりを重視"
+  - "外国語原文（独・英・漢文）はすべてスキップし、日本語訳のみ使用"
+  - "kore: メインナレーター（瞑想的ドキュメンタリー）"
+  - "charon: 社会学者・歴史家の引用"
+  - "aoede: 没入シーンと着地部分の内省的ナレーション"
+  - "英単語・外来語・固有名詞に発音ガイド適用"
+  - "「古今東西」に<sub alias='ここんとうざい'>を適用（定型ルール）"
+  - "ブレークタイムは文脈に応じて900ms-1500msで調整"1

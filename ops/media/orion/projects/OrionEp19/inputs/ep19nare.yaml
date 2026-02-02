@@ -1,0 +1,776 @@
+title: "オリオンの会議室 S2E4 - 沈黙の重力"
+model: "gemini-2.5-flash-preview-tts"
+output_file: "orion_s2e4_silence_gravity.wav"
+
+voice_config:
+  kore:
+    role: "contemplative narrator"
+    style: "firm, measured documentary tone"
+  
+  aoede:
+    role: "introspective moments"
+    style: "breezy, thoughtful inner voice"
+  
+  charon:
+    role: "philosophical figures"
+    style: "informative, intellectually engaged"
+  
+  gacrux:
+    role: "classical wisdom"
+    style: "mature, authoritative"
+
+segments:
+  # === アバン ===
+  - speaker: aoede
+    text: "会議で、すぐに意見が出てこない。"
+    style_prompt: "quiet concern, relatable workplace anxiety"
+    break_after: 600
+
+  - speaker: aoede
+    text: "隣の人はすらすら話している……"
+    style_prompt: "slightly overwhelmed, comparing self to others"
+    break_after: 800
+
+  - speaker: kore
+    text: "その沈黙は、空白なのか。"
+    style_prompt: "contemplative question, inviting deeper thought"
+    break_after: 700
+
+  - speaker: kore
+    text: "それとも、まだ言葉にならない何かが——"
+    style_prompt: "building alternative perspective"
+    break_after: 400
+
+  - speaker: kore
+    text: "形を結ぼうとしている時間なのか？"
+    style_prompt: "opening to possibility, gentle emphasis on 時間"
+    break_after: 1000
+
+  - speaker: kore
+    text: "ようこそ、オリオンの会議室へ。"
+    style_prompt: "warm welcome, signature opening"
+    break_after: 800
+
+  - speaker: kore
+    text: "今夜のケースは「沈黙の重力」。"
+    style_prompt: "introducing tonight's theme with quiet weight"
+    break_after: 1200
+    pronunciation:
+      - original: "沈黙"
+        sub: "ちんもく"
+      - original: "重力"
+        sub: "じゅうりょく"
+
+  # === 星座の提示 ===
+  - speaker: kore
+    text: "古今東西の叡智を星座のように結び——"
+    style_prompt: "signature phrase, establishing the method"
+    break_after: 500
+    pronunciation:
+      - original: "古今東西"
+        sub: "ここんとうざい"
+      - original: "叡智"
+        sub: "えいち"
+
+  - speaker: kore
+    text: "現代の悩みに新しい視座を見つける8分間。"
+    style_prompt: "clear purpose statement"
+    break_after: 900
+
+  - speaker: kore
+    text: "今夜めぐる星々は——"
+    style_prompt: "transitioning to preview, building anticipation"
+    break_after: 800
+
+  - speaker: kore
+    text: "思考を外に出すタイミングには「型」があるという発見。"
+    style_prompt: "first star - psychology, clear articulation"
+    break_after: 700
+
+  - speaker: kore
+    text: "見えないのに空間を歪める「重力」という力。"
+    style_prompt: "second star - physics, sense of invisible forces"
+    break_after: 700
+    pronunciation:
+      - original: "歪める"
+        sub: "ゆがめる"
+
+  - speaker: kore
+    text: "「永遠の相」という、構造全体を俯瞰する眼差し。"
+    style_prompt: "third star - philosophy, elevated perspective"
+    break_after: 700
+    pronunciation:
+      - original: "俯瞰"
+        sub: "ふかん"
+      - original: "眼差し"
+        sub: "まなざし"
+
+  - speaker: kore
+    text: "そして、言葉を超えた沈黙が雄弁に語るという逆説。"
+    style_prompt: "fourth star - paradox, gentle emphasis on the contradiction"
+    break_after: 900
+
+  - speaker: kore
+    text: "バラバラの星々が、「即レス」の時代に——"
+    style_prompt: "beginning synthesis, slight critique of modern pace"
+    break_after: 500
+
+  - speaker: kore
+    text: "沈黙の重力を照らし始めます。"
+    style_prompt: "completing preview, returning to main theme"
+    break_after: 1200
+
+  # === 没入 ===
+  - speaker: aoede
+    text: "月曜日の定例会議。議題が提示される。"
+    style_prompt: "entering concrete scenario, workplace routine"
+    break_after: 700
+
+  - speaker: aoede
+    text: "「このプロジェクトについて、意見はありますか？」"
+    style_prompt: "manager's question, slight formality"
+    break_after: 800
+
+  - speaker: aoede
+    text: "隣の先輩は即座に手を挙げる。"
+    style_prompt: "observing others' quick response"
+    break_after: 600
+
+  - speaker: aoede
+    text: "自分の頭は真っ白だ……"
+    style_prompt: "personal anxiety, vulnerable moment"
+    break_after: 1200
+
+  # === 展開1: ユング ===
+  - speaker: kore
+    text: "20世紀初頭、スイス・チューリッヒ。"
+    style_prompt: "establishing historical scene, documentary tone"
+    break_after: 700
+    pronunciation:
+      - original: "チューリッヒ"
+        sub: "チューリヒ"
+
+  - speaker: charon
+    text: "精神科医カール・グスタフ・ユングは——"
+    style_prompt: "introducing Jung with respect"
+    break_after: 500
+
+  - speaker: charon
+    text: "師フロイトとの決別という痛みを抱えていました。"
+    style_prompt: "acknowledging personal crisis"
+    break_after: 800
+
+  - speaker: charon
+    text: "精神分析の後継者と目されながら——"
+    style_prompt: "setting up the contradiction"
+    break_after: 400
+
+  - speaker: charon
+    text: "無意識の解釈をめぐって師と袂を分かつ。"
+    style_prompt: "intellectual conflict, serious"
+    break_after: 700
+    pronunciation:
+      - original: "袂"
+        sub: "たもと"
+
+  - speaker: charon
+    text: "学会から孤立し——"
+    style_prompt: "consequence, isolation"
+    break_after: 400
+
+  - speaker: charon
+    text: "自らも精神の危機に陥った時期がありました。"
+    style_prompt: "acknowledging Jung's own psychological crisis"
+    break_after: 1000
+
+  - speaker: kore
+    text: "その孤独の中で、ユングは人間の心の「型」を見出していきます。"
+    style_prompt: "transitioning to his discovery, finding pattern in chaos"
+    break_after: 900
+
+  - speaker: charon
+    text: "「外向型は、外界の出来事を——"
+    style_prompt: "beginning Jung's theoretical insight"
+    break_after: 400
+
+  - speaker: charon
+    text: "即座に受け入れることを特徴とする」"
+    style_prompt: "completing the definition, clear and measured"
+    break_after: 900
+
+  - speaker: kore
+    text: "これは「社交的かどうか」の話ではありません。"
+    style_prompt: "correcting common misconception, slight emphasis"
+    break_after: 800
+
+  - speaker: kore
+    text: "外向型は「話しながら考える」。"
+    style_prompt: "first type - processing externally"
+    break_after: 600
+
+  - speaker: kore
+    text: "言葉にすることで思考が形になる。"
+    style_prompt: "explaining extrovert pattern"
+    break_after: 700
+
+  - speaker: kore
+    text: "内向型は「考えてから話す」。"
+    style_prompt: "second type - processing internally"
+    break_after: 600
+
+  - speaker: kore
+    text: "思考を内側で完成させてから出力する。"
+    style_prompt: "explaining introvert pattern"
+    break_after: 900
+
+  - speaker: kore
+    text: "どちらが優れているわけでもない。"
+    style_prompt: "crucial point - value neutrality"
+    break_after: 600
+
+  - speaker: kore
+    text: "ただ、出力のタイミングが違うだけ。"
+    style_prompt: "simple difference, not hierarchy"
+    break_after: 1000
+
+  - speaker: kore
+    text: "現代の会議室は、外向型のルールで動いています。"
+    style_prompt: "critique of current workplace culture"
+    break_after: 700
+
+  - speaker: kore
+    text: "その場で発言する。すぐに反応する。"
+    style_prompt: "listing extrovert-favoring norms"
+    break_after: 800
+
+  - speaker: aoede
+    text: "内向型にとって、それは——"
+    style_prompt: "empathizing with introverts"
+    break_after: 400
+
+  - speaker: aoede
+    text: "不利なゲームを強いられているようなもの。"
+    style_prompt: "acknowledging structural disadvantage"
+    break_after: 800
+
+  - speaker: kore
+    text: "でも、問題は「自分」ではなく——"
+    style_prompt: "reframing, shifting blame"
+    break_after: 500
+
+  - speaker: kore
+    text: "「ルール」の方かもしれません。"
+    style_prompt: "key insight - systemic issue, not personal failing"
+    break_after: 1200
+
+  # === 展開2: アインシュタイン ===
+  - speaker: kore
+    text: "1907年、スイス・ベルン。"
+    style_prompt: "new historical scene"
+    break_after: 700
+
+  - speaker: charon
+    text: "特許局の技師アルベルト・アインシュタインは——"
+    style_prompt: "introducing Einstein in humble position"
+    break_after: 500
+
+  - speaker: charon
+    text: "窓の外を眺めていました。"
+    style_prompt: "moment of contemplation"
+    break_after: 800
+
+  - speaker: charon
+    text: "向かいの建物の屋根から、もし人が落ちたら——"
+    style_prompt: "thought experiment beginning, curious"
+    break_after: 600
+
+  - speaker: charon
+    text: "その人は「重さ」を感じるだろうか？"
+    style_prompt: "posing the paradoxical question"
+    break_after: 900
+
+  - speaker: kore
+    text: "この奇妙な問いが、彼の頭から離れませんでした。"
+    style_prompt: "acknowledging obsessive quality of insight"
+    break_after: 800
+
+  - speaker: charon
+    text: "落下する人は、自分が落ちているのか——"
+    style_prompt: "exploring the paradox"
+    break_after: 400
+
+  - speaker: charon
+    text: "周りが上昇しているのか区別できない。"
+    style_prompt: "equivalence principle"
+    break_after: 700
+
+  - speaker: charon
+    text: "重力と加速は、見分けがつかない。"
+    style_prompt: "key physics insight, clear articulation"
+    break_after: 1000
+
+  - speaker: kore
+    text: "8年後、一般相対性理論が完成します。"
+    style_prompt: "time jump, major achievement"
+    break_after: 900
+    pronunciation:
+      - original: "相対性"
+        sub: "そうたいせい"
+
+  - speaker: charon
+    text: "重力とは、物体が引き合う「力」ではない。"
+    style_prompt: "revolutionary reframing, negating old model"
+    break_after: 700
+
+  - speaker: charon
+    text: "質量が空間そのものを歪め——"
+    style_prompt: "explaining new paradigm"
+    break_after: 400
+
+  - speaker: charon
+    text: "その歪みに沿って他の物体が動く——"
+    style_prompt: "continuing explanation"
+    break_after: 500
+
+  - speaker: charon
+    text: "それが重力の正体だった。"
+    style_prompt: "revealing true nature"
+    break_after: 1000
+
+  - speaker: kore
+    text: "太陽は周囲の空間を歪めている。"
+    style_prompt: "concrete example"
+    break_after: 700
+
+  - speaker: kore
+    text: "地球は「引っ張られている」のではなく——"
+    style_prompt: "correcting intuition"
+    break_after: 500
+
+  - speaker: kore
+    text: "歪んだ空間を転がっている。"
+    style_prompt: "beautiful alternative image"
+    break_after: 900
+
+  - speaker: kore
+    text: "そして重要なのは——"
+    style_prompt: "emphasizing key point"
+    break_after: 400
+
+  - speaker: kore
+    text: "この歪みは目に見えないということです。"
+    style_prompt: "crucial insight - invisibility"
+    break_after: 1000
+
+  - speaker: kore
+    text: "会議室でも、同じことが起きているのではないでしょうか。"
+    style_prompt: "bridging to workplace metaphor, inviting connection"
+    break_after: 900
+
+  - speaker: kore
+    text: "軽い発言は、場を歪めない。"
+    style_prompt: "first part of metaphor"
+    break_after: 700
+
+  - speaker: kore
+    text: "しかし、深く考え抜いた沈黙には「質量」がある。"
+    style_prompt: "introducing mass of silence, emphasis on 質量"
+    break_after: 800
+
+  - speaker: kore
+    text: "その質量が、見えないところで——"
+    style_prompt: "explaining invisible influence"
+    break_after: 400
+
+  - speaker: kore
+    text: "場の空気を歪め始める。"
+    style_prompt: "completing metaphor - silence as gravitational force"
+    break_after: 1200
+
+  # === 展開3: スピノザ ===
+  - speaker: kore
+    text: "17世紀、オランダ・アムステルダム。"
+    style_prompt: "new historical scene"
+    break_after: 700
+
+  - speaker: charon
+    text: "バルーフ・スピノザは——"
+    style_prompt: "introducing Spinoza"
+    break_after: 400
+
+  - speaker: charon
+    text: "24歳でユダヤ教共同体から永久追放されました。"
+    style_prompt: "dramatic exclusion, serious consequence"
+    break_after: 900
+
+  - speaker: charon
+    text: "神についての「忌まわしき異端」を唱えたという理由で。"
+    style_prompt: "explaining harsh judgment against him"
+    break_after: 900
+    pronunciation:
+      - original: "忌まわしき"
+        sub: "いまわしき"
+
+  - speaker: kore
+    text: "以後、彼はレンズを磨いて生計を立てながら——"
+    style_prompt: "humble profession"
+    break_after: 500
+
+  - speaker: kore
+    text: "誰にも属さず、孤独の中で哲学を紡ぎました。"
+    style_prompt: "intellectual independence through isolation"
+    break_after: 900
+    pronunciation:
+      - original: "紡ぎました"
+        sub: "つむぎました"
+
+  - speaker: charon
+    text: "主著『エチカ』は——"
+    style_prompt: "referencing major work"
+    break_after: 400
+
+  - speaker: charon
+    text: "生前には出版すらできなかった。"
+    style_prompt: "emphasizing how radical/dangerous his ideas were"
+    break_after: 1000
+
+  - speaker: kore
+    text: "その孤独な思索者が残した言葉。"
+    style_prompt: "transitioning to his key concept"
+    break_after: 800
+
+  - speaker: charon
+    text: "「永遠の相の下に」"
+    style_prompt: "Latin phrase translated, philosophical weight"
+    break_after: 1200
+    pronunciation:
+      - original: "永遠"
+        sub: "えいえん"
+
+  - speaker: kore
+    text: "これは「長い目で見よう」という処世術ではありません。"
+    style_prompt: "negating superficial interpretation"
+    break_after: 900
+
+  - speaker: charon
+    text: "目の前の出来事に感情で反応するのではなく——"
+    style_prompt: "explaining what not to do"
+    break_after: 500
+
+  - speaker: charon
+    text: "それがどこから来てどこへ行くのか——"
+    style_prompt: "broader perspective"
+    break_after: 400
+
+  - speaker: charon
+    text: "構造と必然の全体を俯瞰しようとする理性の働き。"
+    style_prompt: "completing definition of sub specie aeternitatis"
+    break_after: 1000
+
+  - speaker: kore
+    text: "誰かのマウント発言。焦る空気。"
+    style_prompt: "listing workplace provocations"
+    break_after: 700
+
+  - speaker: kore
+    text: "それらに巻き込まれず——"
+    style_prompt: "not getting caught up"
+    break_after: 400
+
+  - speaker: kore
+    text: "なぜその発言が出たのか——"
+    style_prompt: "asking deeper questions"
+    break_after: 400
+
+  - speaker: kore
+    text: "議論全体がどこへ向かおうとしているのかを見極める。"
+    style_prompt: "seeing the whole trajectory"
+    break_after: 900
+
+  - speaker: kore
+    text: "全体像が見えるまで、口を開かない。"
+    style_prompt: "strategic silence"
+    break_after: 800
+
+  - speaker: kore
+    text: "それは遅いのではなく——"
+    style_prompt: "reframing apparent slowness"
+    break_after: 400
+
+  - speaker: kore
+    text: "「永遠の相」を掴もうとする理性の発動なのです。"
+    style_prompt: "revealing silence as active rationality"
+    break_after: 1200
+
+  # === 転換: 維摩の沈黙 ===
+  - speaker: kore
+    text: "紀元1世紀頃、インド。"
+    style_prompt: "ancient scene, different civilization"
+    break_after: 700
+
+  - speaker: gacrux
+    text: "ヴァイシャーリーという街に——"
+    style_prompt: "establishing location, exotic name"
+    break_after: 500
+
+  - speaker: gacrux
+    text: "維摩詰という富豪がいました。"
+    style_prompt: "introducing Vimalakirti, wealthy layman"
+    break_after: 800
+    pronunciation:
+      - original: "維摩詰"
+        sub: "ゆいまきつ"
+
+  - speaker: gacrux
+    text: "商人でありながら——"
+    style_prompt: "paradox of worldly yet enlightened"
+    break_after: 400
+
+  - speaker: gacrux
+    text: "どの高僧よりも深く仏法を理解している——"
+    style_prompt: "his exceptional understanding"
+    break_after: 500
+
+  - speaker: gacrux
+    text: "そう噂される在家の賢者。"
+    style_prompt: "completing description, respected wisdom"
+    break_after: 900
+    pronunciation:
+      - original: "在家"
+        sub: "ざいけ"
+
+  - speaker: kore
+    text: "ある日、文殊菩薩が維摩のもとを訪れ——"
+    style_prompt: "setting up famous encounter"
+    break_after: 600
+    pronunciation:
+      - original: "文殊菩薩"
+        sub: "もんじゅぼさつ"
+
+  - speaker: kore
+    text: "問いを投げかけました。"
+    style_prompt: "initiating philosophical challenge"
+    break_after: 800
+
+  - speaker: gacrux
+    text: "「不二の法門とは何か。"
+    style_prompt: "Manjushri's question, philosophical gravity"
+    break_after: 600
+    pronunciation:
+      - original: "不二"
+        sub: "ふに"
+      - original: "法門"
+        sub: "ほうもん"
+
+  - speaker: gacrux
+    text: "対立を超えた真理を、どう語ればいい？」"
+    style_prompt: "completing the paradoxical question"
+    break_after: 900
+
+  - speaker: kore
+    text: "居並ぶ菩薩たちは——"
+    style_prompt: "other bodhisattvas responding"
+    break_after: 400
+
+  - speaker: kore
+    text: "それぞれ言葉を尽くして答えました。"
+    style_prompt: "many verbal attempts"
+    break_after: 800
+
+  - speaker: gacrux
+    text: "「生と滅は不二である」"
+    style_prompt: "example answer, philosophical"
+    break_after: 600
+
+  - speaker: gacrux
+    text: "「善と悪は不二である」"
+    style_prompt: "another example answer"
+    break_after: 800
+
+  - speaker: kore
+    text: "しかし維摩は——"
+    style_prompt: "building to dramatic moment, pause"
+    break_after: 800
+
+  - speaker: gacrux
+    text: "「時維摩詰默然無言」——"
+    style_prompt: "classical Chinese text, measured pronunciation"
+    break_after: 600
+    pronunciation:
+      - original: "默然"
+        sub: "もくねん"
+
+  - speaker: gacrux
+    text: "そのとき維摩、黙然として言うこと無し。"
+    style_prompt: "Japanese translation, emphasizing the silence"
+    break_after: 1200
+
+  - speaker: kore
+    text: "文殊菩薩は、その沈黙を讃えました。"
+    style_prompt: "acknowledging Vimalakirti's wisdom"
+    break_after: 800
+    pronunciation:
+      - original: "讃えました"
+        sub: "たたえました"
+
+  - speaker: gacrux
+    text: "「これこそが、真の不二の入り口である」"
+    style_prompt: "Manjushri's praise, recognizing superior answer"
+    break_after: 1000
+
+  - speaker: kore
+    text: "言葉で語った瞬間——"
+    style_prompt: "explaining the trap of language"
+    break_after: 400
+
+  - speaker: kore
+    text: "真理は「言葉」と「言葉でないもの」に分かれてしまう。"
+    style_prompt: "paradox of linguistic dualism"
+    break_after: 800
+
+  - speaker: kore
+    text: "維摩の沈黙は、その罠を超えていた。"
+    style_prompt: "Vimalakirti's silence transcends the trap"
+    break_after: 900
+
+  - speaker: kore
+    text: "沈黙もまた、雄弁な回答になりうる。"
+    style_prompt: "key lesson - eloquent silence"
+    break_after: 1200
+
+  # === リフレーミング ===
+  - speaker: kore
+    text: "ただし、注意が必要です。"
+    style_prompt: "important caveat, slight warning"
+    break_after: 800
+
+  - speaker: kore
+    text: "維摩の沈黙は——"
+    style_prompt: "clarifying Vimalakirti's act"
+    break_after: 400
+
+  - speaker: kore
+    text: "「萎縮して黙っていた」のではありません。"
+    style_prompt: "negating passive interpretation"
+    break_after: 700
+    pronunciation:
+      - original: "萎縮"
+        sub: "いしゅく"
+
+  - speaker: kore
+    text: "究極の真理を示すために、「沈黙を選んだ」のです。"
+    style_prompt: "active choice, intentional silence"
+    break_after: 1000
+
+  - speaker: kore
+    text: "会議室での沈黙も同じです。"
+    style_prompt: "applying lesson to workplace"
+    break_after: 800
+
+  - speaker: aoede
+    text: "オロオロと黙っているのと——"
+    style_prompt: "passive anxious silence"
+    break_after: 500
+
+  - speaker: kore
+    text: "「今、深く潜っている」という意思を持って黙るのとでは——"
+    style_prompt: "active intentional silence"
+    break_after: 600
+
+  - speaker: kore
+    text: "まったく違う。"
+    style_prompt: "emphasizing the distinction"
+    break_after: 900
+
+  - speaker: kore
+    text: "後者の沈黙には、重力がある。"
+    style_prompt: "returning to gravity metaphor"
+    break_after: 800
+
+  - speaker: kore
+    text: "アインシュタインが示したように、質量は空間を歪める。"
+    style_prompt: "recalling earlier physics lesson"
+    break_after: 800
+
+  - speaker: kore
+    text: "深い思考という「質量」を持った沈黙は——"
+    style_prompt: "silence with mass of deep thought"
+    break_after: 500
+
+  - speaker: kore
+    text: "軽薄な議論の軌道を静かに曲げていく。"
+    style_prompt: "silent influence on shallow discussion"
+    break_after: 1000
+
+  - speaker: kore
+    text: "「発言しないこと」は——"
+    style_prompt: "key reframing"
+    break_after: 400
+
+  - speaker: kore
+    text: "「参加していないこと」ではありません。"
+    style_prompt: "negating common assumption"
+    break_after: 900
+
+  - speaker: kore
+    text: "思考の深海に碇を下ろし、場を安定させる——"
+    style_prompt: "beautiful metaphor - anchor in deep thought"
+    break_after: 600
+    pronunciation:
+      - original: "碇"
+        sub: "いかり"
+
+  - speaker: kore
+    text: "それは、見えない重力として働く仕事なのです。"
+    style_prompt: "completing reframe - silence as invisible work"
+    break_after: 1200
+
+  # === 着地 ===
+  - speaker: aoede
+    text: "次の会議。"
+    style_prompt: "returning to concrete scenario"
+    break_after: 700
+
+  - speaker: aoede
+    text: "無理に発言しようとしなくていい。"
+    style_prompt: "permission to be silent, reassuring"
+    break_after: 800
+
+  - speaker: kore
+    text: "焦る周囲を、スピノザのような静かな目で見つめてみる。"
+    style_prompt: "invoking Spinoza's perspective"
+    break_after: 800
+
+  - speaker: aoede
+    text: "「私は今、深く潜っている」と、自分に言い聞かせる。"
+    style_prompt: "internal affirmation, gentle self-talk"
+    break_after: 900
+
+  - speaker: kore
+    text: "そして、本当に必要な言葉が浮かび上がってきた時だけ——"
+    style_prompt: "waiting for right moment"
+    break_after: 500
+
+  - speaker: kore
+    text: "口を開けばいい。"
+    style_prompt: "simple permission"
+    break_after: 1000
+
+  - speaker: aoede
+    text: "「それって、こういうことですか？」"
+    style_prompt: "example simple clarifying question, genuine inquiry"
+    break_after: 800
+
+  - speaker: kore
+    text: "たった一言。"
+    style_prompt: "emphasizing brevity"
+    break_after: 600
+
+  - speaker: kore
+    text: "でも、その言葉には——"
+    style_prompt: "building to impact"
+    break_after: 400
+
+  - speaker: kore
+    text: "30分の議論の軌道を変える重力があるはずです。"
+    style_prompt: "powerful effect"

@@ -1,0 +1,246 @@
+episodes:
+  - episode_number: "S2E12"
+    title: "休めない症候群"
+    duration_target: "8:00"
+    
+    segments:
+      # アバン (4セグメント)
+      - speaker: "kore"
+        style: "contemplative documentary narration, conflicted"
+        text: "有給は溜まっている。定時は過ぎている。なのに、席を立てない。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, questioning"
+        text: "「休む」ことが、なぜこれほど難しいのでしょうか。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, probing"
+        text: "怠惰への恐怖か、それとも、私たちが「休息」の本当の意味を見失っているからか。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "warm documentary welcome"
+        text: "ようこそ、<sub alias='オリオン'>Orion</sub>の会議室へ。今夜のテーマは「休めない症候群」。"
+        break_after: 1500
+      
+      # 星座の提示 (4セグメント)
+      - speaker: "kore"
+        style: "contemplative documentary narration, introducing concept"
+        text: "<sub alias='ここんとうざい'>古今東西</sub>の叡智を星座のように結び、現代の悩みに新しい視座を見つける8分間。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, presenting framework"
+        text: "今夜めぐる星々は——「終わり」が消えた時代の病理。眠る脳の大掃除という発見。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration"
+        text: "「余暇のために働く」という逆転の発想。そして、空の茶碗だけが受け取れるという禅の教え。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, connecting threads"
+        text: "バラバラの星々が、「休めない」という現代病に新しい処方箋を差し出し始めます。"
+        break_after: 1500
+      
+      # 没入 (6セグメント)
+      - speaker: "aoede"
+        style: "introspective narration, observing scene"
+        text: "金曜日、午後6時。定時の<sub alias='チャイム'>chime</sub>が鳴る。周りを見渡す。誰も立ち上がらない。"
+        break_after: 1000
+      
+      - speaker: "aoede"
+        style: "introspective narration, hesitant"
+        text: "「お先に失礼します」——その一言が、なぜこんなに重いのか。"
+        break_after: 1100
+      
+      - speaker: "aoede"
+        style: "introspective narration, self-aware"
+        text: "有給休暇は20日ある。でも、去年使ったのは3日だけ。"
+        break_after: 1000
+      
+      - speaker: "aoede"
+        style: "introspective narration, restless"
+        text: "土曜日。久しぶりの休日。<sub alias='ソファ'>sofa</sub>に座っても落ち着かない。"
+        break_after: 1000
+      
+      - speaker: "aoede"
+        style: "introspective narration, compulsive"
+        text: "<sub alias='スマホ'>smartphone</sub>で仕事の<sub alias='メール'>email</sub>を<sub alias='チェック'>check</sub>してしまう。「休んでいるはずなのに、休めていない」"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, empathetic"
+        text: "この循環を、いつまで続けるのだろうか。"
+        break_after: 1500
+      
+      # 展開1：デュルケームの警告 (6セグメント)
+      - speaker: "kore"
+        style: "documentary narration, historical introduction"
+        text: "1897年、<sub alias='パリ'>Paris</sub>。社会学者<sub alias='エミール・デュルケーム'>Émile Durkheim</sub>は——"
+        break_after: 900
+      
+      - speaker: "kore"
+        style: "documentary narration, investigating paradox"
+        text: "自殺という極めて個人的な行為に、社会的な<sub alias='パターン'>pattern</sub>を見出そうとしていました。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "documentary narration, revealing finding"
+        text: "彼が発見したのは、意外な事実でした。経済危機の時だけでなく、好景気の時にも自殺率は上昇する。"
+        break_after: 1200
+      
+      - speaker: "charon"
+        style: "sociological analysis, grave insight"
+        text: "「<sub alias='アノミー'>Anomie</sub>（無規範状態）は、現代社会において、自殺の恒常的かつ特有の要因である」"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, explaining concept"
+        text: "社会の規範が崩壊し、「どこまでやればいいか」の基準を失った時、人は最も追い詰められる。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, connecting to present"
+        text: "かつて、労働には「終わり」がありました。日が暮れれば仕事は終わる。日曜日は安息日。しかし現代、<sub alias='スマホ'>smartphone</sub>は24時間、仕事を運んでくる。「どこまでやれば十分か」——その基準が消えた。休めないのは、あなたの意志が弱いからではありません。「ここまでやれば休んでいい」という社会的な規範そのものが、溶解してしまったのです。"
+        break_after: 1500
+      
+      # 展開2：脳は夜に「掃除」される (5セグメント)
+      - speaker: "kore"
+        style: "documentary narration, transitioning to neuroscience"
+        text: "では、休まないことで、身体には何が起きているのか。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "documentary narration, introducing discovery"
+        text: "2012年、<sub alias='ロチェスター'>Rochester</sub>大学。神経科学者<sub alias='マイケン・ネーダーガード'>Maiken Nedergaard</sub>は、<sub alias='マウス'>mouse</sub>の脳を観察していて、奇妙なことに気づきました。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "documentary narration, revealing mechanism"
+        text: "睡眠中の<sub alias='マウス'>mouse</sub>の脳では、何かが「流れている」。彼女が発見したのは「<sub alias='グリンパティック・システム'>glymphatic system</sub>」。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "documentary narration, explaining process"
+        text: "深い睡眠中、脳細胞は約60%縮小し、その隙間を脳脊髄液が流れて老廃物を洗い流す。この<sub alias='システム'>system</sub>は、起きている間はほとんど機能しない。"
+        break_after: 1300
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, reframing sleep"
+        text: "睡眠は「何もしていない時間」ではありません。脳が最も重要な<sub alias='メンテナンス'>maintenance</sub>作業をしている時間なのです。「休まない」ことは、「脳を掃除しない」こと。<sub alias='ゴミ'>garbage</sub>屋敷で暮らしながら「効率的に働こう」としているようなものです。"
+        break_after: 1500
+      
+      # 転換：アリストテレスの逆転 (6セグメント)
+      - speaker: "kore"
+        style: "documentary narration, philosophical transition"
+        text: "脳科学は「休むべき理由」を教えてくれます。では、「休むとは何か」を教えてくれるのは誰でしょうか。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "documentary narration, historical scene"
+        text: "紀元前4世紀、<sub alias='アテナイ'>Athēnai</sub>。<sub alias='アリストテレス'>Aristotle</sub>は<sub alias='リュケイオン'>Lyceum</sub>という学園で、弟子たちと歩きながら哲学を語っていました。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "documentary narration, contextualizing era"
+        text: "奴隷が労働を担い、市民は「余暇」を享受する——そんな時代です。"
+        break_after: 1000
+      
+      - speaker: "charon"
+        style: "philosophical wisdom, purposeful"
+        text: "「我々が働くのは、余暇（<sub alias='スコレー'>scholē</sub>）を得るためである」"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, etymological insight"
+        text: "現代語の「<sub alias='スクール'>school</sub>（学校）」は、この「<sub alias='スコレー'>scholē</sub>」から来ています。古代<sub alias='ギリシャ'>Greece</sub>人にとって、余暇こそが哲学し、人間として成長する時間だった。労働は、その余暇を得るための「手段」に過ぎなかった。"
+        break_after: 1300
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, modern reversal"
+        text: "しかし現代はどうでしょうか。完全に逆転しています。「<sub alias='リフレッシュ'>refresh</sub>して、また頑張ろう」——休息さえも「生産性向上のための<sub alias='ツール'>tool</sub>」に組み込まれている。<sub alias='アリストテレス'>Aristotle</sub>が聞いたら、こう言うでしょう。「君たちは、手段と目的を取り違えている」"
+        break_after: 1500
+      
+      # リフレーミング：茶碗を空にせよ (5セグメント)
+      - speaker: "kore"
+        style: "documentary narration, transitioning to zen"
+        text: "明治時代、鎌倉。臨済宗の禅僧・<sub alias='なんいんぜんぐ'>南隠全愚</sub>のもとに、ある大学教授が教えを乞いに来ました。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "documentary narration, storytelling"
+        text: "教授は自分の知識を披露し、禅についての持論を滔々と語りました。<sub alias='なんいん'>南隠</sub>は黙ってお茶を淹れ、教授の茶碗に注ぎ続けた。茶碗が溢れても、注ぐのをやめない。"
+        break_after: 1200
+      
+      - speaker: "charon"
+        style: "zen master, calm teaching"
+        text: "「あなたはこの茶碗と同じだ。自分の意見で満杯になっている。まず茶碗を空にしなさい。さもなくば、何も入らない」"
+        break_after: 1300
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, interpreting parable"
+        text: "満タンの器には、新しい知恵は注げない。思考の<sub alias='ゴミ'>garbage</sub>で詰まった脳には、革新的な<sub alias='アイデア'>idea</sub>は降りてこない。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, redefining rest"
+        text: "休息とは、停止ではありません。不必要なものを洗い流し、「器を空にする」能動的な行為。それは、新しいものを受け取るための<sub alias='スペース'>space</sub>を作る戦略なのです。"
+        break_after: 1500
+      
+      # 着地 (5セグメント)
+      - speaker: "aoede"
+        style: "gentle, introspective narration, decisive"
+        text: "金曜日、午後6時。定時の<sub alias='チャイム'>chime</sub>が鳴る。今日は、立ち上がってみる。"
+        break_after: 1000
+      
+      - speaker: "aoede"
+        style: "gentle, introspective narration, assertive"
+        text: "「お先に失礼します」"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, reframing action"
+        text: "その一言は、怠惰の宣言ではありません。規範が溶解した時代に、自分で線を引く。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, empowering"
+        text: "脳を掃除する時間を確保する。手段と目的を取り違えない。そして、茶碗を空にする。「休めない」のは、あなたの弱さではない。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, rebellious wisdom"
+        text: "今夜は、早く寝てください。それは逃避ではなく、最も生産的な反逆です。"
+        break_after: 1500
+      
+      # クロージング (3セグメント)
+      - speaker: "kore"
+        style: "contemplative documentary narration, looking up"
+        text: "夜空を見上げると、<sub alias='オリオン'>Orion</sub>座が輝いています。星と星の間には、膨大な「空白」が広がっている。その空白がなければ、星座は描けない。満たされ続けるものは、やがて輪郭を失う。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, poetic wisdom"
+        text: "知識の星座は、見る人によって違う物語を紡ぎます。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "warm documentary narration, final blessing"
+        text: "明日の朝、目覚めた時、少しだけ軽くなった頭を感じてください。それは、あなたの脳が夜通し働いて、掃除してくれた証拠なのですから。"
+        break_after: 2000
+
+production_notes:
+  - "総セグメント数: 40"
+  - "各セグメントは意味のまとまりを重視"
+  - "kore: メインナレーター（瞑想的ドキュメンタリー）"
+  - "charon: 社会学者・哲学者・禅師の引用"
+  - "aoede: 没入シーンと着地部分の内省的ナレーション"
+  - "英単語・外来語・固有名詞に発音ガイド適用"
+  - "日本語固有名詞（南隠全愚）に読み仮名"
+  - "「古今東西」に<sub alias='ここんとうざい'>を適用（定型ルール）"
+  - "ギリシャ語・フランス語の引用は日本語訳のみ使用"
+  - "ブレークタイムは文脈に応じて1000ms-1500msで調整"

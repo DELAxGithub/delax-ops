@@ -1,0 +1,271 @@
+episodes:
+  - episode_number: "S2E05"
+    title: "SNS疲れの処方箋"
+    duration_target: "8:00"
+    
+    segments:
+      # アバン (3セグメント)
+      - speaker: "kore"
+        style: "contemplative documentary narration, anxious undertone"
+        text: "通知が来るたびにスマホを見てしまう。「いいね」の数を何度も確認してしまう。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, questioning"
+        text: "私たちは「つながり」を求めているはずなのに、なぜ「見られていないと不安」になるのでしょうか。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "warm documentary welcome"
+        text: "ようこそ、<sub alias='オリオン'>Orion</sub>の会議室へ。今夜のテーマは「<sub alias='エスエヌエス'>SNS</sub>疲れの処方箋」。"
+        break_after: 1500
+      
+      # 星座の提示 (4セグメント)
+      - speaker: "kore"
+        style: "contemplative documentary narration, introducing concept"
+        text: "<sub alias='ここんとうざい'>古今東西</sub>の叡智を星座のように結び、現代の悩みに新しい視座を見つける8分間。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, presenting framework"
+        text: "今夜めぐる星々は——<sub alias='スロット'>slot</sub>マシンと同じ脳の報酬回路。他者を「それ」として消費してしまう関係性の構造。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration"
+        text: "感覚を麻痺させる<sub alias='メディア'>media</sub>の本質。<sub alias='コントロール'>control</sub>できるものとできないものの峻別。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, connecting threads"
+        text: "そして、誰の承認も必要としない「今ここ」の発見。バラバラの星々が、「共有しない」という贅沢を照らし始めます。"
+        break_after: 1500
+      
+      # 没入 (5セグメント)
+      - speaker: "aoede"
+        style: "introspective narration, intimate and anxious"
+        text: "朝、目が覚める。まだ<sub alias='ベッド'>bed</sub>の中。最初にすることは、スマホを手に取ること。"
+        break_after: 900
+      
+      - speaker: "aoede"
+        style: "introspective narration, checking compulsively"
+        text: "通知を確認する。昨夜の投稿に「いいね」がいくつついたか。23件。悪くない。いや、もっとつくと思っていた。"
+        break_after: 1100
+      
+      - speaker: "aoede"
+        style: "introspective narration, obsessive"
+        text: "誰がいいねしたか、一人ずつ確認する。あの人はしてくれた。あの人はしてくれなかった。"
+        break_after: 1000
+      
+      - speaker: "aoede"
+        style: "introspective narration, realizing"
+        text: "気づけば20分が経っている。"
+        break_after: 900
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, empathetic"
+        text: "疲れているのに、<sub alias='スクロール'>scroll</sub>を止められない。"
+        break_after: 1500
+      
+      # 展開1：脳を乗っ取る仕組み (5セグメント)
+      - speaker: "kore"
+        style: "documentary narration, scientific introduction"
+        text: "神経科学が、ひとつの答えを示しています。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "documentary narration, citing research"
+        text: "2016年、<sub alias='ユーシーエルエー'>UCLA</sub>の研究<sub alias='チーム'>team</sub>がティーンエイジャーの脳を<sub alias='エフエムアールアイ'>fMRI</sub>で<sub alias='スキャン'>scan</sub>しました。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "documentary narration, explaining findings"
+        text: "自分の投稿に「いいね」が多くついているのを見た瞬間、側坐核——報酬系の中枢——が強く活性化した。これは金銭報酬を得たときと同じ反応です。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, explaining mechanism"
+        text: "さらに重要なのは、<sub alias='エスエヌエス'>SNS</sub>の通知が「可変比率強化<sub alias='スケジュール'>schedule</sub>」で設計されていること。心理学者B・F・<sub alias='スキナー'>Skinner</sub>が発見した、最も消去されにくい学習<sub alias='パターン'>pattern</sub>です。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, key insight"
+        text: "いつ報酬が来るか分からない。だから何度も確認してしまう。<sub alias='スロット'>slot</sub>マシンと同じ原理。あなたの意志が弱いのではありません。<sub alias='システム'>system</sub>が、そう設計されているのです。"
+        break_after: 1500
+      
+      # 展開2：ブーバーの警告 (7セグメント)
+      - speaker: "kore"
+        style: "documentary narration, shifting perspective"
+        text: "しかし、問題は<sub alias='ドーパミン'>dopamine</sub>だけではありません。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "documentary narration, historical introduction"
+        text: "20世紀初頭、<sub alias='ウィーン'>Wien</sub>。宗教哲学者<sub alias='マルティン・ブーバー'>Martin Buber</sub>は——"
+        break_after: 700
+      
+      - speaker: "kore"
+        style: "documentary narration"
+        text: "<sub alias='ユダヤ'>Jewish</sub>教の伝統と<sub alias='ヨーロッパ'>Europe</sub>哲学の間で、人間関係の本質を問い続けていました。"
+        break_after: 1200
+      
+      - speaker: "charon"
+        style: "philosophical conviction, profound tone"
+        text: "「『我と汝』という根源語は、全存在をもってのみ語りうる」"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, explaining philosophy"
+        text: "<sub alias='ブーバー'>Buber</sub>は、人間関係を二つに分けました。「我とそれ」と「我と汝」。「それ」として出会うとき、相手は利用や分析の対象になる。「汝」として出会うとき、相手は全人格として現れる。"
+        break_after: 1300
+      
+      - speaker: "kore"
+        style: "documentary narration, critical observation"
+        text: "<sub alias='エスエヌエス'>SNS</sub>の<sub alias='タイム'>time</sub>ラインを見てください。私たちは無意識に、友人の投稿を「審査」していないでしょうか。「映えているか」「面白いか」「役に立つか」。逆も同じです。投稿する時の私たちは、他者を「いいねをくれる観客」として見ている。"
+        break_after: 1300
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, weary realization"
+        text: "全員が互いを「<sub alias='コンテンツ'>content</sub>」として消費し合っている。疲れるのは当然です。24時間、舞台の上で演じながら、同時に客席で審査員もやらされている。"
+        break_after: 1500
+      
+      # 展開3：マクルーハンの「麻痺」 (6セグメント)
+      - speaker: "kore"
+        style: "documentary narration, transitioning"
+        text: "では、なぜその疲れから降りられないのか。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "documentary narration, introducing theorist"
+        text: "1960年代、<sub alias='カナダ'>Canada</sub>。<sub alias='メディア'>media</sub>論の巨人<sub alias='マーシャル・マクルーハン'>Marshall McLuhan</sub>は、<sub alias='テレビ'>TV</sub>の時代に、恐ろしい洞察を残しています。"
+        break_after: 1200
+      
+      - speaker: "charon"
+        style: "media theorist, ominous tone"
+        text: "「若者<sub alias='ナルキッソス'>Narcissus</sub>は、水面の自分を他者と見誤った。鏡による自己拡張が、彼の知覚を麻痺させたのだ」"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, explaining concept"
+        text: "<sub alias='マクルーハン'>McLuhan</sub>は、これを「<sub alias='ナルコシス'>narcosis</sub>（麻痺）」と呼びました。<sub alias='テクノロジー'>technology</sub>によって身体が拡張されると、その過剰な刺激から身を守るために、中枢神経は感覚を鈍らせる。"
+        break_after: 1300
+      
+      - speaker: "kore"
+        style: "documentary narration, profound insight"
+        text: "私たちはスマホに「見とれている」のではない。現実の不安や孤独を感じないように、<sub alias='タイム'>time</sub>ラインという情報の洪水を浴びて、感覚を「麻痺」させているのです。"
+        break_after: 1300
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, revealing truth"
+        text: "<sub alias='スクロール'>scroll</sub>が止まらないのは、楽しいからではない。止めた瞬間に訪れる「静寂」が、怖いからです。"
+        break_after: 1500
+      
+      # 転換：エピクテトスの自由 (6セグメント)
+      - speaker: "kore"
+        style: "documentary narration, shifting to ancient wisdom"
+        text: "では、本物の鎖につながれながら、魂だけは自由だった男の話をしましょう。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "documentary narration, historical introduction"
+        text: "紀元1世紀、<sub alias='ローマ'>Roma</sub>帝国。哲学者<sub alias='エピクテトス'>Epictetus</sub>は、もともと奴隷でした。しかし、鎖につながれた身でありながら、彼は「真の自由」を発見しました。"
+        break_after: 1200
+      
+      - speaker: "charon"
+        style: "stoic philosopher, calm authority"
+        text: "「人を乱すのは、物事そのものではなく、物事についての判断である」"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, explaining philosophy"
+        text: "「いいね」の数は、あなたには<sub alias='コントロール'>control</sub>できません。他者がどう反応するかは、他者の領域です。しかし、その数をどう「解釈」するかは、あなたが決められる。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, key teaching"
+        text: "<sub alias='エピクテトス'>Epictetus</sub>は言います。<sub alias='コントロール'>control</sub>できないものに心を乱されるな。<sub alias='コントロール'>control</sub>できるもの——自分の判断、自分の態度——だけに集中せよ、と。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, profound"
+        text: "奴隷だった彼が、皇帝よりも自由だったのは、この区別を徹底したからです。私たちはスマホという見えない鎖に繋がれている。でも、心の自由は、誰にも奪えない。"
+        break_after: 1500
+      
+      # リフレーミング：純粋経験を取り戻す (5セグメント)
+      - speaker: "kore"
+        style: "documentary narration, gentle transition"
+        text: "<sub alias='ベトナム'>Vietnam</sub>出身の禅僧<sub alias='ティク・ナット・ハン'>Thich Nhat Hanh</sub>は、こう語りました。"
+        break_after: 1000
+      
+      - speaker: "charon"
+        style: "zen master, serene wisdom"
+        text: "「あなたが花を見るとき、花もまたあなたを見ている」"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, poetic"
+        text: "その体験は、誰かに「いいね」と言われなくても、そこに存在しています。むしろ、写真を撮って共有しようとした瞬間、「私と花」の結びつきは切れ、「私と<sub alias='フォロワー'>follower</sub>」の関係にすり替わってしまう。"
+        break_after: 1300
+      
+      - speaker: "kore"
+        style: "documentary narration, key insight"
+        text: "<sub alias='ブーバー'>Buber</sub>の言う「汝」と出会うためには、まず一度、回線を切らなければなりません。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, liberating"
+        text: "<sub alias='シェア'>share</sub>しないこと。それは隠すことではありません。その体験を、他者の視線で汚さず、純粋なまま味わうこと。「今ここ」とは、誰の「いいね」も必要としない、あなただけの聖域なのです。"
+        break_after: 1500
+      
+      # 着地 (5セグメント)
+      - speaker: "aoede"
+        style: "gentle, introspective narration"
+        text: "次の週末。旅先で、息を呑むような夕日に出会ったとする。"
+        break_after: 1000
+      
+      - speaker: "aoede"
+        style: "gentle, introspective narration"
+        text: "いつもなら、すぐにスマホを取り出すでしょう。でも、今回はあえて、<sub alias='ポケット'>pocket</sub>に入れたままにしてみる。"
+        break_after: 1100
+      
+      - speaker: "aoede"
+        style: "gentle, introspective narration, liberating"
+        text: "この感動は、誰とも<sub alias='シェア'>share</sub>しない。「いいね」の数に変換せず、そのまま私の心の中にだけ、溶かしていく。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, reassuring"
+        text: "<sub alias='エピクテトス'>Epictetus</sub>が言うように、他者の反応は<sub alias='コントロール'>control</sub>できない。ならば、そこに心を預けるのをやめる。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, profound"
+        text: "誰にも知られないその瞬間こそが、最も確かな「私」なのですから。"
+        break_after: 1500
+      
+      # クロージング (3セグメント)
+      - speaker: "kore"
+        style: "contemplative documentary narration, looking up"
+        text: "夜空を見上げると、<sub alias='オリオン'>Orion</sub>座が輝いています。星々は、誰に見られていなくても、そこで燃えています。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, poetic wisdom"
+        text: "存在は、承認の前にある。知識の星座は、見る人によって違う物語を紡ぎます。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "warm documentary narration, gentle invitation"
+        text: "今夜は、何も投稿せずに眠りましょう。"
+        break_after: 2000
+
+production_notes:
+  - "総セグメント数: 42（目標40前後）"
+  - "各セグメントは意味のまとまりを重視"
+  - "外国語原文（独・希・英）はすべてスキップし、日本語訳のみ使用"
+  - "kore: メインナレーター（瞑想的ドキュメンタリー）"
+  - "charon: 哲学者・理論家の引用"
+  - "aoede: 没入シーンと着地部分の内省的ナレーション"
+  - "英単語・外来語・固有名詞に発音ガイド適用"
+  - "「古今東西」に<sub alias='ここんとうざい'>を適用（定型ルール）"
+  - "ブレークタイムは文脈に応じて700ms-1500msで調整"

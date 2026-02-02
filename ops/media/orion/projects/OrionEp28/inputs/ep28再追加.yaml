@@ -1,0 +1,45 @@
+# S2E13「会議という時間」第2回追加セグメント
+# 既存YAMLへの挿入用
+
+# ワツラウィックセクション（展開1）への追加
+# 「精神研究所でコミュニケーションの構造を解析していました。」の後に挿入
+additional_watzlawick_research_context:
+  - speaker: "kore"
+    style: "documentary narration, research background"
+    text: "彼が研究していたのは、統合失調症患者の家族でした。なぜある家庭では子どもが病むのか。言葉だけを分析しても分からない。しかし、沈黙や視線、声の<sub alias='トーン'>tone</sub>まで含めて観察すると、見えてくるものがあった。"
+    break_after: 1300
+
+# 「彼が発見したのは、直感に反する事実でした。」を置き換え
+updated_watzlawick_discovery:
+  - speaker: "kore"
+    style: "documentary narration, revealing insight"
+    text: "そこから彼が発見したのは、直感に反する事実でした。"
+    break_after: 1000
+
+# 「そして、その沈黙は、同意にも、抵抗にも、諦めにも見える。」を置き換え・拡張
+updated_silence_ambiguity:
+  - speaker: "kore"
+    style: "contemplative documentary narration, noting complexity"
+    text: "そして厄介なことに、その沈黙は多義的です。同意にも見えるし、抵抗にも見えるし、諦めにも見える。発信者の意図と、受信者の解釈がずれやすい。"
+    break_after: 1300
+
+# 着地セクションへの追加
+# 「全員が、この瞬間だけの「一座」を作っている。」の後に挿入
+additional_practical_steps:
+  - speaker: "kore"
+    style: "contemplative documentary narration, practical guidance"
+    text: "もし余裕があれば、黙っている人に声をかけてみてください。「どう思いますか？」と。沈黙は多義的だから、本人に聞かないと分からない。"
+    break_after: 1300
+  
+  - speaker: "kore"
+    style: "contemplative documentary narration, allowing chaos"
+    text: "脱線が始まったら、すぐに止めなくてもいい。その雑談の波が、誰かの本音を閾値の向こうに押し上げるかもしれない。"
+    break_after: 1200
+
+production_notes_for_second_additions:
+  - "ワツラウィックセクションに1セグメント追加（統合失調症研究の背景）"
+  - "ワツラウィックセクションの1セグメント更新（発見への橋渡し）"
+  - "ワツラウィックセクションの1セグメント更新（沈黙の多義性を強調）"
+  - "着地セクションに2セグメント追加（具体的な実践アクション）"
+  - "合計5セグメント追加/更新により、総セグメント数は49→54に増加"
+  - "理論から実践への橋渡しを強化"

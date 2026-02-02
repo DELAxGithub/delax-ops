@@ -1,0 +1,266 @@
+episodes:
+  - episode_number: "S2E09"
+    title: "異動という名の流刑"
+    duration_target: "8:00"
+    
+    segments:
+      # アバン (4セグメント)
+      - speaker: "kore"
+        style: "contemplative documentary narration, shocked undertone"
+        text: "「来月から、地方の支店に異動してもらう」その言葉を聞いた瞬間、頭が真っ白になった。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, painful"
+        text: "希望していない異動。左遷としか思えない配置転換。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, questioning"
+        text: "自分は、何か間違ったのだろうか。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "warm documentary welcome"
+        text: "ようこそ、<sub alias='オリオン'>Orion</sub>の会議室へ。今夜のテーマは「異動という名の流刑」。"
+        break_after: 1500
+      
+      # 星座の提示 (4セグメント)
+      - speaker: "kore"
+        style: "contemplative documentary narration, introducing concept"
+        text: "<sub alias='ここんとうざい'>古今東西</sub>の叡智を星座のように結び、現代の悩みに新しい視座を見つける8分間。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, presenting framework"
+        text: "今夜めぐる星々は——「人生は苦痛と退屈の間を揺れる振り子だ」という洞察。極限状態で「意味」を問い続けた精神科医の記録。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration"
+        text: "進化の「転用」という、予想外の飛躍。そして、「どこにいても主人となれ」という禅の教え。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, connecting threads"
+        text: "バラバラの星々が、「望まない場所」に立たされた時の生き方を照らし始めます。"
+        break_after: 1500
+      
+      # 没入 (5セグメント)
+      - speaker: "aoede"
+        style: "introspective narration, moment of shock"
+        text: "金曜日の夕方、上司に呼ばれた。「来期から、九州の支店に行ってもらいたい」"
+        break_after: 1000
+      
+      - speaker: "aoede"
+        style: "introspective narration, realizing loss"
+        text: "九州。東京から遠く離れた場所。今まで築いてきた人脈、進めていた<sub alias='プロジェクト'>project</sub>、すべてが<sub alias='リセット'>reset</sub>される。"
+        break_after: 1100
+      
+      - speaker: "aoede"
+        style: "introspective narration, doubting"
+        text: "「君の力が必要なんだ」と上司は言う。でも、それが本当かどうか、分からない。誰かに押し出されたのか。自分の評価が低かったのか。"
+        break_after: 1200
+      
+      - speaker: "aoede"
+        style: "introspective narration, weekend anxiety"
+        text: "週末、引っ越しの準備をしながら、何度も同じ問いが頭をよぎる。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, empathetic"
+        text: "「なぜ、自分なのか」"
+        break_after: 1500
+      
+      # 展開1：ショーペンハウアーの振り子 (6セグメント)
+      - speaker: "kore"
+        style: "documentary narration, historical introduction"
+        text: "19世紀、<sub alias='フランクフルト'>Frankfurt</sub>。<sub alias='アルトゥール・ショーペンハウアー'>Arthur Schopenhauer</sub>は——"
+        break_after: 800
+      
+      - speaker: "kore"
+        style: "documentary narration, describing isolation"
+        text: "大学で講義を開いても学生が集まらず、母親との確執で家を追い出され、孤独な日々を送っていました。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "documentary narration, introducing insight"
+        text: "世間から無視され続けた哲学者。その彼が、人生の本質を見抜きます。"
+        break_after: 1200
+      
+      - speaker: "charon"
+        style: "philosophical insight, weary wisdom"
+        text: "「人生は振り子のように、苦痛と退屈の間を揺れ動く」"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, explaining mechanism"
+        text: "欲望が満たされないと、苦痛。満たされると、退屈。人間は、どちらかから逃れても、もう一方に捕まってしまう。異動の辞令は「苦痛」です。望まない変化、慣れ親しんだ場所からの引き離し。しかし、もしその異動がなければ？同じ場所で、同じ仕事を、何年も続ける。それは「退屈」という別の苦しみに変わっていたかもしれません。"
+        break_after: 1400
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, key insight"
+        text: "どこにいても、振り子は揺れる。ならば、「ここではないどこか」を夢見ても仕方がない。"
+        break_after: 1500
+      
+      # 展開2：フランクルの「意味への意志」 (7セグメント)
+      - speaker: "kore"
+        style: "documentary narration, grave historical introduction"
+        text: "1944年、<sub alias='アウシュヴィッツ'>Auschwitz</sub>。精神科医<sub alias='ヴィクトール・フランクル'>Viktor Frankl</sub>は、収容所の門をくぐりました。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "documentary narration, tragic context"
+        text: "妻、両親、兄弟——家族のほとんどを失うことになる場所です。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "documentary narration, observing difference"
+        text: "極限状態の中で、彼はある違いに気づきます。生き延びた人と、そうでない人。その差は、体力ではなかった。"
+        break_after: 1200
+      
+      - speaker: "charon"
+        style: "psychiatric wisdom, profound conviction"
+        text: '「生きる"なぜ"を持つ者は、ほとんどあらゆる"いかに"に耐えられる」'
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, naming concept"
+        text: "<sub alias='フランクル'>Frankl</sub>はこれを「意味への意志」と呼びました。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "documentary narration, careful distinction"
+        text: "もちろん、収容所と現代の職場を同列には語れません。しかし、人間の心が「意味」を求める<sub alias='メカニズム'>mechanism</sub>は同じです。異動先で、何の意味も見いだせなければ、日々は苦痛でしかない。しかし、その場所で「自分だけの意味」を見つけることができれば、同じ状況が全く違って見えてくる。"
+        break_after: 1300
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, direct question"
+        text: "<sub alias='フランクル'>Frankl</sub>の問いは、私たちにも向けられています。「この状況に、あなたは何の意味を見出すか」"
+        break_after: 1500
+      
+      # 展開3：グールドの「外適応」 (6セグメント)
+      - speaker: "kore"
+        style: "documentary narration, shifting to evolution"
+        text: "1970年代、<sub alias='ハーバード'>Harvard</sub>大学。古生物学者<sub alias='スティーヴン・ジェイ・グールド'>Stephen Jay Gould</sub>は——"
+        break_after: 800
+      
+      - speaker: "kore"
+        style: "documentary narration, questioning orthodoxy"
+        text: "進化論の「常識」に疑問を抱いていました。すべての形質は、今の機能のために進化した——本当にそうだろうか？"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "documentary narration, introducing concept"
+        text: "彼は同僚の<sub alias='エリザベス・ヴルバ'>Elisabeth Vrba</sub>とともに、新しい概念を提唱します。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "documentary narration, explaining term"
+        text: "「<sub alias='エグザプテーション'>Exaptation</sub>」——外適応。ある機能のために進化した形質が、まったく別の機能に「転用」されること。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, giving example"
+        text: "たとえば、鳥の羽。もともとは体温調節のために進化したと考えられています。それが後に、空を飛ぶという全く別の機能に転用された。最初の「目的」と、最終的な「役割」は、違っていてもいい。"
+        break_after: 1300
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, applying to career"
+        text: "あなたが東京で培った<sub alias='スキル'>skill</sub>。それは、東京での仕事のためだけに存在するのでしょうか。九州で「外適応」を起こすかもしれない。思いもよらなかった場所で、思いもよらなかった形で、花開く可能性がある。"
+        break_after: 1500
+      
+      # 転換：臨済の「随処作主」 (5セグメント)
+      - speaker: "kore"
+        style: "documentary narration, transitioning to zen"
+        text: "進化が「場所」を選ばないように、心もまた、場所に縛られる必要はありません。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "documentary narration, introducing zen master"
+        text: "9世紀、中国・唐。禅僧・<sub alias='りんざいぎげん'>臨済義玄</sub>は、師のもとで三度問いを発し、三度棒で打たれました。答えを「外」に求めていたからです。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, moment of enlightenment"
+        text: "その挫折の後、臨済は悟ります。答えは、場所や師の中にはない。自分の中にある。"
+        break_after: 1200
+      
+      - speaker: "charon"
+        style: "zen master, liberating wisdom"
+        text: "「随処作主、立処皆真」——「どこにいようと主人となれ。そうすれば、立つ場所すべてが真実の場所となる」"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, applying teaching"
+        text: "東京が良くて、地方が悪いわけではない。本社が良くて、支店が悪いわけでもない。問題は「どこにいるか」ではなく、「そこで主人として立てるかどうか」。異動先で「流されてきた」と感じるか、「ここが自分の場所だ」と決めるか。その違いは、状況ではなく、あなたの態度の中にあります。"
+        break_after: 1500
+      
+      # リフレーミング (4セグメント)
+      - speaker: "kore"
+        style: "documentary narration, acknowledging pain"
+        text: "望まない異動は、確かに辛い。でも、考えてみてください。「望んだ場所」にいれば、本当に幸せだったでしょうか。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, universal truth"
+        text: "振り子は、どこにいても揺れる。東京にいても、九州にいても、苦痛と退屈の間を行き来する。ならば、「場所」に救いを求めても仕方がない。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, key principle"
+        text: "救いがあるとすれば、それは「意味」の中にある。そして意味は、与えられるものではなく、自分で見出すもの。あなたの<sub alias='スキル'>skill</sub>は、予想外の場所で予想外の進化を遂げるかもしれない。羽が空を飛ぶためのものになったように。"
+        break_after: 1300
+      
+      - speaker: "kore"
+        style: "documentary narration, historical examples"
+        text: "流刑地に送られた者が、そこで王になることもある。<sub alias='ナポレオン'>Napoleon</sub>は<sub alias='エルバ'>Elba</sub>島から脱出して再び皇帝に返り咲きました。<sub alias='ドストエフスキー'>Dostoevsky</sub>は<sub alias='シベリア'>Siberia</sub>流刑から『罪と罰』を生み出しました。"
+        break_after: 1500
+      
+      # 着地 (4セグメント)
+      - speaker: "aoede"
+        style: "gentle, introspective narration"
+        text: "来月、あなたは新しい場所に立っている。知らない土地、知らない人々、知らない仕事。"
+        break_after: 1100
+      
+      - speaker: "aoede"
+        style: "gentle, introspective narration, acknowledging fear"
+        text: "最初は、流刑地に見えるかもしれません。でも、思い出してください。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, empowering"
+        text: "どこにいようと、主人として立つことができる。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, reframing"
+        text: "異動は、流刑ではありません。それは、新しい土地で「主人」になるための、招待状なのかもしれない。"
+        break_after: 1500
+      
+      # クロージング (3セグメント)
+      - speaker: "kore"
+        style: "contemplative documentary narration, looking up"
+        text: "夜空を見上げると、<sub alias='オリオン'>Orion</sub>座が輝いています。<sub alias='オリオン'>Orion</sub>は、神話では傲慢さゆえに天に追放された狩人。しかし今、彼は夜空で最も美しい星座として輝いています。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, poetic wisdom"
+        text: "追放された場所が、輝きの舞台になった。知識の星座は、見る人によって違う物語を紡ぎます。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "warm documentary narration, gentle blessing"
+        text: "今夜、あなたの「流刑地」が、新しい王国に変わりますように。"
+        break_after: 2000
+
+production_notes:
+  - "総セグメント数: 42（目標40前後）"
+  - "各セグメントは意味のまとまりを重視"
+  - "外国語原文（独・英）はすべてスキップし、日本語訳のみ使用"
+  - "kore: メインナレーター（瞑想的ドキュメンタリー）"
+  - "charon: 哲学者・精神科医・禅師の引用"
+  - "aoede: 没入シーンと着地部分の内省的ナレーション"
+  - "英単語・外来語・固有名詞に発音ガイド適用"
+  - "「古今東西」に<sub alias='ここんとうざい'>を適用（定型ルール）"
+  - "ブレークタイムは文脈に応じて800ms-1500msで調整"

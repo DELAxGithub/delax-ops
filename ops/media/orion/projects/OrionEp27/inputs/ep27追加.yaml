@@ -1,0 +1,35 @@
+# S2E12「休めない症候群」追加セグメント
+# 既存YAMLへの挿入用
+
+# デュルケームセクション（展開1）への追加
+# 引用「アノミー（無規範状態）は...」の後に挿入
+additional_segments_for_durkheim:
+  - speaker: "kore"
+    style: "documentary narration, explaining mechanism"
+    text: "なぜ好景気でも人は追い詰められるのか。<sub alias='デュルケーム'>Durkheim</sub>はこう分析しました。社会の規範が揺らぐと、欲望に歯止めがかからなくなる。"
+    break_after: 1200
+  
+  - speaker: "kore"
+    style: "documentary narration, endless pursuit"
+    text: "「もっと上へ、もっと先へ」と際限なく求め続け、どこまで行っても満たされない。<sub alias='ゴール'>goal</sub>のない<sub alias='マラソン'>marathon</sub>を走らされているようなものです。"
+    break_after: 1200
+
+# アリストテレスセクション（転換）への追加
+# 「労働は、その余暇を得るための「手段」に過ぎなかった。」の後に挿入
+additional_segments_for_aristotle:
+  - speaker: "kore"
+    style: "documentary narration, highest leisure"
+    text: "そして、余暇の最も高い使い方として、<sub alias='アリストテレス'>Aristotle</sub>は「<sub alias='テオリア'>theoria</sub>（観想）」を挙げました。"
+    break_after: 1100
+  
+  - speaker: "kore"
+    style: "documentary narration, contemplative ideal"
+    text: "何かを生み出すためではなく、ただ真理を眺め、味わうこと。宇宙の秩序に思いを馳せ、存在の不思議に驚くこと。それこそが人間にとって最も幸福な時間だと彼は考えたのです。"
+    break_after: 1300
+
+production_notes_for_additions:
+  - "デュルケームセクションに2セグメント追加（好景気の逆説を説明）"
+  - "アリストテレスセクションに2セグメント追加（テオリアの概念）"
+  - "合計4セグメント追加により、総セグメント数は40→44に増加"
+  - "テオリア（観想）の説明で余暇の本質をより深く理解"
+  - "アノミーの心理メカニズムを具体化"

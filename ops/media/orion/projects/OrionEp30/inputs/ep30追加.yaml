@@ -1,0 +1,83 @@
+# S2E15「引き継ぎという贈り物」追加セグメント
+# 既存YAMLへの挿入用
+
+# 野中郁次郎セクション（展開1）への追加
+# 冒頭を置き換え
+updated_nonaka_intro:
+  - speaker: "kore"
+    style: "documentary narration, historical context"
+    text: "1980年代、世界は不思議な現象を目撃していました。<sub alias='ホンダ'>Honda</sub>、<sub alias='キヤノン'>Canon</sub>、<sub alias='ソニー'>Sony</sub>——日本企業が次々と<sub alias='イノベーション'>innovation</sub>を生み出し、欧米企業を脅かしている。"
+    break_after: 1200
+  
+  - speaker: "kore"
+    style: "documentary narration, presenting mystery"
+    text: "<sub alias='アメリカ'>America</sub>の経営学者たちは分析しました。戦略を調べ、組織図を描き、<sub alias='マニュアル'>manual</sub>を翻訳した。しかし、真似できない。なぜか。"
+    break_after: 1200
+  
+  - speaker: "kore"
+    style: "documentary narration, revealing answer"
+    text: "一橋大学の経営学者・<sub alias='のなかいくじろう'>野中郁次郎</sub>は、その謎に答えを出しました。"
+    break_after: 1000
+
+# 「野中は、この暗黙知を伝えるには...」の文を拡張
+updated_nonaka_transmission:
+  - speaker: "kore"
+    style: "documentary narration, explaining transmission"
+    text: "<sub alias='のなか'>野中</sub>は、この暗黙知を伝えるには「共体験」が必要だと説きました。一緒にやる。隣で見る。同じ空気を吸う。日本企業の強さは、長い時間をかけた徒弟制的な<sub alias='オー・ジェー・ティー'>OJT</sub>、先輩の背中を見て学ぶ文化にあった。"
+    break_after: 1300
+
+# 以心伝心セクション（転換）への追加
+# 拈華微笑のエピソードを詳細化
+updated_flower_sermon:
+  - speaker: "kore"
+    style: "documentary narration, zen parable"
+    text: "ある日、<sub alias='りょうじゅせん'>霊鷲山</sub>で<sub alias='しゃか'>釈迦</sub>は弟子たちの前に立ちました。説法を期待する大勢の前で、<sub alias='しゃか'>釈迦</sub>はただ一輪の花をかざした。"
+    break_after: 1200
+  
+  - speaker: "kore"
+    style: "documentary narration, disciples' confusion"
+    text: "弟子たちは困惑しました。言葉がない。説明がない。意味が分からない。沈黙が続く。"
+    break_after: 1100
+  
+  - speaker: "kore"
+    style: "documentary narration, single understanding"
+    text: "その中で、<sub alias='まかかしょう'>摩訶迦葉</sub>だけが静かに微笑んだ。"
+    break_after: 1000
+  
+  - speaker: "charon"
+    style: "zen master, transmission moment"
+    text: "「私には正しい教えの眼がある。それを<sub alias='まかかしょう'>摩訶迦葉</sub>に託そう」"
+    break_after: 1200
+  
+  - speaker: "kore"
+    style: "contemplative documentary narration, explaining understanding"
+    text: "なぜ<sub alias='まかかしょう'>摩訶迦葉</sub>だけが分かったのか。それは、長い時間を<sub alias='しゃか'>釈迦</sub>と共に過ごし、言葉以前の何かを共有していたから。"
+    break_after: 1200
+
+# ミラーニューロンセクション（リフレーミング）への追加
+# 発見のドラマを詳細化
+updated_mirror_neuron_discovery:
+  - speaker: "kore"
+    style: "documentary narration, introducing discovery"
+    text: "1990年代、<sub alias='イタリア'>Italy</sub>・<sub alias='パルマ'>Parma</sub>大学。神経科学者<sub alias='ジャコモ・リゾラッティ'>Giacomo Rizzolatti</sub>の研究室で、偶然の発見がありました。"
+    break_after: 1100
+  
+  - speaker: "kore"
+    style: "documentary narration, setting scene"
+    text: "その日、研究<sub alias='チーム'>team</sub>は<sub alias='マカクザル'>macaque monkey</sub>の脳に電極をつけて、手を伸ばして<sub alias='ピーナッツ'>peanut</sub>を掴む時の運動神経を測定していました。実験の合間、ある研究者が何気なく<sub alias='ピーナッツ'>peanut</sub>を掴んだ。"
+    break_after: 1300
+  
+  - speaker: "kore"
+    style: "documentary narration, moment of discovery"
+    text: "その瞬間、<sub alias='モニター'>monitor</sub>が反応した。<sub alias='サル'>monkey</sub>は動いていない。ただ研究者の動きを「見ていた」だけなのに、<sub alias='サル'>monkey</sub>の脳では、自分で掴んだ時と同じ神経が発火していたのです。"
+    break_after: 1300
+
+production_notes_for_additions:
+  - "野中郁次郎セクションに3セグメント追加（1980年代の時代背景）"
+  - "野中郁次郎セクションの既存セグメントを1セグメント拡張（OJT文化の説明）"
+  - "以心伝心セクションに5セグメント追加（拈華微笑の詳細展開）"
+  - "ミラーニューロンセクションに3セグメント追加（偶然の発見のドラマ）"
+  - "合計12セグメント追加/更新により、総セグメント数は41→53に増加"
+  - "各発見の文脈とドラマ性を強化"
+  - "出典情報更新：ミラーニューロンの脚注を1992年論文に修正"
+  - "テロップ追加：『無門関』（拈華微笑の出典）"

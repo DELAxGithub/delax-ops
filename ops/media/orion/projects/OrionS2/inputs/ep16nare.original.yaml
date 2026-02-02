@@ -1,0 +1,540 @@
+title: "既読スルーの哲学"
+episode: "Season 2"
+duration_target: "8分"
+date: "2025-01-14"
+
+voice_config:
+  narrator:
+    voice: "kore"
+    style: "観想的で知的なドキュメンタリーナレーション。落ち着いた語り口で、聴き手に思索の時間を与える"
+  
+  philosopher:
+    voice: "charon"
+    style: "哲学者や思想家の引用。威厳がありながら親しみやすい語り"
+  
+  inner_voice:
+    voice: "aoede"
+    style: "内省的で繊細な問いかけ。聴き手の心に寄り添う柔らかさ"
+
+segments:
+  # アバン
+  - speaker: "narrator"
+    text: "送ったメッセージに「既読」がついたまま、返信が来ない——"
+    break_after: "800ms"
+  
+  - speaker: "narrator"
+    text: "その沈黙に、心がざわついたことはありませんか？"
+    break_after: "1200ms"
+  
+  - speaker: "narrator"
+    text: "この沈黙は、拒絶のサインなのか。"
+    break_after: "600ms"
+  
+  - speaker: "narrator"
+    text: "それとも、まだ言葉にならない何かが——"
+    break_after: "400ms"
+  
+  - speaker: "narrator"
+    text: "相手の中で熟成されている時間なのか？"
+    break_after: "1500ms"
+  
+  - speaker: "narrator"
+    text: "ようこそ、<sub alias='オリオン'>Orion</sub>の会議室へ。"
+    break_after: "800ms"
+  
+  - speaker: "narrator"
+    text: "今夜のテーマは「既読<sub alias='スルー'>skip</sub>の哲学」。"
+    break_after: "1500ms"
+  
+  # 星座の提示
+  - speaker: "narrator"
+    text: "古今東西の叡智を星座のように結び——"
+    break_after: "600ms"
+  
+  - speaker: "narrator"
+    text: "現代の悩みに新しい視座を見つける8分間。"
+    break_after: "1200ms"
+  
+  - speaker: "narrator"
+    text: "今夜めぐる星々は——"
+    break_after: "1000ms"
+  
+  - speaker: "narrator"
+    text: "「語りえぬものには沈黙せよ」という言葉の限界。"
+    break_after: "800ms"
+  
+  - speaker: "narrator"
+    text: "宇宙の85%を占めながら、誰にも見えない「暗黒物質」。"
+    break_after: "800ms"
+  
+  - speaker: "narrator"
+    text: "他者の「顔」がなければ——"
+    break_after: "400ms"
+  
+  - speaker: "narrator"
+    text: "本当の対話は生まれないという洞察。"
+    break_after: "800ms"
+  
+  - speaker: "narrator"
+    text: "そして、大切なことほど言葉にしない——"
+    break_after: "600ms"
+  
+  - speaker: "narrator"
+    text: "古代日本の「言挙げせず」の知恵。"
+    break_after: "1200ms"
+  
+  - speaker: "narrator"
+    text: "バラバラの星々が、沈黙の向こう側にある物語を紡ぎ始めます。"
+    break_after: "1500ms"
+  
+  # 没入
+  - speaker: "inner_voice"
+    text: "金曜日の午後。上司への提案<sub alias='メール'>mail</sub>を送った。"
+    break_after: "800ms"
+  
+  - speaker: "inner_voice"
+    text: "既読がついた。でも、返信がない。"
+    break_after: "800ms"
+  
+  - speaker: "inner_voice"
+    text: "1時間、2時間……"
+    break_after: "1000ms"
+  
+  - speaker: "inner_voice"
+    text: "「何か気に障ることを書いてしまったのだろうか」"
+    break_after: "800ms"
+  
+  - speaker: "inner_voice"
+    text: "頭の中で、送った文面を何度も反芻する。"
+    break_after: "600ms"
+  
+  - speaker: "inner_voice"
+    text: "週末が、重くのしかかる。"
+    break_after: "1500ms"
+  
+  - speaker: "narrator"
+    text: "私たちは今、かつてないほど「つながって」いる。"
+    break_after: "800ms"
+  
+  - speaker: "narrator"
+    text: "でも、そのつながりが、かつてないほど不安を生んでいる。"
+    break_after: "1200ms"
+  
+  - speaker: "narrator"
+    text: "なぜ「既読」という二文字が、これほど心を乱すのでしょうか。"
+    break_after: "1500ms"
+  
+  # 展開1：ヴィトゲンシュタインの限界線
+  - speaker: "narrator"
+    text: "20世紀初頭の<sub alias='ウィーン'>Wien</sub>。"
+    break_after: "600ms"
+  
+  - speaker: "narrator"
+    text: "哲学者<sub alias='ルートヴィヒ・ヴィトゲンシュタイン'>Ludwig Wittgenstein</sub>は——"
+    break_after: "400ms"
+  
+  - speaker: "narrator"
+    text: "言葉の限界について考え抜いていました。"
+    break_after: "1200ms"
+  
+  - speaker: "narrator"
+    text: "彼は29歳で、たった75<sub alias='ページ'>page</sub>の本を書き上げました。"
+    break_after: "800ms"
+  
+  - speaker: "narrator"
+    text: "『論理哲学論考』。"
+    break_after: "600ms"
+  
+  - speaker: "narrator"
+    text: "その最後の一文は、こう結ばれています。"
+    break_after: "1000ms"
+  
+  - speaker: "philosopher"
+    text: "「語りえぬものについては、沈黙せねばならない」"
+    break_after: "800ms"
+  
+  - speaker: "narrator"
+    text: "——『論理哲学論考』命題7"
+    break_after: "1500ms"
+  
+  - speaker: "narrator"
+    text: "言葉で論理的に語れる領域には、限界がある。"
+    break_after: "800ms"
+  
+  - speaker: "narrator"
+    text: "そして本当に大切なこと——"
+    break_after: "600ms"
+  
+  - speaker: "narrator"
+    text: "倫理や美や人生の意味——は——"
+    break_after: "400ms"
+  
+  - speaker: "narrator"
+    text: "しばしばその限界の「向こう側」にある。"
+    break_after: "1200ms"
+  
+  - speaker: "narrator"
+    text: "私たちは、<sub alias='テキスト'>text</sub><sub alias='メッセージ'>message</sub>という「言葉だけ」で——"
+    break_after: "600ms"
+  
+  - speaker: "narrator"
+    text: "相手を理解しようとしていないでしょうか。"
+    break_after: "1200ms"
+  
+  - speaker: "narrator"
+    text: "言葉の限界の向こう側に——"
+    break_after: "600ms"
+  
+  - speaker: "narrator"
+    text: "実はもっと広大な領域が広がっているとしたら？"
+    break_after: "1500ms"
+  
+  # 展開2:暗黒物質という沈黙
+  - speaker: "narrator"
+    text: "ここで、宇宙に目を向けてみましょう。"
+    break_after: "1200ms"
+  
+  - speaker: "narrator"
+    text: "天文学者たちは、奇妙な事実に気づいていました。"
+    break_after: "1200ms"
+  
+  - speaker: "narrator"
+    text: "銀河は、見える星の重さだけでは——"
+    break_after: "600ms"
+  
+  - speaker: "narrator"
+    text: "バラバラに飛び散ってしまうはずです。"
+    break_after: "600ms"
+  
+  - speaker: "narrator"
+    text: "なのに、なぜ形を保っているのか？"
+    break_after: "1200ms"
+  
+  - speaker: "narrator"
+    text: "答えは「暗黒物質」。"
+    break_after: "1200ms"
+  
+  - speaker: "narrator"
+    text: "光を発せず、観測もできない。"
+    break_after: "800ms"
+  
+  - speaker: "narrator"
+    text: "しかし、宇宙の質量の約85%を占め——"
+    break_after: "600ms"
+  
+  - speaker: "narrator"
+    text: "銀河という構造を繋ぎ止めている——"
+    break_after: "600ms"
+  
+  - speaker: "narrator"
+    text: "見えない重力源。"
+    break_after: "1500ms"
+  
+  - speaker: "narrator"
+    text: "返信がない時間。それは「無」ではありません。"
+    break_after: "1200ms"
+  
+  - speaker: "narrator"
+    text: "相手の中で、あなたの言葉が咀嚼されている時間かもしれない。"
+    break_after: "1200ms"
+  
+  - speaker: "narrator"
+    text: "私たちが送受信する<sub alias='テキスト'>text</sub>は——"
+    break_after: "600ms"
+  
+  - speaker: "narrator"
+    text: "関係性のほんの一部——"
+    break_after: "600ms"
+  
+  - speaker: "narrator"
+    text: "宇宙でいえば、光を発する星々にすぎない。"
+    break_after: "1200ms"
+  
+  - speaker: "narrator"
+    text: "見えないからといって、「無い」わけではない。"
+    break_after: "1200ms"
+  
+  - speaker: "narrator"
+    text: "むしろ、見えない時間こそが——"
+    break_after: "600ms"
+  
+  - speaker: "narrator"
+    text: "関係という銀河を崩壊させずに保っているのかもしれません。"
+    break_after: "1500ms"
+  
+  # 展開3：レヴィナスの「顔」
+  - speaker: "narrator"
+    text: "しかし、なぜ私たちは——"
+    break_after: "400ms"
+  
+  - speaker: "narrator"
+    text: "その「見えない時間」に不安を感じるのでしょうか。"
+    break_after: "1200ms"
+  
+  - speaker: "narrator"
+    text: "20世紀<sub alias='フランス'>France</sub>の哲学者<sub alias='エマニュエル・レヴィナス'>Emmanuel Levinas</sub>は——"
+    break_after: "600ms"
+  
+  - speaker: "narrator"
+    text: "他者との関係について深く考えました。"
+    break_after: "1200ms"
+  
+  - speaker: "narrator"
+    text: "顔と顔を合わせること。"
+    break_after: "800ms"
+  
+  - speaker: "narrator"
+    text: "それは単なる情報交換ではない。"
+    break_after: "800ms"
+  
+  - speaker: "narrator"
+    text: "相手の存在そのものと出会うこと。"
+    break_after: "1500ms"
+  
+  - speaker: "narrator"
+    text: "<sub alias='テキスト'>text</sub><sub alias='メッセージ'>message</sub>には「顔」がない。"
+    break_after: "800ms"
+  
+  - speaker: "narrator"
+    text: "私たちは、顔のない言葉を送り合っている。"
+    break_after: "1200ms"
+  
+  - speaker: "narrator"
+    text: "相手がどんな表情で、どんな息づかいで——"
+    break_after: "600ms"
+  
+  - speaker: "narrator"
+    text: "その言葉を受け取ったのか。それが見えない。"
+    break_after: "1200ms"
+  
+  - speaker: "narrator"
+    text: "だから不安になる。"
+    break_after: "1200ms"
+  
+  - speaker: "narrator"
+    text: "そして、相手を完全に理解できると思うこと——"
+    break_after: "600ms"
+  
+  - speaker: "narrator"
+    text: "それ自体が、ある種の傲慢なのかもしれません。"
+    break_after: "1500ms"
+  
+  # 転換：後期ヴィトゲンシュタイン
+  - speaker: "narrator"
+    text: "他者の心の中は、覗けない。"
+    break_after: "1200ms"
+  
+  - speaker: "narrator"
+    text: "だからこそ、私たちは「外側」から推測するしかありません。"
+    break_after: "1200ms"
+  
+  - speaker: "narrator"
+    text: "<sub alias='ヴィトゲンシュタイン'>Wittgenstein</sub>は、後年こう書いています。"
+    break_after: "1000ms"
+  
+  - speaker: "philosopher"
+    text: "「言葉の意味とは、言語におけるその使用である」"
+    break_after: "800ms"
+  
+  - speaker: "narrator"
+    text: "——『哲学探究』より"
+    break_after: "1500ms"
+  
+  - speaker: "narrator"
+    text: "正解（相手の心理）は見えない。だから、状況全体を見る。"
+    break_after: "1200ms"
+  
+  - speaker: "narrator"
+    text: "同じ「既読<sub alias='スルー'>skip</sub>」でも——"
+    break_after: "600ms"
+  
+  - speaker: "narrator"
+    text: "その意味は状況によって全く違う。"
+    break_after: "1200ms"
+  
+  - speaker: "narrator"
+    text: "忙しくて返信できなかっただけかもしれない。"
+    break_after: "800ms"
+  
+  - speaker: "narrator"
+    text: "返事を慎重に考えているのかもしれない。"
+    break_after: "800ms"
+  
+  - speaker: "narrator"
+    text: "心に余裕がなく、言葉が出てこないのかもしれない。"
+    break_after: "1200ms"
+  
+  - speaker: "narrator"
+    text: "沈黙もまた、一つの「文脈」という<sub alias='メッセージ'>message</sub>です。"
+    break_after: "1500ms"
+  
+  - speaker: "narrator"
+    text: "興味深いことに、既読<sub alias='スルー'>skip</sub>を「拒絶」と解釈する人ほど——"
+    break_after: "600ms"
+  
+  - speaker: "narrator"
+    text: "不安傾向が高いという研究があります。"
+    break_after: "1000ms"
+  
+  - speaker: "narrator"
+    text: "逆に「相手にも事情がある」と考えられる人は——"
+    break_after: "600ms"
+  
+  - speaker: "narrator"
+    text: "関係性が長続きする。"
+    break_after: "1200ms"
+  
+  - speaker: "narrator"
+    text: "つまり、沈黙をどう「読む」かは——"
+    break_after: "600ms"
+  
+  - speaker: "narrator"
+    text: "相手ではなく、自分の心の状態を映し出している。"
+    break_after: "1500ms"
+  
+  # リフレーミング：言挙げせず
+  - speaker: "narrator"
+    text: "では、既読<sub alias='スルー'>skip</sub>された側は——"
+    break_after: "600ms"
+  
+  - speaker: "narrator"
+    text: "どうすればいいのでしょうか。"
+    break_after: "1200ms"
+  
+  - speaker: "narrator"
+    text: "ここで、古代日本の知恵に耳を傾けてみましょう。"
+    break_after: "1500ms"
+  
+  - speaker: "philosopher"
+    text: "「葦原の瑞穂の国は神ながら言挙げせぬ国」"
+    break_after: "800ms"
+  
+  - speaker: "narrator"
+    text: "——『万葉集』巻十三"
+    break_after: "1500ms"
+  
+  - speaker: "narrator"
+    text: "「言挙げせず」——"
+    break_after: "600ms"
+  
+  - speaker: "narrator"
+    text: "大切なことほど、軽々しく言葉にしない。"
+    break_after: "1200ms"
+  
+  - speaker: "narrator"
+    text: "古代の日本人は、言葉には霊力が宿ると信じていました。"
+    break_after: "1000ms"
+  
+  - speaker: "narrator"
+    text: "だからこそ、むやみに言葉を発することを慎んだ。"
+    break_after: "1200ms"
+  
+  - speaker: "narrator"
+    text: "沈黙は、無視ではない。"
+    break_after: "1000ms"
+  
+  - speaker: "narrator"
+    text: "言葉にすることで壊れてしまう何かを——"
+    break_after: "600ms"
+  
+  - speaker: "narrator"
+    text: "守っているのかもしれない。"
+    break_after: "1500ms"
+  
+  - speaker: "narrator"
+    text: "即座の返信を求めることは——"
+    break_after: "600ms"
+  
+  - speaker: "narrator"
+    text: "相手の「言挙げせぬ時間」を奪うことかもしれません。"
+    break_after: "1500ms"
+  
+  - speaker: "narrator"
+    text: "<sub alias='スマホ'>smartphone</sub>を置き、「宙ぶらりんの状態」を許容してみる。"
+    break_after: "1200ms"
+  
+  - speaker: "narrator"
+    text: "その空白こそが、相手という「他者」が存在している証。"
+    break_after: "1500ms"
+  
+  # 着地
+  - speaker: "inner_voice"
+    text: "次の月曜日。あの提案<sub alias='メール'>mail</sub>への返信は、まだ来ていない。"
+    break_after: "1200ms"
+  
+  - speaker: "inner_voice"
+    text: "でも、少し落ち着いて考えてみる。"
+    break_after: "1200ms"
+  
+  - speaker: "narrator"
+    text: "私の言葉が、相手の中で何かを動かしている。"
+    break_after: "800ms"
+  
+  - speaker: "narrator"
+    text: "その過程には、時間がかかることもある。"
+    break_after: "1200ms"
+  
+  - speaker: "narrator"
+    text: "暗黒物質のように、見えないけれど確かに存在する何かが——"
+    break_after: "600ms"
+  
+  - speaker: "narrator"
+    text: "私たちの関係を繋いでいる。"
+    break_after: "1200ms"
+  
+  - speaker: "narrator"
+    text: "もし本当に必要なら、顔を見て話せばいい。"
+    break_after: "1200ms"
+  
+  - speaker: "narrator"
+    text: "でもそれは、沈黙を「解消する」ためではなく——"
+    break_after: "600ms"
+  
+  - speaker: "narrator"
+    text: "「その先」へ進むため。"
+    break_after: "1500ms"
+  
+  - speaker: "narrator"
+    text: "既読<sub alias='スルー'>skip</sub>は、終わりではなく——"
+    break_after: "600ms"
+  
+  - speaker: "narrator"
+    text: "対話の途中にいる証拠なのかもしれません。"
+    break_after: "1500ms"
+  
+  # クロージング
+  - speaker: "narrator"
+    text: "夜空を見上げると、<sub alias='オリオン'>Orion</sub>座が輝いています。"
+    break_after: "1200ms"
+  
+  - speaker: "narrator"
+    text: "そして宇宙は、見えない暗黒物質によって——"
+    break_after: "600ms"
+  
+  - speaker: "narrator"
+    text: "静かに形を保っている。"
+    break_after: "1500ms"
+  
+  - speaker: "narrator"
+    text: "知識の星座は、見る人によって違う物語を紡ぎます。"
+    break_after: "1500ms"
+  
+  - speaker: "narrator"
+    text: "既読<sub alias='スルー'>skip</sub>の向こう側で、誰かがまだ言葉を探している。"
+    break_after: "1200ms"
+  
+  - speaker: "narrator"
+    text: "その沈黙に耳を澄ませること——"
+    break_after: "600ms"
+  
+  - speaker: "narrator"
+    text: "それもまた、ひとつの対話なのです。"
+    break_after: "1500ms"
+
+production_notes:
+  - "セグメント長を40文字前後に最適化、最大60文字以内に制限"
+  - "哲学者の引用部分はcharonを使用"
+  - "内省的なシーンはaoede（inner_voice）を使用"
+  - "英単語には発音ガイド(<sub alias>)を適用"
+  - "ブレークタイムは文脈に応じて400ms-1500msで調整"
+  - "思索を促す箇所では長めのポーズ（1200-1500ms）を配置"

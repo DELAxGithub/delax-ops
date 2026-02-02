@@ -2,7 +2,7 @@
 <xmeml version="4">
   <sequence>
     <uuid>OrionEp21_timeline</uuid>
-    <duration>14410</duration>
+    <duration>14860</duration>
     <name>OrionEp21_timeline</name>
     <rate>
       <timebase>30</timebase>
@@ -11,6 +11,2383 @@
     <media>
       <video>
         <format/>
+        <track>
+          <generatoritem id="subtitle-1">
+            <name>Subtitle 1</name>
+            <enabled>TRUE</enabled>
+            <duration>254</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>0</start>
+            <end>254</end>
+            <in>0</in>
+            <out>254</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>『大胆に攻めてくれ』と言われた直後に 『慎重にね』と言われる</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-2">
+            <name>Subtitle 2</name>
+            <enabled>TRUE</enabled>
+            <duration>153</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>264</start>
+            <end>417</end>
+            <in>0</in>
+            <out>153</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>どちらを選んでも どちらかに怒られる—— そんな板挟みに 身動きが取れなくなったことはありませんか?</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-3">
+            <name>Subtitle 3</name>
+            <enabled>TRUE</enabled>
+            <duration>207</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>427</start>
+            <end>634</end>
+            <in>0</in>
+            <out>207</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>ようこそ オリオンの会議室へ 今夜のテーマは『板挟みの幾何学』</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-4">
+            <name>Subtitle 4</name>
+            <enabled>TRUE</enabled>
+            <duration>224</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>644</start>
+            <end>868</end>
+            <in>0</in>
+            <out>224</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>古今東西の叡智を星座のように結び 現代の悩みに新しい視座を見つける8分間</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-5">
+            <name>Subtitle 5</name>
+            <enabled>TRUE</enabled>
+            <duration>114</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>878</start>
+            <end>992</end>
+            <in>0</in>
+            <out>114</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>今夜めぐる星々は——</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-6">
+            <name>Subtitle 6</name>
+            <enabled>TRUE</enabled>
+            <duration>114</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>992</start>
+            <end>1106</end>
+            <in>0</in>
+            <out>114</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>矛盾するメッセージに閉じ込められる 『二重拘束』という構造</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-7">
+            <name>Subtitle 7</name>
+            <enabled>TRUE</enabled>
+            <duration>183</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>1116</start>
+            <end>1299</end>
+            <in>0</in>
+            <out>183</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>他者の命令ではなく 自らの理性に従う『自律』という尊厳</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-8">
+            <name>Subtitle 8</name>
+            <enabled>TRUE</enabled>
+            <duration>183</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>1299</start>
+            <end>1482</end>
+            <in>0</in>
+            <out>183</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>臨界点を超えた瞬間 質が一気に変わる『相転移』という跳躍</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-9">
+            <name>Subtitle 9</name>
+            <enabled>TRUE</enabled>
+            <duration>167</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>1492</start>
+            <end>1659</end>
+            <in>0</in>
+            <out>167</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>そして 『片手の音を聞け』という禅の問い</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-10">
+            <name>Subtitle 10</name>
+            <enabled>TRUE</enabled>
+            <duration>166</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>1659</start>
+            <end>1825</end>
+            <in>0</in>
+            <out>166</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>バラバラの星々が 『AかBか』という問いそのものを揺さぶり始めます</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-11">
+            <name>Subtitle 11</name>
+            <enabled>TRUE</enabled>
+            <duration>112</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>1835</start>
+            <end>1947</end>
+            <in>0</in>
+            <out>112</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>金曜の夕方</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-12">
+            <name>Subtitle 12</name>
+            <enabled>TRUE</enabled>
+            <duration>112</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>1947</start>
+            <end>2059</end>
+            <in>0</in>
+            <out>112</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>部長からメールが来る 『来週の企画書 もっと大胆に攻めてくれ』</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-13">
+            <name>Subtitle 13</name>
+            <enabled>TRUE</enabled>
+            <duration>82</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>2069</start>
+            <end>2151</end>
+            <in>0</in>
+            <out>82</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>返信しようとした瞬間 課長が席に来る</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-14">
+            <name>Subtitle 14</name>
+            <enabled>TRUE</enabled>
+            <duration>83</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>2151</start>
+            <end>2234</end>
+            <in>0</in>
+            <out>83</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>『あの企画 リスク管理の観点から慎重にね』</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-15">
+            <name>Subtitle 15</name>
+            <enabled>TRUE</enabled>
+            <duration>82</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>2234</start>
+            <end>2316</end>
+            <in>0</in>
+            <out>82</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>1950年代 カリフォルニア・パロアルト</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-16">
+            <name>Subtitle 16</name>
+            <enabled>TRUE</enabled>
+            <duration>127</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>2326</start>
+            <end>2453</end>
+            <in>0</in>
+            <out>127</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>大胆に攻めろ でも慎重に</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-17">
+            <name>Subtitle 17</name>
+            <enabled>TRUE</enabled>
+            <duration>127</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>2453</start>
+            <end>2580</end>
+            <in>0</in>
+            <out>127</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>どっちなんですか と聞きたい でも聞けない</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-18">
+            <name>Subtitle 18</name>
+            <enabled>TRUE</enabled>
+            <duration>61</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>2590</start>
+            <end>2651</end>
+            <in>0</in>
+            <out>61</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>『どちらかを選べば どちらかに怒られる』</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-19">
+            <name>Subtitle 19</name>
+            <enabled>TRUE</enabled>
+            <duration>61</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>2651</start>
+            <end>2712</end>
+            <in>0</in>
+            <out>61</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>ベイトソンは気づきました</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-20">
+            <name>Subtitle 20</name>
+            <enabled>TRUE</enabled>
+            <duration>120</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>2722</start>
+            <end>2842</end>
+            <in>0</in>
+            <out>120</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>その構造の中で 身動きが取れなくなっていく</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-21">
+            <name>Subtitle 21</name>
+            <enabled>TRUE</enabled>
+            <duration>94</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>3091</start>
+            <end>3185</end>
+            <in>0</in>
+            <out>94</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>人類学者グレゴリー・ベイトソンは 統合失調症の患者と 面会に来た母親の会話を観察していました</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-22">
+            <name>Subtitle 22</name>
+            <enabled>TRUE</enabled>
+            <duration>94</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>3185</start>
+            <end>3279</end>
+            <in>0</in>
+            <out>94</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>The 'victim' cannot make a metacommunicative statement.</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-23">
+            <name>Subtitle 23</name>
+            <enabled>TRUE</enabled>
+            <duration>74</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>3289</start>
+            <end>3363</end>
+            <in>0</in>
+            <out>74</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>母親が息子を抱きしめる 息子が身を固くする</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-24">
+            <name>Subtitle 24</name>
+            <enabled>TRUE</enabled>
+            <duration>73</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>3363</start>
+            <end>3436</end>
+            <in>0</in>
+            <out>73</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>母親が言う 『私を愛していないの?』</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-25">
+            <name>Subtitle 25</name>
+            <enabled>TRUE</enabled>
+            <duration>74</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>3436</start>
+            <end>3510</end>
+            <in>0</in>
+            <out>74</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>矛盾する二つのメッセージを同時に受け取り どちらにも従えず しかもその場から逃げられない状態</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-26">
+            <name>Subtitle 26</name>
+            <enabled>TRUE</enabled>
+            <duration>73</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>3510</start>
+            <end>3583</end>
+            <in>0</in>
+            <out>73</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>さらに厄介なのは 『この状況おかしくないですか?』と問うこと自体が許されないこと</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-27">
+            <name>Subtitle 27</name>
+            <enabled>TRUE</enabled>
+            <duration>177</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>3593</start>
+            <end>3770</end>
+            <in>0</in>
+            <out>177</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>母親の言葉は『愛情』を求めている しかし その硬い表情と声のトーンは『近づくな』と言っている</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-28">
+            <name>Subtitle 28</name>
+            <enabled>TRUE</enabled>
+            <duration>177</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>3770</start>
+            <end>3947</end>
+            <in>0</in>
+            <out>177</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>問題は メッセージの『内容』ではありません</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-29">
+            <name>Subtitle 29</name>
+            <enabled>TRUE</enabled>
+            <duration>128</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>3957</start>
+            <end>4085</end>
+            <in>0</in>
+            <out>128</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>息子はどちらに従えばいい?</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-30">
+            <name>Subtitle 30</name>
+            <enabled>TRUE</enabled>
+            <duration>128</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>4085</start>
+            <end>4213</end>
+            <in>0</in>
+            <out>128</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>抱きしめ返せば『空気が読めない』 離れれば『冷たい子』</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-31">
+            <name>Subtitle 31</name>
+            <enabled>TRUE</enabled>
+            <duration>64</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>4223</start>
+            <end>4287</end>
+            <in>0</in>
+            <out>64</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>彼はこの構造に名前をつけました 『ダブルバインド 二重拘束』</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-32">
+            <name>Subtitle 32</name>
+            <enabled>TRUE</enabled>
+            <duration>64</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>4287</start>
+            <end>4351</end>
+            <in>0</in>
+            <out>64</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>18世紀 ドイツ・ケーニヒスベルク</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-33">
+            <name>Subtitle 33</name>
+            <enabled>TRUE</enabled>
+            <duration>65</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>4351</start>
+            <end>4416</end>
+            <in>0</in>
+            <out>65</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>生涯この街を離れなかった哲学者 イマヌエル・カントは</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-34">
+            <name>Subtitle 34</name>
+            <enabled>TRUE</enabled>
+            <duration>74</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>4426</start>
+            <end>4500</end>
+            <in>0</in>
+            <out>74</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>——『犠牲者は そのコミュニケーション自体について 語ることができない』</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-35">
+            <name>Subtitle 35</name>
+            <enabled>TRUE</enabled>
+            <duration>74</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>4500</start>
+            <end>4574</end>
+            <in>0</in>
+            <out>74</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>Autonomie des Willens ist die Beschaffenheit des Willens,</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-36">
+            <name>Subtitle 36</name>
+            <enabled>TRUE</enabled>
+            <duration>277</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>4584</start>
+            <end>4861</end>
+            <in>0</in>
+            <out>277</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>生活のため 責任のため 逃げることも許されない</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-37">
+            <name>Subtitle 37</name>
+            <enabled>TRUE</enabled>
+            <duration>277</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>4861</start>
+            <end>5138</end>
+            <in>0</in>
+            <out>277</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>その拘束の中で矛盾を突きつけられる時 心は悲鳴を上げます</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-38">
+            <name>Subtitle 38</name>
+            <enabled>TRUE</enabled>
+            <duration>278</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>5138</start>
+            <end>5416</end>
+            <in>0</in>
+            <out>278</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>『どちらを選んでも罰せられる』という 構造そのものが 人を追い詰めるのです</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-39">
+            <name>Subtitle 39</name>
+            <enabled>TRUE</enabled>
+            <duration>277</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>5416</start>
+            <end>5693</end>
+            <in>0</in>
+            <out>277</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>dadurch derselbe ihm selbst ein Gesetz ist.</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-40">
+            <name>Subtitle 40</name>
+            <enabled>TRUE</enabled>
+            <duration>116</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>5703</start>
+            <end>5819</end>
+            <in>0</in>
+            <out>116</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>では その迷路から抜け出す鍵はどこにあるのか</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-41">
+            <name>Subtitle 41</name>
+            <enabled>TRUE</enabled>
+            <duration>69</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>6110</start>
+            <end>6179</end>
+            <in>0</in>
+            <out>69</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>人間の尊厳の根拠を『自律』に置きました</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-42">
+            <name>Subtitle 42</name>
+            <enabled>TRUE</enabled>
+            <duration>68</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>6179</start>
+            <end>6247</end>
+            <in>0</in>
+            <out>68</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>しかしカントなら こう問い直すでしょう</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-43">
+            <name>Subtitle 43</name>
+            <enabled>TRUE</enabled>
+            <duration>206</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>6257</start>
+            <end>6463</end>
+            <in>0</in>
+            <out>206</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>——『意志の自律とは 意志がそれ自身に対して 法則となるという性質である』</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-44">
+            <name>Subtitle 44</name>
+            <enabled>TRUE</enabled>
+            <duration>128</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>6473</start>
+            <end>6601</end>
+            <in>0</in>
+            <out>128</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>上司Aの命令に従う それは『他律』です</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-45">
+            <name>Subtitle 45</name>
+            <enabled>TRUE</enabled>
+            <duration>127</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>6601</start>
+            <end>6728</end>
+            <in>0</in>
+            <out>127</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>上司Bの命令に従う それも『他律』</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-46">
+            <name>Subtitle 46</name>
+            <enabled>TRUE</enabled>
+            <duration>128</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>6728</start>
+            <end>6856</end>
+            <in>0</in>
+            <out>128</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>では 『自律』とは何か</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-47">
+            <name>Subtitle 47</name>
+            <enabled>TRUE</enabled>
+            <duration>127</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>6856</start>
+            <end>6983</end>
+            <in>0</in>
+            <out>127</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>どちらの命令が 自分の理性から見て正しいのかを 自分で判断すること</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-48">
+            <name>Subtitle 48</name>
+            <enabled>TRUE</enabled>
+            <duration>216</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>6993</start>
+            <end>7209</end>
+            <in>0</in>
+            <out>216</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>板挟みの苦しさは 『どちらに従うか』で悩んでいるから生まれる</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-49">
+            <name>Subtitle 49</name>
+            <enabled>TRUE</enabled>
+            <duration>216</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>7209</start>
+            <end>7425</end>
+            <in>0</in>
+            <out>216</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>『あなた自身は 何が正しいと考えるのか』と</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-50">
+            <name>Subtitle 50</name>
+            <enabled>TRUE</enabled>
+            <duration>216</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>7425</start>
+            <end>7641</end>
+            <in>0</in>
+            <out>216</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>他者の命令に翻弄されている限り 私たちは板挟みから逃れられない</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-51">
+            <name>Subtitle 51</name>
+            <enabled>TRUE</enabled>
+            <duration>216</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>7641</start>
+            <end>7857</end>
+            <in>0</in>
+            <out>216</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>しかし 最終的な判断の座を 自分の理性に取り戻した時 構造は変わり始めます</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-52">
+            <name>Subtitle 52</name>
+            <enabled>TRUE</enabled>
+            <duration>143</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>7867</start>
+            <end>8010</end>
+            <in>0</in>
+            <out>143</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>とはいえ 『正しい答え』が最初から分かっていれば 苦労しません</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-53">
+            <name>Subtitle 53</name>
+            <enabled>TRUE</enabled>
+            <duration>183</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>8020</start>
+            <end>8203</end>
+            <in>0</in>
+            <out>183</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>ここで 物理学の『相転移』という現象に 目を向けてみましょう</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-54">
+            <name>Subtitle 54</name>
+            <enabled>TRUE</enabled>
+            <duration>153</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>8213</start>
+            <end>8366</end>
+            <in>0</in>
+            <out>153</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>水は 冷やしていくと氷になる 温めていくと水蒸気になる</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-55">
+            <name>Subtitle 55</name>
+            <enabled>TRUE</enabled>
+            <duration>153</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>8366</start>
+            <end>8519</end>
+            <in>0</in>
+            <out>153</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>しかし その変化は『徐々に』起こるのではありません</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-56">
+            <name>Subtitle 56</name>
+            <enabled>TRUE</enabled>
+            <duration>153</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>8519</start>
+            <end>8672</end>
+            <in>0</in>
+            <out>153</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>温度や圧力の変化が蓄積され 臨界点に達した瞬間——</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-57">
+            <name>Subtitle 57</name>
+            <enabled>TRUE</enabled>
+            <duration>152</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>8672</start>
+            <end>8824</end>
+            <in>0</in>
+            <out>152</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>液体から気体へ 質的に 一気に変わる</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-58">
+            <name>Subtitle 58</name>
+            <enabled>TRUE</enabled>
+            <duration>147</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>8834</start>
+            <end>8981</end>
+            <in>0</in>
+            <out>147</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>板挟みの中でもがき続ける時間 それは無駄ではありません</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-59">
+            <name>Subtitle 59</name>
+            <enabled>TRUE</enabled>
+            <duration>147</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>8981</start>
+            <end>9128</end>
+            <in>0</in>
+            <out>147</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>小さく動いてみる 反応を見る また考える</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-60">
+            <name>Subtitle 60</name>
+            <enabled>TRUE</enabled>
+            <duration>146</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>9128</start>
+            <end>9274</end>
+            <in>0</in>
+            <out>146</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>その試行錯誤の熱量が蓄積されていく</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-61">
+            <name>Subtitle 61</name>
+            <enabled>TRUE</enabled>
+            <duration>158</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>9284</start>
+            <end>9442</end>
+            <in>0</in>
+            <out>158</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>臨界点に達した時 『AでもBでもない第三の状態』への跳躍が起こる</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-62">
+            <name>Subtitle 62</name>
+            <enabled>TRUE</enabled>
+            <duration>157</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>9442</start>
+            <end>9599</end>
+            <in>0</in>
+            <out>157</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>それは『妥協』ではありません</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-63">
+            <name>Subtitle 63</name>
+            <enabled>TRUE</enabled>
+            <duration>158</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>9599</start>
+            <end>9757</end>
+            <in>0</in>
+            <out>158</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>質的な変化——新しい視座への相転移です</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-64">
+            <name>Subtitle 64</name>
+            <enabled>TRUE</enabled>
+            <duration>179</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>9767</start>
+            <end>9946</end>
+            <in>0</in>
+            <out>179</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>江戸時代中期 駿河国・原宿</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-65">
+            <name>Subtitle 65</name>
+            <enabled>TRUE</enabled>
+            <duration>179</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>9946</start>
+            <end>10125</end>
+            <in>0</in>
+            <out>179</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>東海道沿いの小さな寺・松蔭寺に 全国から修行僧が集まっていました</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-66">
+            <name>Subtitle 66</name>
+            <enabled>TRUE</enabled>
+            <duration>216</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>10135</start>
+            <end>10351</end>
+            <in>0</in>
+            <out>216</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>住職の白隠慧鶴 この人には 壮絶な過去がありました</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-67">
+            <name>Subtitle 67</name>
+            <enabled>TRUE</enabled>
+            <duration>150</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>10361</start>
+            <end>10511</end>
+            <in>0</in>
+            <out>150</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>若い頃 悟りを求めて激しい修行に打ち込み 心身を壊した</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-68">
+            <name>Subtitle 68</name>
+            <enabled>TRUE</enabled>
+            <duration>151</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>10511</start>
+            <end>10662</end>
+            <in>0</in>
+            <out>151</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>眠れない 食べられない 幻聴が止まらない</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-69">
+            <name>Subtitle 69</name>
+            <enabled>TRUE</enabled>
+            <duration>150</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>10662</start>
+            <end>10812</end>
+            <in>0</in>
+            <out>150</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>『禅病』と呼ばれる状態です</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-70">
+            <name>Subtitle 70</name>
+            <enabled>TRUE</enabled>
+            <duration>232</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>10822</start>
+            <end>11054</end>
+            <in>0</in>
+            <out>232</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>救ったのは 山中に住む白幽子という仙人でした</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-71">
+            <name>Subtitle 71</name>
+            <enabled>TRUE</enabled>
+            <duration>233</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>11054</start>
+            <end>11287</end>
+            <in>0</in>
+            <out>233</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>『頭で考えすぎだ 腹に意識を落とせ』—— その教えで 白隠は回復します</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-72">
+            <name>Subtitle 72</name>
+            <enabled>TRUE</enabled>
+            <duration>154</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>11297</start>
+            <end>11451</end>
+            <in>0</in>
+            <out>154</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>頭で答えを出そうとして 袋小路に陥る</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-73">
+            <name>Subtitle 73</name>
+            <enabled>TRUE</enabled>
+            <duration>155</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>11451</start>
+            <end>11606</end>
+            <in>0</in>
+            <out>155</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>その苦しみを 誰よりも知っていた白隠</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-74">
+            <name>Subtitle 74</name>
+            <enabled>TRUE</enabled>
+            <duration>154</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>11606</start>
+            <end>11760</end>
+            <in>0</in>
+            <out>154</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>彼が 同じように行き詰まった弟子たちに 繰り返し投げかけた問いがあります</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-75">
+            <name>Subtitle 75</name>
+            <enabled>TRUE</enabled>
+            <duration>159</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>11770</start>
+            <end>11929</end>
+            <in>0</in>
+            <out>159</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>『両掌打って声あり 隻手に何の声やある』</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-76">
+            <name>Subtitle 76</name>
+            <enabled>TRUE</enabled>
+            <duration>160</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>11929</start>
+            <end>12089</end>
+            <in>0</in>
+            <out>160</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>——『両手を打てば音がする では 片手の音を聞いてみよ』</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-77">
+            <name>Subtitle 77</name>
+            <enabled>TRUE</enabled>
+            <duration>190</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>12099</start>
+            <end>12289</end>
+            <in>0</in>
+            <out>190</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>これは『答えのない問い』ではありません</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-78">
+            <name>Subtitle 78</name>
+            <enabled>TRUE</enabled>
+            <duration>191</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>12289</start>
+            <end>12480</end>
+            <in>0</in>
+            <out>191</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>『AかBか』という問いの構造そのものを壊す問いです</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-79">
+            <name>Subtitle 79</name>
+            <enabled>TRUE</enabled>
+            <duration>191</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>12480</start>
+            <end>12671</end>
+            <in>0</in>
+            <out>191</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>板挟みとは 『Aか Bか』という 二択を突きつけられている状態</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-80">
+            <name>Subtitle 80</name>
+            <enabled>TRUE</enabled>
+            <duration>190</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>12671</start>
+            <end>12861</end>
+            <in>0</in>
+            <out>190</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>しかし 片手の音を聞こうとする時 私たちは『そもそも問いの立て方が間違っているのではないか』と気づく</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-81">
+            <name>Subtitle 81</name>
+            <enabled>TRUE</enabled>
+            <duration>142</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>12871</start>
+            <end>13013</end>
+            <in>0</in>
+            <out>142</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>上司Aの『スピード』と上司Bの『品質』</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-82">
+            <name>Subtitle 82</name>
+            <enabled>TRUE</enabled>
+            <duration>142</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>13013</start>
+            <end>13155</end>
+            <in>0</in>
+            <out>142</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>本当に どちらか一方しか選べないのでしょうか</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-83">
+            <name>Subtitle 83</name>
+            <enabled>TRUE</enabled>
+            <duration>142</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>13155</start>
+            <end>13297</end>
+            <in>0</in>
+            <out>142</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>片手の音を聞こうとする時 私たちは二択の外に出る</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-84">
+            <name>Subtitle 84</name>
+            <enabled>TRUE</enabled>
+            <duration>90</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>13307</start>
+            <end>13397</end>
+            <in>0</in>
+            <out>90</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>月曜日の朝</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-85">
+            <name>Subtitle 85</name>
+            <enabled>TRUE</enabled>
+            <duration>90</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>13397</start>
+            <end>13487</end>
+            <in>0</in>
+            <out>90</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>企画書を開く まだ 答えは見えない</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-86">
+            <name>Subtitle 86</name>
+            <enabled>TRUE</enabled>
+            <duration>111</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>13497</start>
+            <end>13608</end>
+            <in>0</in>
+            <out>111</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>でも 一つだけわかったことがある</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-87">
+            <name>Subtitle 87</name>
+            <enabled>TRUE</enabled>
+            <duration>110</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>13608</start>
+            <end>13718</end>
+            <in>0</in>
+            <out>110</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>『どちらを選ぶか』で悩んでいる限り この迷路は終わらない</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-88">
+            <name>Subtitle 88</name>
+            <enabled>TRUE</enabled>
+            <duration>142</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>13728</start>
+            <end>13870</end>
+            <in>0</in>
+            <out>142</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>答えを急がなくていい 問いそのものを 疑っていい</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-89">
+            <name>Subtitle 89</name>
+            <enabled>TRUE</enabled>
+            <duration>112</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>13880</start>
+            <end>13992</end>
+            <in>0</in>
+            <out>112</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>片手の音は 探すのをやめた時に聞こえてくるらしい</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-90">
+            <name>Subtitle 90</name>
+            <enabled>TRUE</enabled>
+            <duration>112</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>13992</start>
+            <end>14104</end>
+            <in>0</in>
+            <out>112</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>今はまだ 静かに耳を澄ませている</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-91">
+            <name>Subtitle 91</name>
+            <enabled>TRUE</enabled>
+            <duration>158</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>14114</start>
+            <end>14272</end>
+            <in>0</in>
+            <out>158</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>夜空を見上げると オリオン座が輝いています</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-92">
+            <name>Subtitle 92</name>
+            <enabled>TRUE</enabled>
+            <duration>159</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>14272</start>
+            <end>14431</end>
+            <in>0</in>
+            <out>159</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>星々は 引力で引き合いながら それぞれの軌道を守っている</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-93">
+            <name>Subtitle 93</name>
+            <enabled>TRUE</enabled>
+            <duration>133</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>14441</start>
+            <end>14574</end>
+            <in>0</in>
+            <out>133</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>『AかBか』の外に 道はある</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-94">
+            <name>Subtitle 94</name>
+            <enabled>TRUE</enabled>
+            <duration>133</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>14574</start>
+            <end>14707</end>
+            <in>0</in>
+            <out>133</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>知識の星座は 見る人によって違う物語を紡ぎます</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+          <generatoritem id="subtitle-95">
+            <name>Subtitle 95</name>
+            <enabled>TRUE</enabled>
+            <duration>143</duration>
+            <rate>
+              <timebase>30</timebase>
+              <ntsc>TRUE</ntsc>
+            </rate>
+            <start>14717</start>
+            <end>14860</end>
+            <in>0</in>
+            <out>143</out>
+            <effect>
+              <name>Text</name>
+              <effectid>Text</effectid>
+              <effectcategory>Text</effectcategory>
+              <effecttype>generator</effecttype>
+              <mediatype>video</mediatype>
+              <parameter>
+                <parameterid>str</parameterid>
+                <name>Text</name>
+                <value>今夜 あなたの板挟みが 新しい問いに変わりますように</value>
+              </parameter>
+            </effect>
+          </generatoritem>
+        </track>
       </video>
       <audio>
         <track>
@@ -57,8 +2434,8 @@
               <timebase>30</timebase>
               <ntsc>TRUE</ntsc>
             </rate>
-            <start>254</start>
-            <end>407</end>
+            <start>264</start>
+            <end>417</end>
             <in>0</in>
             <out>122546</out>
             <file id="file-2">
@@ -92,8 +2469,8 @@
               <timebase>30</timebase>
               <ntsc>TRUE</ntsc>
             </rate>
-            <start>407</start>
-            <end>614</end>
+            <start>427</start>
+            <end>634</end>
             <in>0</in>
             <out>166307</out>
             <file id="file-3">
@@ -127,8 +2504,8 @@
               <timebase>30</timebase>
               <ntsc>TRUE</ntsc>
             </rate>
-            <start>614</start>
-            <end>838</end>
+            <start>644</start>
+            <end>868</end>
             <in>0</in>
             <out>179098</out>
             <file id="file-4">
@@ -162,8 +2539,8 @@
               <timebase>30</timebase>
               <ntsc>TRUE</ntsc>
             </rate>
-            <start>838</start>
-            <end>1066</end>
+            <start>878</start>
+            <end>1106</end>
             <in>0</in>
             <out>182349</out>
             <file id="file-5">
@@ -197,8 +2574,8 @@
               <timebase>30</timebase>
               <ntsc>TRUE</ntsc>
             </rate>
-            <start>1066</start>
-            <end>1432</end>
+            <start>1116</start>
+            <end>1482</end>
             <in>0</in>
             <out>293449</out>
             <file id="file-6">
@@ -232,8 +2609,8 @@
               <timebase>30</timebase>
               <ntsc>TRUE</ntsc>
             </rate>
-            <start>1432</start>
-            <end>1765</end>
+            <start>1492</start>
+            <end>1825</end>
             <in>0</in>
             <out>266616</out>
             <file id="file-7">
@@ -267,8 +2644,8 @@
               <timebase>30</timebase>
               <ntsc>TRUE</ntsc>
             </rate>
-            <start>1765</start>
-            <end>1989</end>
+            <start>1835</start>
+            <end>2059</end>
             <in>0</in>
             <out>178900</out>
             <file id="file-8">
@@ -302,8 +2679,8 @@
               <timebase>30</timebase>
               <ntsc>TRUE</ntsc>
             </rate>
-            <start>1989</start>
-            <end>2236</end>
+            <start>2069</start>
+            <end>2316</end>
             <in>0</in>
             <out>198126</out>
             <file id="file-9">
@@ -337,8 +2714,8 @@
               <timebase>30</timebase>
               <ntsc>TRUE</ntsc>
             </rate>
-            <start>2236</start>
-            <end>2490</end>
+            <start>2326</start>
+            <end>2580</end>
             <in>0</in>
             <out>203438</out>
             <file id="file-10">
@@ -372,8 +2749,8 @@
               <timebase>30</timebase>
               <ntsc>TRUE</ntsc>
             </rate>
-            <start>2490</start>
-            <end>2612</end>
+            <start>2590</start>
+            <end>2712</end>
             <in>0</in>
             <out>97851</out>
             <file id="file-11">
@@ -407,8 +2784,8 @@
               <timebase>30</timebase>
               <ntsc>TRUE</ntsc>
             </rate>
-            <start>2612</start>
-            <end>2732</end>
+            <start>2722</start>
+            <end>2842</end>
             <in>0</in>
             <out>95572</out>
             <file id="file-12">
@@ -442,8 +2819,8 @@
               <timebase>30</timebase>
               <ntsc>TRUE</ntsc>
             </rate>
-            <start>2732</start>
-            <end>2961</end>
+            <start>2852</start>
+            <end>3081</end>
             <in>0</in>
             <out>184017</out>
             <file id="file-13">
@@ -477,8 +2854,8 @@
               <timebase>30</timebase>
               <ntsc>TRUE</ntsc>
             </rate>
-            <start>2961</start>
-            <end>3149</end>
+            <start>3091</start>
+            <end>3279</end>
             <in>0</in>
             <out>150269</out>
             <file id="file-14">
@@ -512,8 +2889,8 @@
               <timebase>30</timebase>
               <ntsc>TRUE</ntsc>
             </rate>
-            <start>3149</start>
-            <end>3443</end>
+            <start>3289</start>
+            <end>3583</end>
             <in>0</in>
             <out>235725</out>
             <file id="file-15">
@@ -547,8 +2924,8 @@
               <timebase>30</timebase>
               <ntsc>TRUE</ntsc>
             </rate>
-            <start>3443</start>
-            <end>3797</end>
+            <start>3593</start>
+            <end>3947</end>
             <in>0</in>
             <out>283548</out>
             <file id="file-16">
@@ -582,8 +2959,8 @@
               <timebase>30</timebase>
               <ntsc>TRUE</ntsc>
             </rate>
-            <start>3797</start>
-            <end>4053</end>
+            <start>3957</start>
+            <end>4213</end>
             <in>0</in>
             <out>204544</out>
             <file id="file-17">
@@ -617,8 +2994,8 @@
               <timebase>30</timebase>
               <ntsc>TRUE</ntsc>
             </rate>
-            <start>4053</start>
-            <end>4246</end>
+            <start>4223</start>
+            <end>4416</end>
             <in>0</in>
             <out>154363</out>
             <file id="file-18">
@@ -652,8 +3029,8 @@
               <timebase>30</timebase>
               <ntsc>TRUE</ntsc>
             </rate>
-            <start>4246</start>
-            <end>4394</end>
+            <start>4426</start>
+            <end>4574</end>
             <in>0</in>
             <out>118703</out>
             <file id="file-19">
@@ -687,8 +3064,8 @@
               <timebase>30</timebase>
               <ntsc>TRUE</ntsc>
             </rate>
-            <start>4394</start>
-            <end>5503</end>
+            <start>4584</start>
+            <end>5693</end>
             <in>0</in>
             <out>888239</out>
             <file id="file-20">
@@ -722,8 +3099,8 @@
               <timebase>30</timebase>
               <ntsc>TRUE</ntsc>
             </rate>
-            <start>5503</start>
-            <end>5619</end>
+            <start>5703</start>
+            <end>5819</end>
             <in>0</in>
             <out>92487</out>
             <file id="file-21">
@@ -757,8 +3134,8 @@
               <timebase>30</timebase>
               <ntsc>TRUE</ntsc>
             </rate>
-            <start>5619</start>
-            <end>5890</end>
+            <start>5829</start>
+            <end>6100</end>
             <in>0</in>
             <out>217300</out>
             <file id="file-22">
@@ -792,8 +3169,8 @@
               <timebase>30</timebase>
               <ntsc>TRUE</ntsc>
             </rate>
-            <start>5890</start>
-            <end>6027</end>
+            <start>6110</start>
+            <end>6247</end>
             <in>0</in>
             <out>109959</out>
             <file id="file-23">
@@ -827,8 +3204,8 @@
               <timebase>30</timebase>
               <ntsc>TRUE</ntsc>
             </rate>
-            <start>6027</start>
-            <end>6233</end>
+            <start>6257</start>
+            <end>6463</end>
             <in>0</in>
             <out>165038</out>
             <file id="file-24">
@@ -862,8 +3239,8 @@
               <timebase>30</timebase>
               <ntsc>TRUE</ntsc>
             </rate>
-            <start>6233</start>
-            <end>6743</end>
+            <start>6473</start>
+            <end>6983</end>
             <in>0</in>
             <out>408513</out>
             <file id="file-25">
@@ -897,8 +3274,8 @@
               <timebase>30</timebase>
               <ntsc>TRUE</ntsc>
             </rate>
-            <start>6743</start>
-            <end>7607</end>
+            <start>6993</start>
+            <end>7857</end>
             <in>0</in>
             <out>691177</out>
             <file id="file-26">
@@ -932,8 +3309,8 @@
               <timebase>30</timebase>
               <ntsc>TRUE</ntsc>
             </rate>
-            <start>7607</start>
-            <end>7750</end>
+            <start>7867</start>
+            <end>8010</end>
             <in>0</in>
             <out>114900</out>
             <file id="file-27">
@@ -967,8 +3344,8 @@
               <timebase>30</timebase>
               <ntsc>TRUE</ntsc>
             </rate>
-            <start>7750</start>
-            <end>7933</end>
+            <start>8020</start>
+            <end>8203</end>
             <in>0</in>
             <out>146875</out>
             <file id="file-28">
@@ -1002,8 +3379,8 @@
               <timebase>30</timebase>
               <ntsc>TRUE</ntsc>
             </rate>
-            <start>7933</start>
-            <end>8544</end>
+            <start>8213</start>
+            <end>8824</end>
             <in>0</in>
             <out>489287</out>
             <file id="file-29">
@@ -1037,8 +3414,8 @@
               <timebase>30</timebase>
               <ntsc>TRUE</ntsc>
             </rate>
-            <start>8544</start>
-            <end>8984</end>
+            <start>8834</start>
+            <end>9274</end>
             <in>0</in>
             <out>351983</out>
             <file id="file-30">
@@ -1072,8 +3449,8 @@
               <timebase>30</timebase>
               <ntsc>TRUE</ntsc>
             </rate>
-            <start>8984</start>
-            <end>9457</end>
+            <start>9284</start>
+            <end>9757</end>
             <in>0</in>
             <out>378759</out>
             <file id="file-31">
@@ -1107,8 +3484,8 @@
               <timebase>30</timebase>
               <ntsc>TRUE</ntsc>
             </rate>
-            <start>9457</start>
-            <end>9815</end>
+            <start>9767</start>
+            <end>10125</end>
             <in>0</in>
             <out>286928</out>
             <file id="file-32">
@@ -1142,8 +3519,8 @@
               <timebase>30</timebase>
               <ntsc>TRUE</ntsc>
             </rate>
-            <start>9815</start>
-            <end>10031</end>
+            <start>10135</start>
+            <end>10351</end>
             <in>0</in>
             <out>172475</out>
             <file id="file-33">
@@ -1177,8 +3554,8 @@
               <timebase>30</timebase>
               <ntsc>TRUE</ntsc>
             </rate>
-            <start>10031</start>
-            <end>10482</end>
+            <start>10361</start>
+            <end>10812</end>
             <in>0</in>
             <out>361454</out>
             <file id="file-34">
@@ -1212,8 +3589,8 @@
               <timebase>30</timebase>
               <ntsc>TRUE</ntsc>
             </rate>
-            <start>10482</start>
-            <end>10947</end>
+            <start>10822</start>
+            <end>11287</end>
             <in>0</in>
             <out>371963</out>
             <file id="file-35">
@@ -1247,8 +3624,8 @@
               <timebase>30</timebase>
               <ntsc>TRUE</ntsc>
             </rate>
-            <start>10947</start>
-            <end>11410</end>
+            <start>11297</start>
+            <end>11760</end>
             <in>0</in>
             <out>371183</out>
             <file id="file-36">
@@ -1282,8 +3659,8 @@
               <timebase>30</timebase>
               <ntsc>TRUE</ntsc>
             </rate>
-            <start>11410</start>
-            <end>11729</end>
+            <start>11770</start>
+            <end>12089</end>
             <in>0</in>
             <out>255048</out>
             <file id="file-37">
@@ -1317,8 +3694,8 @@
               <timebase>30</timebase>
               <ntsc>TRUE</ntsc>
             </rate>
-            <start>11729</start>
-            <end>12491</end>
+            <start>12099</start>
+            <end>12861</end>
             <in>0</in>
             <out>610913</out>
             <file id="file-38">
@@ -1352,8 +3729,8 @@
               <timebase>30</timebase>
               <ntsc>TRUE</ntsc>
             </rate>
-            <start>12491</start>
-            <end>12917</end>
+            <start>12871</start>
+            <end>13297</end>
             <in>0</in>
             <out>341051</out>
             <file id="file-39">
@@ -1387,8 +3764,8 @@
               <timebase>30</timebase>
               <ntsc>TRUE</ntsc>
             </rate>
-            <start>12917</start>
-            <end>13097</end>
+            <start>13307</start>
+            <end>13487</end>
             <in>0</in>
             <out>143840</out>
             <file id="file-40">
@@ -1422,8 +3799,8 @@
               <timebase>30</timebase>
               <ntsc>TRUE</ntsc>
             </rate>
-            <start>13097</start>
-            <end>13318</end>
+            <start>13497</start>
+            <end>13718</end>
             <in>0</in>
             <out>177120</out>
             <file id="file-41">
@@ -1457,8 +3834,8 @@
               <timebase>30</timebase>
               <ntsc>TRUE</ntsc>
             </rate>
-            <start>13318</start>
-            <end>13460</end>
+            <start>13728</start>
+            <end>13870</end>
             <in>0</in>
             <out>113838</out>
             <file id="file-42">
@@ -1492,8 +3869,8 @@
               <timebase>30</timebase>
               <ntsc>TRUE</ntsc>
             </rate>
-            <start>13460</start>
-            <end>13684</end>
+            <start>13880</start>
+            <end>14104</end>
             <in>0</in>
             <out>179080</out>
             <file id="file-43">
@@ -1527,8 +3904,8 @@
               <timebase>30</timebase>
               <ntsc>TRUE</ntsc>
             </rate>
-            <start>13684</start>
-            <end>14001</end>
+            <start>14114</start>
+            <end>14431</end>
             <in>0</in>
             <out>253575</out>
             <file id="file-44">
@@ -1562,8 +3939,8 @@
               <timebase>30</timebase>
               <ntsc>TRUE</ntsc>
             </rate>
-            <start>14001</start>
-            <end>14267</end>
+            <start>14441</start>
+            <end>14707</end>
             <in>0</in>
             <out>213177</out>
             <file id="file-45">
@@ -1597,8 +3974,8 @@
               <timebase>30</timebase>
               <ntsc>TRUE</ntsc>
             </rate>
-            <start>14267</start>
-            <end>14410</end>
+            <start>14717</start>
+            <end>14860</end>
             <in>0</in>
             <out>114900</out>
             <file id="file-46">

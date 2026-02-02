@@ -1,0 +1,246 @@
+episodes:
+  - episode_number: "S2E10"
+    title: "退職という決断"
+    duration_target: "8:00"
+    
+    segments:
+      # アバン (4セグメント)
+      - speaker: "kore"
+        style: "contemplative documentary narration, quiet tension"
+        text: "<sub alias='メール'>mail</sub>ソフトの「下書き」<sub alias='フォルダ'>folder</sub>。件名には「退職願」。作成日は、半年前。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, paralyzed"
+        text: "送信<sub alias='ボタン'>button</sub>を押せば、すべてが終わる。そして、すべてが始まる。分かっているのに、指が止まる。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, questioning"
+        text: "私たちは、なぜ「決断」を先送りにするために、これほど<sub alias='クリエイティブ'>creative</sub>な言い訳を思いつくのでしょうか。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "warm documentary welcome"
+        text: "ようこそ、<sub alias='オリオン'>Orion</sub>の会議室へ。今夜のテーマは「退職という決断」。"
+        break_after: 1500
+      
+      # 星座の提示 (4セグメント)
+      - speaker: "kore"
+        style: "contemplative documentary narration, introducing concept"
+        text: "<sub alias='ここんとうざい'>古今東西</sub>の叡智を星座のように結び、現代の悩みに新しい視座を見つける8分間。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, presenting framework"
+        text: "今夜めぐる星々は——「自分に嘘をつく」という人間の構造。「苦労した分だけ愛着がわく」という脳の<sub alias='バグ'>bug</sub>。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration"
+        text: "「死」を直視しなければ、生は輝かないという逆説。そして、「潜む時」と「飛ぶ時」を見極める古代の知恵。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, connecting threads"
+        text: "バラバラの星々が、「下書き」のまま止まったあなたの時間を動かし始めます。"
+        break_after: 1500
+      
+      # 没入 (6セグメント)
+      - speaker: "aoede"
+        style: "introspective narration, sunday evening dread"
+        text: "日曜日の夜。憂鬱が押し寄せる。「辞めたい」——その気持ちに嘘はない。"
+        break_after: 1000
+      
+      - speaker: "aoede"
+        style: "introspective narration, anxious"
+        text: "でも、転職<sub alias='サイト'>site</sub>を見るたびに、不安が<sub alias='ブレーキ'>brake</sub>をかける。"
+        break_after: 1000
+      
+      - speaker: "aoede"
+        style: "introspective narration, making excuses"
+        text: "「今の会社も、悪い人たちじゃないし」「あと3年いれば、課長になれるかもしれないし」「外に出て、通用する保証なんてないし」"
+        break_after: 1200
+      
+      - speaker: "aoede"
+        style: "introspective narration, realizing self-deception"
+        text: "天秤にかけているつもりで、実は天秤そのものが動かないように押さえつけている。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, calling for clarity"
+        text: "この「ぬるま湯の地獄」から抜け出すために、冷徹な知性が必要です。"
+        break_after: 1500
+      
+      # 展開1：サルトルの「自己欺瞞」 (7セグメント)
+      - speaker: "kore"
+        style: "documentary narration, historical scene-setting"
+        text: "1940年代、<sub alias='パリ'>Paris</sub>。<sub alias='ジャン＝ポール・サルトル'>Jean-Paul Sartre</sub>は、<sub alias='カフェ・ド・フロール'>Café de Flore</sub>の片隅で原稿を書きながら——"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "documentary narration, observing human behavior"
+        text: "<sub alias='ウェイター'>waiter</sub>の動きを観察していました。彼は気づきます。あの<sub alias='ウェイター'>waiter</sub>は「<sub alias='ウェイター'>waiter</sub>を演じている」。機械のように正確な動作、過剰に丁寧な物腰——まるで、自分が自由な人間であることを忘れようとしているかのように。"
+        break_after: 1300
+      
+      - speaker: "charon"
+        style: "existentialist conviction, stark pronouncement"
+        text: "「人間は自由の刑に処されている」"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, explaining existentialism"
+        text: "人間は本来、自由な存在です。明日、<sub alias='ウェイター'>waiter</sub>を辞めてもいい。しかし、自由は不安です。だから、「私は<sub alias='ウェイター'>waiter</sub>である」と思い込むことで、自由の重荷から逃げようとする。"
+        break_after: 1300
+      
+      - speaker: "kore"
+        style: "documentary narration, naming concept"
+        text: "<sub alias='サルトル'>Sartre</sub>はこれを「自己欺瞞」と呼びました。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, applying to workplace"
+        text: "「住宅<sub alias='ローン'>loan</sub>があるから辞められない」「家族がいるから冒険できない」それは事実でしょうか？それとも、自由から逃げるために、自分を「<sub alias='ローン'>loan</sub>返済マシーン」という「物」に定義し直しているだけでしょうか。"
+        break_after: 1300
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, piercing insight"
+        text: "保留にしているのではない。あなたは毎日、「辞めない」という決断を、積極的にし続けているのです。"
+        break_after: 1500
+      
+      # 展開2：フェスティンガーの「努力正当化」 (6セグメント)
+      - speaker: "kore"
+        style: "documentary narration, posing paradox"
+        text: "なぜ、<sub alias='ブラック'>black</sub>な環境ほど、人は辞められないのか。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "documentary narration, introducing experiment"
+        text: "1959年、<sub alias='スタンフォード'>Stanford</sub>大学。心理学者<sub alias='レオン・フェスティンガー'>Leon Festinger</sub>は奇妙な実験を行いました。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "documentary narration, describing experiment"
+        text: "被験者に、極めて退屈な作業をさせる。終了後、次の被験者に「面白かった」と嘘をつくよう依頼する。報酬は、ある<sub alias='グループ'>group</sub>には20<sub alias='ドル'>dollar</sub>、別の<sub alias='グループ'>group</sub>にはたった1<sub alias='ドル'>dollar</sub>。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, revealing paradoxical result"
+        text: "結果は逆説的でした。1<sub alias='ドル'>dollar</sub>しかもらえなかった<sub alias='グループ'>group</sub>の方が、「実際に面白かった」と信じ込んでいた。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, explaining mechanism"
+        text: "なぜか。20<sub alias='ドル'>dollar</sub>なら「お金のために嘘をついた」と説明できる。しかし1<sub alias='ドル'>dollar</sub>では説明がつかない。だから脳は、矛盾を解消するために「本当に面白かったのだ」と記憶を書き換えた。苦労すればするほど、脳はその対象への愛着を高めてしまう。"
+        break_after: 1400
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, piercing question"
+        text: "あなたが感じている「会社への愛着」。それは本当に愛着でしょうか？それとも、過去に支払った「苦労」を回収したいという、脳の執着でしょうか。"
+        break_after: 1500
+      
+      # 転換：ハイデガーの「死への存在」 (5セグメント)
+      - speaker: "kore"
+        style: "documentary narration, introducing radical cure"
+        text: "自己欺瞞と努力正当化。この<sub alias='ループ'>loop</sub>を断ち切る劇薬が、もう一人の哲学者から届きます。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "documentary narration, historical introduction"
+        text: "1920年代、ドイツ・<sub alias='フライブルク'>Freiburg</sub>。<sub alias='マルティン・ハイデガー'>Martin Heidegger</sub>は、師<sub alias='フッサール'>Husserl</sub>のもとで現象学を学びながら——"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "documentary narration, core concept"
+        text: "人間存在の根本を問い続けていました。その思索の核心にあったのは「死」です。"
+        break_after: 1200
+      
+      - speaker: "charon"
+        style: "philosophical gravity, confronting mortality"
+        text: "「死への存在」人間は、いつか必ず死ぬ。その「終わり」を直視した時初めて、人は世間の常識や周囲の期待から離れ、本来の自分を取り戻すことができる。"
+        break_after: 1300
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, ultimate question"
+        text: "「いつか辞めよう」と思っている時、あなたは自分の時間が無限にあるかのように振る舞っている。しかし、人生は有限です。<sub alias='ハイデガー'>Heidegger</sub>ならこう問うでしょう。「それが、あなたの人生の最後の5年間だとしても、あなたは今の場所に留まるか？」この問いの前で、「とりあえず現状維持」という選択肢は、急に色あせて見えてくる。"
+        break_after: 1500
+      
+      # リフレーミング：龍の時 (5セグメント)
+      - speaker: "kore"
+        style: "documentary narration, balancing urgency"
+        text: "しかし、「死を意識せよ」だけでは、焦りを生むだけかもしれません。ここで、東洋の知恵を借ります。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "documentary narration, introducing ancient text"
+        text: "古代中国の経典『<sub alias='えききょう'>易経</sub>』は、「辞めるべきか」ではなく「今がその時か」を問います。"
+        break_after: 1200
+      
+      - speaker: "charon"
+        style: "ancient wisdom, strategic patience"
+        text: "「潜龍、用うるなかれ」——まだ力が足りないなら、地下で力を蓄えよ。それは「我慢」ではなく「潜伏」という戦略です。"
+        break_after: 1200
+      
+      - speaker: "charon"
+        style: "ancient wisdom, decisive action"
+        text: "「飛龍、天に在り」——時が満ち、力が備わったなら、躊躇なく飛べ。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, diagnostic question"
+        text: "あなたは今、どちらの龍ですか？もし「潜伏」の時期が終わっているのに、怖がって地下に隠れているなら、それは腐敗します。逆に、まだ「飛ぶ」力がついていないなら、今の会社で吸い尽くせるものを吸い尽くすのも戦略です。"
+        break_after: 1500
+      
+      # 着地 (4セグメント)
+      - speaker: "aoede"
+        style: "gentle, introspective narration"
+        text: "月曜日の朝。下書き<sub alias='フォルダ'>folder</sub>の「退職願」を見つめる。問いを変えてみる。"
+        break_after: 1100
+      
+      - speaker: "aoede"
+        style: "gentle, introspective narration, reframing"
+        text: "「辞めるべきか、残るべきか」ではなく、「私は今、潜っているのか、それとも隠れているのか」"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, key distinction"
+        text: "潜伏と逃避は、外からは同じに見える。違いは、自分だけが知っている。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, resolution"
+        text: "その問いに、正直に答えられた時。下書きは、どちらかの形で、完成する。"
+        break_after: 1500
+      
+      # クロージング (4セグメント)
+      - speaker: "kore"
+        style: "contemplative documentary narration, looking up"
+        text: "夜空を見上げると、<sub alias='オリオン'>Orion</sub>座が輝いています。星々は、どこにも「留まって」はいない。すべては動いている。ただ、私たちの時間では見えないだけ。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, stark truths"
+        text: "自由から逃げることはできない。時間は有限で、選ばないことも選択になる。でも、潜る時と飛ぶ時は、自分で決められる。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, poetic wisdom"
+        text: "知識の星座は、見る人によって違う物語を紡ぎます。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "warm documentary narration, gentle blessing"
+        text: "あなたの「下書き」が、いつか「送信済み」に変わる日。それが明日でも、一年後でも、その時が「あなたの時」です。"
+        break_after: 2000
+
+production_notes:
+  - "総セグメント数: 41（目標40前後）"
+  - "各セグメントは意味のまとまりを重視"
+  - "外国語原文（仏・英）はすべてスキップし、日本語訳のみ使用"
+  - "kore: メインナレーター（瞑想的ドキュメンタリー）"
+  - "charon: 哲学者・古代経典の引用"
+  - "aoede: 没入シーンと着地部分の内省的ナレーション"
+  - "英単語・外来語・固有名詞に発音ガイド適用"
+  - "「古今東西」に<sub alias='ここんとうざい'>を適用（定型ルール）"
+  - "易経に読み仮名適用"
+  - "ブレークタイムは文脈に応じて1000ms-1500msで調整"

@@ -1,0 +1,24 @@
+# S2E13「会議という時間」第3回追加セグメント
+# 既存YAMLへの挿入用
+
+# 没入セクションへの追加
+# 「沈黙している人がいる。発言しているのは、いつも同じ三人。」を置き換え
+updated_immersion_details:
+  - speaker: "aoede"
+    style: "immersive scene description, observing disengagement"
+    text: "沈黙している人がいる。<sub alias='ノートパソコン'>laptop</sub>を開いて、別の作業をしている人もいる。発言しているのは、いつも同じ三人。残りは、早く終わらないかと時計を見ている。"
+    break_after: 1400
+
+# リフレーミングセクション（一座建立）への追加
+# 「二度と同じにはならない『ライブ』が成立した時——それが『一座建立』なのです。」の後に挿入
+bridge_to_landing:
+  - speaker: "kore"
+    style: "contemplative documentary narration, connecting past to present"
+    text: "能の舞台と会議室。かけ離れているように見えて、どちらも「その場にいる人間が、その瞬間だけの場を作る」という点では同じなのかもしれません。"
+    break_after: 1200
+
+production_notes_for_third_additions:
+  - "没入セクションの1セグメント更新（会議の具体的なあるある描写）"
+  - "リフレーミングセクションに1セグメント追加（一座建立と会議室の橋渡し）"
+  - "合計2セグメント追加/更新により、総セグメント数は54→55に増加"
+  - "共感度向上と抽象概念の実践的着地を強化"

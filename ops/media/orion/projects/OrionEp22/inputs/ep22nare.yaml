@@ -1,0 +1,261 @@
+episodes:
+  - episode_number: "S2E07"
+    title: "ナンバー2の矜持"
+    duration_target: "8:00"
+    
+    segments:
+      # アバン (4セグメント)
+      - speaker: "kore"
+        style: "contemplative documentary narration, quietly frustrated"
+        text: "会議で発言するのは、いつも上司。自分はその横で資料を準備し、根回しをし、後始末をする。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, bittersweet"
+        text: "「縁の下の力持ち」と言えば聞こえはいい。でも、評価されるのは常に「上」の人間。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, questioning"
+        text: "ナンバー2であることに、意味はあるのでしょうか。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "warm documentary welcome"
+        text: "ようこそ、<sub alias='オリオン'>Orion</sub>の会議室へ。今夜のテーマは「ナンバー2の矜持」。"
+        break_after: 1500
+      
+      # 星座の提示 (4セグメント)
+      - speaker: "kore"
+        style: "contemplative documentary narration, introducing concept"
+        text: "<sub alias='ここんとうざい'>古今東西</sub>の叡智を星座のように結び、現代の悩みに新しい視座を見つける8分間。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, presenting framework"
+        text: "今夜めぐる星々は——組織図には載らない「非公式組織」の発見。見えざるところに宿る統治の「術」。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration"
+        text: "自らは変わらず反応を加速させる「触媒」の原理。そして、主役と背景が反転する「図と地」の法則。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, connecting threads"
+        text: "バラバラの星々が、「二番手」の静かな力を照らし始めます。"
+        break_after: 1500
+      
+      # 没入 (5セグメント)
+      - speaker: "aoede"
+        style: "introspective narration, quiet scene"
+        text: "プロジェクトが成功した。打ち上げの席で、部長が称えられる。「素晴らしい<sub alias='リーダーシップ'>leadership</sub>でした」"
+        break_after: 1000
+      
+      - speaker: "aoede"
+        style: "introspective narration, observing from sidelines"
+        text: "拍手が起こる。あなたは隅の席で、静かに<sub alias='グラス'>glass</sub>を傾けている。"
+        break_after: 1100
+      
+      - speaker: "aoede"
+        style: "introspective narration, listing unseen work"
+        text: "徹夜で資料を直したのは自分だ。<sub alias='メンバー'>member</sub>間の対立を調整したのも自分だ。<sub alias='クライアント'>client</sub>の無理な要求をなだめたのも。"
+        break_after: 1100
+      
+      - speaker: "aoede"
+        style: "introspective narration, painful realization"
+        text: "でも、誰もそれを知らない。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, empathetic question"
+        text: "「あなたがいなければ成功しなかった」——その言葉は、永遠に届かないのだろうか。"
+        break_after: 1500
+      
+      # 展開1：バーナードの「非公式組織」 (6セグメント)
+      - speaker: "kore"
+        style: "documentary narration, historical introduction"
+        text: "1930年代、アメリカ。<sub alias='エーティーアンドティー'>AT&T</sub>副社長<sub alias='チェスター・バーナード'>Chester Barnard</sub>は、ある矛盾に気づいていました。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "documentary narration, citing research"
+        text: "同じ頃、<sub alias='ハーバード'>Harvard</sub>大学の<sub alias='ホーソン'>Hawthorne</sub>実験が衝撃的な結果を報告していた。工場の照明を明るくしても暗くしても、生産性が上がる。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, explaining findings"
+        text: "物理的条件ではなく、「観察されている」という人間関係が生産性を左右していたのです。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "documentary narration, introducing concept"
+        text: "<sub alias='バーナード'>Barnard</sub>は確信しました。"
+        break_after: 900
+      
+      - speaker: "charon"
+        style: "management theorist, measured authority"
+        text: "「非公式組織は、公式組織の運営に不可欠である」"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, key insight"
+        text: "組織図に載っている関係だけでは、組織は動かない。誰と誰が信頼関係にあるか。誰が情報の<sub alias='ハブ'>hub</sub>になっているか。誰が感情的な緩衝材になっているか。ナンバー2の仕事の多くは、この「非公式組織」の中にあります。議事録にも残らない。でも、それがなければ組織は崩壊する。"
+        break_after: 1500
+      
+      # 展開2：韓非子の「術」 (6セグメント)
+      - speaker: "kore"
+        style: "documentary narration, transitioning to ancient China"
+        text: "紀元前3世紀、中国・戦国時代。韓の国の王族に生まれた韓非は、吃音のため弁論ができず——"
+        break_after: 900
+      
+      - speaker: "kore"
+        style: "documentary narration"
+        text: "代わりに文章で思想を磨きました。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "documentary narration, tragic backstory"
+        text: "彼の著作は、敵国・秦の始皇帝を魅了した。しかし皮肉なことに、韓非は秦に招かれた後、かつての同門・李斯の讒言により獄中で毒を仰ぎます。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, introducing concept"
+        text: "その韓非が残した言葉。"
+        break_after: 900
+      
+      - speaker: "charon"
+        style: "ancient Chinese strategist, subtle wisdom"
+        text: "「術とは、胸中に蔵するものなり」"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, explaining and applying"
+        text: "本当の影響力は、目に見える命令や権限の中にはない。相手に「自分が決めた」と思わせながら、実は状況全体を整えている。そんな見えない力。現代の組織で、その「術」を実際に使っているのは誰でしょうか。上司が「自分で決断した」と思っている。でも実は、その決断に必要な情報を揃え、選択肢を絞り、<sub alias='タイミング'>timing</sub>を計っていたのは——影にいるあなたかもしれません。"
+        break_after: 1500
+      
+      # 展開3：武蔵の「水」 (5セグメント)
+      - speaker: "kore"
+        style: "documentary narration, transitioning to Edo Japan"
+        text: "1643年、肥後国・熊本。晩年の宮本武蔵は、霊巌洞という洞窟にこもり——"
+        break_after: 800
+      
+      - speaker: "kore"
+        style: "documentary narration"
+        text: "生涯の兵法をまとめていました。死の直前まで書き続けた『五輪書』。その「水之巻」にこうあります。"
+        break_after: 1100
+      
+      - speaker: "charon"
+        style: "martial wisdom, fluid tone"
+        text: "「水を本として、心を水になすなり」——「水を手本として、心を水のようにせよ」"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, explaining metaphor"
+        text: "水は、器に従って形を変える。四角い器なら四角に、丸い器なら丸く。しかし、その柔軟さこそが強さです。岩を穿つのは、硬い鉄ではなく、柔らかい水の滴り。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, applying wisdom"
+        text: "ナンバー2に求められるのは、この「水」の性質かもしれません。状況に応じて形を変え、隙間に入り込み、障害を迂回する。自己主張しない。でも、確実に浸透していく。"
+        break_after: 1500
+      
+      # 転換：触媒という存在 (5セグメント)
+      - speaker: "kore"
+        style: "documentary narration, shifting to chemistry"
+        text: "化学に「触媒」という概念があります。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "documentary narration, historical example"
+        text: "20世紀初頭、ドイツの化学者<sub alias='フリッツ・ハーバー'>Fritz Haber</sub>と<sub alias='カール・ボッシュ'>Carl Bosch</sub>は、空気中の窒素から<sub alias='アンモニア'>ammonia</sub>を合成する方法を発見しました。鍵となったのは「鉄触媒」。"
+        break_after: 1300
+      
+      - speaker: "kore"
+        style: "documentary narration"
+        text: "この発見は、世界の食糧生産を一変させ、<sub alias='ノーベル'>Nobel</sub>賞を受賞します。しかし、生成された<sub alias='アンモニア'>ammonia</sub>の中に、鉄の痕跡は残りません。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, explaining principle"
+        text: "触媒とは、反応を加速させるが、自分自身は変化しない物質。なければ反応は起こらない。でも、成果物に名前は刻まれない。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, connecting metaphor"
+        text: "ナンバー2の仕事は、触媒に似ています。「自分がいなくても同じだった」は、錯覚です。"
+        break_after: 1500
+      
+      # リフレーミング：図と地の反転 (5セグメント)
+      - speaker: "kore"
+        style: "documentary narration, introducing psychology"
+        text: "1915年、<sub alias='デンマーク'>Denmark</sub>。心理学者<sub alias='エドガー・ルビン'>Edgar Rubin</sub>は、博士論文で「図と地」という知覚の法則を発表しました。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, explaining phenomenon"
+        text: "有名な「<sub alias='ルビン'>Rubin</sub>の壺」。白い部分を見れば「壺」が見える。黒い部分を見れば「向かい合う二つの顔」が見える。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, key principle"
+        text: "どちらが「図（主役）」で、どちらが「地（背景）」かは、見方によって反転する。そして重要なのは、地がなければ、図は存在できないということ。背景があるから、主役が浮かび上がる。"
+        break_after: 1300
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, applying to theme"
+        text: "ナンバー2は「地」かもしれません。でも、「地」なき「図」はありえない。あなたがいるから、上司は「図」として輝ける。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, reframing relationship"
+        text: "それは従属ではありません。「図」と「地」は、互いを成り立たせている対等な関係なのです。"
+        break_after: 1500
+      
+      # 着地 (4セグメント)
+      - speaker: "aoede"
+        style: "gentle, introspective narration"
+        text: "明日も会議がある。上司が発言し、あなたは横で控えている。"
+        break_after: 1000
+      
+      - speaker: "aoede"
+        style: "gentle, introspective narration, shifting perspective"
+        text: "でも、少しだけ視点を変えてみてください。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, affirming value"
+        text: "あなたは非公式組織の結節点であり、見えない「術」の使い手であり、形を持たない水であり、反応を加速させる触媒であり、主役を浮かび上がらせる「地」である。"
+        break_after: 1300
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, profound dignity"
+        text: "ナンバー2であることは、劣っていることではない。それは、誰にも見えない場所で、組織という絵画を成り立たせていることなのです。"
+        break_after: 1500
+      
+      # クロージング (3セグメント)
+      - speaker: "kore"
+        style: "contemplative documentary narration, looking up"
+        text: "夜空を見上げると、<sub alias='オリオン'>Orion</sub>座が輝いています。私たちが見ているのは、明るい星だけ。でも、その星々の間には、見えない暗黒物質が満ちている。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, poetic wisdom"
+        text: "宇宙の構造を支えているのは、光ではなく、見えない質量なのです。知識の星座は、見る人によって違う物語を紡ぎます。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "warm documentary narration, gentle blessing"
+        text: "今夜、あなたの「見えない仕事」に、静かな誇りが灯りますように。"
+        break_after: 2000
+
+production_notes:
+  - "総セグメント数: 42（目標40前後）"
+  - "各セグメントは意味のまとまりを重視"
+  - "外国語原文（英・漢文）はすべてスキップし、日本語訳のみ使用"
+  - "kore: メインナレーター（瞑想的ドキュメンタリー）"
+  - "charon: 経営学者・戦略家・武芸者の引用"
+  - "aoede: 没入シーンと着地部分の内省的ナレーション"
+  - "英単語・外来語・固有名詞に発音ガイド適用"
+  - "「古今東西」に<sub alias='ここんとうざい'>を適用（定型ルール）"
+  - "ブレークタイムは文脈に応じて800ms-1500msで調整"

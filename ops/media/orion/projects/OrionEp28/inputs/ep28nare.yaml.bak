@@ -1,0 +1,231 @@
+episodes:
+  - episode_number: "S2E13"
+    title: "会議という時間"
+    duration_target: "8:00"
+    
+    segments:
+      # アバン (4セグメント)
+      - speaker: "aoede"
+        style: "introspective narration, post-meeting fatigue"
+        text: "「この会議、本当に必要だったのかな」終わった後、誰もがそう思う。でも、誰も言わない。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, questioning"
+        text: "私たちは会議に多くの時間を費やしています。しかし、その時間は「生きている」のでしょうか。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "warm documentary welcome"
+        text: "ようこそ、<sub alias='オリオン'>Orion</sub>の会議室へ。今夜のテーマは「会議という時間」。"
+        break_after: 1500
+      
+      # 星座の提示 (4セグメント)
+      - speaker: "kore"
+        style: "contemplative documentary narration, introducing concept"
+        text: "<sub alias='ここんとうざい'>古今東西</sub>の叡智を星座のように結び、現代の悩みに新しい視座を見つける8分間。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, presenting framework"
+        text: "今夜めぐる星々は——黙っていても伝わる<sub alias='メッセージ'>message</sub>という発見。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration"
+        text: "統合されない声が響き合う「多声性」。<sub alias='ノイズ'>noise</sub>が本音を浮かび上がらせる物理法則。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, connecting threads"
+        text: "そして、全員で作る二度とない舞台という教え。バラバラの星々が、「無駄な時間」を「創造の場」に変える鍵を照らし始めます。"
+        break_after: 1500
+      
+      # 没入 (5セグメント)
+      - speaker: "aoede"
+        style: "introspective narration, observing scene"
+        text: "月曜日の午後。週例会議。議題は三つ。予定時間は一時間。"
+        break_after: 1000
+      
+      - speaker: "aoede"
+        style: "introspective narration, frustration building"
+        text: "しかし、最初の議題で三十分が過ぎる。誰かが脱線し、誰かがそれに乗り、話は横道へ。"
+        break_after: 1100
+      
+      - speaker: "aoede"
+        style: "introspective narration, observing dynamics"
+        text: "沈黙している人がいる。発言しているのは、いつも同じ三人。"
+        break_after: 1000
+      
+      - speaker: "aoede"
+        style: "introspective narration, resigned"
+        text: "結局、何も決まらないまま、時間だけが過ぎていく。「次回に持ち越しましょう」"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, empathetic"
+        text: "また同じ結末。会議室を出る足取りが、重い。"
+        break_after: 1500
+      
+      # 展開1：ワツラウィックの公理 (6セグメント)
+      - speaker: "kore"
+        style: "documentary narration, historical introduction"
+        text: "1960年代、<sub alias='カリフォルニア'>California</sub>・<sub alias='パロアルト'>Palo Alto</sub>。<sub alias='オーストリア'>Austria</sub>出身の心理学者<sub alias='ポール・ワツラウィック'>Paul Watzlawick</sub>は——"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "documentary narration, research context"
+        text: "精神研究所で<sub alias='コミュニケーション'>communication</sub>の構造を解析していました。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "documentary narration, revealing discovery"
+        text: "彼が発見したのは、直感に反する事実でした。"
+        break_after: 1000
+      
+      - speaker: "charon"
+        style: "psychological insight, foundational principle"
+        text: "「人は、<sub alias='コミュニケーション'>communication</sub>しないことができない」"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, explaining mechanism"
+        text: "沈黙していても、それは「沈黙」という<sub alias='メッセージ'>message</sub>を発している。腕を組んでいれば「距離を置いている」と伝わる。目を合わせなければ「関心がない」と読まれる。"
+        break_after: 1300
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, applying to meetings"
+        text: "会議で黙っている人は、「発言していない」のではありません。「黙っている」という<sub alias='コミュニケーション'>communication</sub>をしているのです。そして、その沈黙は、同意にも、抵抗にも、諦めにも見える。会議の「空気」は、発言だけで作られるのではない。沈黙もまた、場を形作っている。"
+        break_after: 1500
+      
+      # 展開2：バフチンの「ポリフォニー」 (5セグメント)
+      - speaker: "kore"
+        style: "documentary narration, transitioning context"
+        text: "1920年代、<sub alias='ソビエト'>Soviet</sub>連邦。文学理論家<sub alias='ミハイル・バフチン'>Mikhail Bakhtin</sub>は——"
+        break_after: 900
+      
+      - speaker: "kore"
+        style: "documentary narration, historical context"
+        text: "<sub alias='スターリン'>Stalin</sub>体制下で「単一の声」が強制される時代に、真逆の概念を練り上げていました。題材は、<sub alias='ドストエフスキー'>Dostoevsky</sub>の小説。"
+        break_after: 1100
+      
+      - speaker: "charon"
+        style: "literary theory, revolutionary concept"
+        text: "「独立し、融合しない複数の声と意識の多様性」"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, explaining polyphony"
+        text: "通常の小説では、登場人物の声は作者の意図に従属しています。しかし<sub alias='ドストエフスキー'>Dostoevsky</sub>の小説では、登場人物たちが作者の思惑を超えて、自分自身の論理で語り始める。<sub alias='バフチン'>Bakhtin</sub>はこれを「<sub alias='ポリフォニー'>polyphony</sub>（多声性）」と呼びました。"
+        break_after: 1300
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, connecting to meetings"
+        text: "会議も同じかもしれません。<sub alias='リーダー'>leader</sub>が「こう決めたい」と思っていても、参加者それぞれが独自の視点を持っている。それを「<sub alias='ノイズ'>noise</sub>」と見なすか、「<sub alias='ポリフォニー'>polyphony</sub>」と見なすか。異なる声が響き合うことを許容した時、会議は「報告の場」から「創造の場」に変わる可能性があります。"
+        break_after: 1500
+      
+      # 転換：確率共鳴 (6セグメント)
+      - speaker: "kore"
+        style: "documentary narration, acknowledging objection"
+        text: "しかし、「<sub alias='ノイズ'>noise</sub>を許容せよ」と言われても、現実の会議は混乱するだけではないか。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "documentary narration, transitioning to physics"
+        text: "ここで、物理学が意外な答えを持っています。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "documentary narration, introducing discovery"
+        text: "1981年、<sub alias='イタリア'>Italy</sub>の物理学者たちが氷河期の周期を研究する中で、奇妙な現象を発見しました。「確率共鳴（<sub alias='ストカスティック・レゾナンス'>stochastic resonance</sub>）」。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, explaining paradox"
+        text: "通常、<sub alias='ノイズ'>noise</sub>は信号を邪魔するものです。雑音が多ければ、本来の<sub alias='メッセージ'>message</sub>は聞こえにくくなる。しかし、ある条件下では、適度な<sub alias='ノイズ'>noise</sub>が加わることで、かえって微弱な信号が検出しやすくなる。"
+        break_after: 1300
+      
+      - speaker: "kore"
+        style: "documentary narration, explaining mechanism"
+        text: "なぜか。微弱な信号は、そのままでは「閾値」を超えられず、検出されません。しかし、<sub alias='ノイズ'>noise</sub>の波が加わることで、その力を借りて閾値を超え、表面に浮かび上がってくる。"
+        break_after: 1300
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, applying to meetings"
+        text: "完璧に統制された会議では、本音という微弱な信号は「空気」という閾値を超えられず、消えてしまいます。しかし、雑談や脱線といった「<sub alias='ノイズ'>noise</sub>」が場を揺らすことで、普段は言えない小さな本音が、その波に乗って閾値を超えてくる。"
+        break_after: 1500
+      
+      # リフレーミング：一座建立 (5セグメント)
+      - speaker: "kore"
+        style: "documentary narration, transitioning to noh"
+        text: "室町時代、京都。能楽師・<sub alias='ぜあみ'>世阿弥</sub>は、将軍<sub alias='あしかがよしみつ'>足利義満</sub>の庇護を受けながら、能の理論を書き記していました。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "documentary narration, biographical context"
+        text: "しかし、<sub alias='よしみつ'>義満</sub>の死後、<sub alias='ぜあみ'>世阿弥</sub>は次の将軍に疎まれ、最終的には佐渡島へ流されます。栄光から転落へ——その波乱の中で書かれた『<sub alias='ふうしかでん'>風姿花伝</sub>』に、こんな言葉があります。"
+        break_after: 1200
+      
+      - speaker: "charon"
+        style: "noh master, aesthetic principle"
+        text: "「<sub alias='いちざこんりゅう'>一座建立</sub>」"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, interpreting concept"
+        text: "<sub alias='ぜあみ'>世阿弥</sub>の言う「<sub alias='いちざこんりゅう'>一座建立</sub>」とは、予定調和の成功ではありません。演者の発する気、観客の沈黙、そして予期せぬ空気の揺らぎさえも取り込んで、その瞬間にしかない「場」を成立させること。"
+        break_after: 1300
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, defining success"
+        text: "誰かの台本通りに進むことが成功ではない。そこにいる全員の「異質な声」が響き合い、二度と同じにはならない「<sub alias='ライブ'>live</sub>」が成立した時——それが「<sub alias='いちざこんりゅう'>一座建立</sub>」なのです。"
+        break_after: 1500
+      
+      # 着地 (4セグメント)
+      - speaker: "aoede"
+        style: "gentle, introspective narration"
+        text: "次の会議。また同じ<sub alias='メンバー'>member</sub>、同じ議題かもしれません。でも、少しだけ見方を変えてみてください。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, reframing presence"
+        text: "沈黙している人も、脱線する人も、軌道修正する人も——全員が、この瞬間だけの「一座」を作っている。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, redefining meetings"
+        text: "会議は、時間を消費する場所ではありません。統制しすぎれば、本音は閾値を超えられない。混沌を恐れなければ、予想外の声が浮かび上がってくる。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, empowering choice"
+        text: "明日の会議が、あなたにとっての「<sub alias='いちざこんりゅう'>一座建立</sub>」になるかどうか。それは、<sub alias='ノイズ'>noise</sub>を敵と見るか、味方と見るかにかかっています。"
+        break_after: 1500
+      
+      # クロージング (3セグメント)
+      - speaker: "kore"
+        style: "contemplative documentary narration, looking up"
+        text: "夜空を見上げると、<sub alias='オリオン'>Orion</sub>座が輝いています。星々は、それぞれが独自の光を放ちながら、一つの星座を形作っている。誰かが統合したのではない。見る者が、そこに形を見出した。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, poetic wisdom"
+        text: "知識の星座は、見る人によって違う物語を紡ぎます。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "warm documentary narration, open invitation"
+        text: "明日の会議室で、どんな星座が浮かび上がるでしょうか。"
+        break_after: 2000
+
+production_notes:
+  - "総セグメント数: 40"
+  - "各セグメントは意味のまとまりを重視"
+  - "kore: メインナレーター（瞑想的ドキュメンタリー）"
+  - "charon: 心理学者・文学理論家・能楽師の引用"
+  - "aoede: 没入シーンと着地部分の内省的ナレーション"
+  - "英単語・外来語・固有名詞に発音ガイド適用"
+  - "日本語固有名詞（世阿弥、風姿花伝、一座建立、足利義満）に読み仮名"
+  - "「古今東西」に<sub alias='ここんとうざい'>を適用（定型ルール）"
+  - "ロシア語の引用は日本語訳のみ使用"
+  - "ブレークタイムは文脈に応じて900ms-1500msで調整"

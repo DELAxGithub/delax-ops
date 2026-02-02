@@ -1,0 +1,236 @@
+episodes:
+  - episode_number: "S2E14"
+    title: "マルチタスクという幻想"
+    duration_target: "8:00"
+    
+    segments:
+      # アバン (4セグメント)
+      - speaker: "kore"
+        style: "contemplative documentary narration, questioning efficiency"
+        text: "<sub alias='メール'>email</sub>を打ちながら、会議に出席し、<sub alias='チャット'>chat</sub>に返信する。「同時進行」は有能の証——本当でしょうか。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, probing deeper"
+        text: "それとも、私たちは「何か」から逃げ続けているだけなのでしょうか。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "warm documentary welcome"
+        text: "ようこそ、<sub alias='オリオン'>Orion</sub>の会議室へ。今夜のテーマは「<sub alias='マルチタスク'>multitask</sub>という幻想」。"
+        break_after: 1500
+      
+      # 星座の提示 (4セグメント)
+      - speaker: "kore"
+        style: "contemplative documentary narration, introducing concept"
+        text: "<sub alias='ここんとうざい'>古今東西</sub>の叡智を星座のように結び、現代の悩みに新しい視座を見つける8分間。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, presenting framework"
+        text: "今夜めぐる星々は——「脳は同時に二つのことを処理できない」という発見。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration"
+        text: "「人間の不幸は、部屋でじっとしていられないことから起こる」という洞察。「一つの行為に没入せよ」という禅の教え。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, connecting threads"
+        text: "そして、「自分だけの裏店を持て」という知恵。バラバラの星々が、「<sub alias='マルチタスク'>multitask</sub>」という現代の神話を静かに解体し始めます。"
+        break_after: 1500
+      
+      # 没入 (7セグメント)
+      - speaker: "aoede"
+        style: "introspective narration, observing scene"
+        text: "午前10時。<sub alias='デスク'>desk</sub>に座る。画面には<sub alias='メール・ソフト'>email software</sub>、<sub alias='チャット・ツール'>chat tool</sub>、<sub alias='スプレッドシート'>spreadsheet</sub>、<sub alias='ブラウザ'>browser</sub>が4分割で並んでいる。"
+        break_after: 1100
+      
+      - speaker: "aoede"
+        style: "introspective narration, interrupted flow"
+        text: "<sub alias='メール'>email</sub>を書き始める。<sub alias='チャット'>chat</sub>が鳴る。「至急確認お願いします」"
+        break_after: 1000
+      
+      - speaker: "aoede"
+        style: "introspective narration, cascade of interruptions"
+        text: "<sub alias='チャット'>chat</sub>に返信する。すると別の<sub alias='メール'>email</sub>が届く。「先ほどの件、進捗いかがですか」"
+        break_after: 1000
+      
+      - speaker: "aoede"
+        style: "introspective narration, fragmenting attention"
+        text: "<sub alias='スプレッドシート'>spreadsheet</sub>を開く。数字を入力しかけたところで、会議の通知。"
+        break_after: 1000
+      
+      - speaker: "aoede"
+        style: "introspective narration, divided presence"
+        text: "会議に入る。<sub alias='カメラ'>camera</sub>は<sub alias='オフ'>off</sub>。別の<sub alias='メール'>email</sub>を処理しながら聞いている。"
+        break_after: 1000
+      
+      - speaker: "aoede"
+        style: "introspective narration, empty exhaustion"
+        text: "気づけば正午。「今日、何をしたんだろう」<sub alias='タスク・リスト'>task list</sub>は減っていない。でも、疲労だけは確実に溜まっている。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, naming fear"
+        text: "そして、ふと訪れる静寂が、なぜか怖い。"
+        break_after: 1500
+      
+      # 展開1：ブロードベントの発見 (5セグメント)
+      - speaker: "kore"
+        style: "documentary narration, historical introduction"
+        text: "1958年、<sub alias='イギリス'>Britain</sub>・<sub alias='ケンブリッジ'>Cambridge</sub>。認知心理学者<sub alias='ドナルド・ブロードベント'>Donald Broadbent</sub>は、第二次大戦中の航空管制官の研究から、ある疑問を抱いていました。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "documentary narration, research question"
+        text: "複数の情報が同時に飛び込んでくる時、人間の脳は何を選び、何を捨てているのか。彼は「両耳分離聴」という実験を設計しました。被験者の左右の耳に、同時に異なる<sub alias='メッセージ'>message</sub>を流す。"
+        break_after: 1200
+      
+      - speaker: "charon"
+        style: "scientific finding, definitive"
+        text: "「私たちが情報を受け取り、処理できる速度には限界がある」"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, revealing mechanism"
+        text: "結果は明確でした。人間の注意は、一度に一つの<sub alias='チャンネル'>channel</sub>しか処理できない。私たちは「<sub alias='しょうとくたいし'>聖徳太子</sub>」のように同時に聞いているのではない。超高速で「<sub alias='チャンネル'>channel</sub>」を切り替えているだけ。"
+        break_after: 1300
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, exposing illusion"
+        text: "<sub alias='マルチタスク'>multitask</sub>の正体は、「複数のことを同時にやる」のではなく、「一つのことを中断して、別のことに飛び移る」こと。では、なぜ私たちは、疲れると分かっていて<sub alias='ザッピング'>zapping</sub>を止められないのでしょうか。"
+        break_after: 1500
+      
+      # 展開2：パスカルの「気晴らし」 (6セグメント)
+      - speaker: "kore"
+        style: "documentary narration, transitioning to philosophy"
+        text: "17世紀、<sub alias='フランス'>France</sub>。天才数学者<sub alias='ブレーズ・パスカル'>Blaise Pascal</sub>は、30代で健康を害し、社交界から身を引いていました。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "documentary narration, philosophical question"
+        text: "病床で彼が見つめたのは、人間の心の奇妙な動きでした。なぜ人は、一人で静かに座っていられないのか。"
+        break_after: 1100
+      
+      - speaker: "charon"
+        style: "philosophical insight, profound observation"
+        text: "「人間の不幸はすべて、部屋の中で静かにじっとしていられないことから起こる」"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, explaining diversion"
+        text: "<sub alias='パスカル'>Pascal</sub>はこれを「気晴らし」と呼びました。人間は、ふとした静寂の中で、自分の死や人生の虚しさと向き合うのが怖い。だから、常に何かをして気を紛らわせ、自分自身から目を逸らしていたい。"
+        break_after: 1300
+      
+      - speaker: "kore"
+        style: "documentary narration, historical examples"
+        text: "狩りに出かけ、賭け事をし、戦争をする。目的は獲物でも金でも領土でもない。「考えないでいること」が目的なのだ、と。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, modern application"
+        text: "現代において、<sub alias='マルチタスク'>multitask</sub>の正体は「仕事」ではありません。それは、静寂の中に訪れる「自分自身」から逃げるための、高度な「気晴らし」なのです。"
+        break_after: 1500
+      
+      # 転換：一行三昧 (5セグメント)
+      - speaker: "kore"
+        style: "documentary narration, transitioning to zen"
+        text: "この「逃避」から立ち戻る術を、東洋の禅は知っていました。中国・唐代の禅僧たちは、「<sub alias='いちぎょうざんまい'>一行三昧</sub>」という言葉を用いました。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "documentary narration, defining practice"
+        text: "一つの行為に、心を定めて没入すること。"
+        break_after: 1000
+      
+      - speaker: "charon"
+        style: "zen teaching, simple instruction"
+        text: "「歩くときも座るときも、ただ一仏を念ず」"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, explaining practice"
+        text: "歩くときはただ歩く。座るときはただ座る。食べるときはただ食べる。禅では、食事もお茶も掃除も、すべてが修行です。しかし、<sub alias='スマホ'>smartphone</sub>を見ながら食事をし、<sub alias='テレビ'>TV</sub>を見ながら茶を飲めば、それはただの「消費」になる。"
+        break_after: 1300
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, reframing purpose"
+        text: "「一つだけ」をする。それは、効率のためではありません。その瞬間の「生」を、薄めずに味わい尽くすためです。<sub alias='パスカル'>Pascal</sub>が恐れた「部屋でじっとしていること」。禅はそれを、恐れずに抱きしめる。空白は、敵ではない。空白の中にこそ、生の充実がある。"
+        break_after: 1500
+      
+      # リフレーミング：裏店 (5セグメント)
+      - speaker: "kore"
+        style: "documentary narration, practical question"
+        text: "では、現代の私たちは、どこでその「一つ」と向き合えばいいのか。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "documentary narration, introducing Montaigne"
+        text: "16世紀、<sub alias='フランス'>France</sub>・<sub alias='ボルドー'>Bordeaux</sub>。思想家<sub alias='ミシェル・ド・モンテーニュ'>Michel de Montaigne</sub>は、38歳で市長の職を辞し、自宅の塔に籠もりました。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "documentary narration, describing sanctuary"
+        text: "壁には古代<sub alias='ギリシャ'>Greece</sub>・<sub alias='ローマ'>Rome</sub>の箴言が刻まれ、そこで彼は『<sub alias='エセー'>Essais</sub>』を書き始めます。"
+        break_after: 1100
+      
+      - speaker: "charon"
+        style: "philosophical wisdom, quiet strength"
+        text: "「自分だけの裏店を、一つ確保しておかねばならない」"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, modern sanctuary"
+        text: "世間の雑音や義務から切り離された、自分だけの聖域。そこでは、すべてから自由に、本当の自分との対話ができる。現代の私たちにとって、<sub alias='モンテーニュ'>Montaigne</sub>の塔とは何でしょうか。それは「機内<sub alias='モード'>mode</sub>」かもしれません。通知を切り、<sub alias='タブ'>tab</sub>を閉じ、たった一つの仕事と向き合う時、<sub alias='デスク'>desk</sub>は「裏店」になる。<sub alias='シングルタスク'>single task</sub>とは、単なる仕事術ではありません。情報の洪水から魂を守る、防波堤なのです。"
+        break_after: 1500
+      
+      # 着地 (4セグメント)
+      - speaker: "aoede"
+        style: "gentle, introspective narration, decisive"
+        text: "午後2時。<sub alias='デスク'>desk</sub>に座る。今日は、一つだけ変えてみる。画面を4分割にしない。一つだけ開く。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, summarizing wisdom"
+        text: "脳は一度に一つしか処理できない。<sub alias='マルチタスク'>multitask</sub>は「気晴らし」という名の逃避。一つの行為に没入することが、生を味わうこと。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, embracing silence"
+        text: "空白を恐れない。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, gentle revelation"
+        text: "その空白の中に、あなた自身が待っています。"
+        break_after: 1500
+      
+      # クロージング (3セグメント)
+      - speaker: "kore"
+        style: "contemplative documentary narration, looking up"
+        text: "夜空を見上げると、<sub alias='オリオン'>Orion</sub>座が輝いています。星を見る時、私たちは他のことを考えていない。ただ、その光を見ている。それが「<sub alias='いちぎょうざんまい'>一行三昧</sub>」です。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, poetic wisdom"
+        text: "知識の星座は、見る人によって違う物語を紡ぎます。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "warm documentary narration, gentle invitation"
+        text: "明日、一つだけ、深く味わってみてください。その「一つ」が終わった時、あなたは今日より少しだけ、自分自身に近づいているかもしれません。"
+        break_after: 2000
+
+production_notes:
+  - "総セグメント数: 41"
+  - "各セグメントは意味のまとまりを重視"
+  - "kore: メインナレーター（瞑想的ドキュメンタリー）"
+  - "charon: 科学者・哲学者・禅師の引用"
+  - "aoede: 没入シーンと着地部分の内省的ナレーション"
+  - "英単語・外来語・固有名詞に発音ガイド適用"
+  - "日本語固有名詞（一行三昧、聖徳太子）に読み仮名"
+  - "「古今東西」に<sub alias='ここんとうざい'>を適用（定型ルール）"
+  - "フランス語・中国語の引用は日本語訳のみ使用"
+  - "ブレークタイムは文脈に応じて1000ms-1500msで調整"

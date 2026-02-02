@@ -1,0 +1,256 @@
+episodes:
+  - episode_number: "S2E11"
+    title: "締切前夜の心理学"
+    duration_target: "8:00"
+    
+    segments:
+      # アバン (4セグメント)
+      - speaker: "kore"
+        style: "contemplative documentary narration, dawning panic"
+        text: "あと3日あると思っていた。気づけば、今夜が締切。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, questioning"
+        text: "「なぜ、いつもこうなるのか」——その問いに、意志の弱さ以外の答えはあるのでしょうか。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "warm documentary welcome"
+        text: "ようこそ、<sub alias='オリオン'>Orion</sub>の会議室へ。今夜のテーマは「締切前夜の心理学」。"
+        break_after: 1500
+      
+      # 星座の提示 (4セグメント)
+      - speaker: "kore"
+        style: "contemplative documentary narration, introducing concept"
+        text: "<sub alias='ここんとうざい'>古今東西</sub>の叡智を星座のように結び、現代の悩みに新しい視座を見つける8分間。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, presenting framework"
+        text: "今夜めぐる星々は——「仕事は、締切いっぱいに膨らむ」という法則。「脳は『未来の苦痛』を割り引いて見ている」という発見。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration"
+        text: "「時計の時間」と「生きられる時間」の違い。そして、「今、ここだけが、ある」という禅の思想。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, connecting threads"
+        text: "バラバラの星々が、締切前夜の焦燥に新しい光を当て始めます。"
+        break_after: 1500
+      
+      # 没入 (7セグメント)
+      - speaker: "aoede"
+        style: "introspective narration, false confidence"
+        text: "月曜日、「金曜までに企画書を」と言われた。余裕だと思った。まだ5日もある。"
+        break_after: 1000
+      
+      - speaker: "aoede"
+        style: "introspective narration, distracted"
+        text: "火曜日、まず情報収集から。<sub alias='ネット'>net</sub><sub alias='サーフィン'>surfing</sub>が止まらない。関係ありそうな記事を読み漁る。"
+        break_after: 1100
+      
+      - speaker: "aoede"
+        style: "introspective narration, procrastinating"
+        text: "水曜日、「明日から本気出す」。なぜか部屋の掃除を始めている。机が綺麗になると仕事が捗る気がする。"
+        break_after: 1100
+      
+      - speaker: "aoede"
+        style: "introspective narration, facing blank page"
+        text: "木曜日、ようやく<sub alias='ファイル'>file</sub>を開く。白紙の<sub alias='スライド'>slide</sub>が画面を睨んでいる。"
+        break_after: 1000
+      
+      - speaker: "aoede"
+        style: "introspective narration, frantic midnight work"
+        text: "そして金曜、午前2時。<sub alias='コンビニ'>convenience store</sub>の<sub alias='コーヒー'>coffee</sub>を3杯飲み干しながら、猛烈に<sub alias='キーボード'>keyboard</sub>を叩いている。"
+        break_after: 1100
+      
+      - speaker: "aoede"
+        style: "introspective narration, self-reproach"
+        text: "「なぜ、毎回こうなるんだ」"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, empathetic"
+        text: "自分を責めながら、でも心のどこかで分かっている。来月も、きっと同じことを繰り返す。"
+        break_after: 1500
+      
+      # 展開1：パーキンソンの法則 (5セグメント)
+      - speaker: "kore"
+        style: "documentary narration, historical introduction"
+        text: "1955年、<sub alias='ロンドン'>London</sub>。歴史学者<sub alias='シリル・ノースコート・パーキンソン'>Cyril Northcote Parkinson</sub>は——"
+        break_after: 900
+      
+      - speaker: "kore"
+        style: "documentary narration, observing paradox"
+        text: "大英帝国の官僚制を研究していました。植民地が縮小しているのに、なぜ植民地省の職員は増え続けるのか。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "documentary narration, introducing law"
+        text: "その観察から、彼はある法則を見出します。"
+        break_after: 1000
+      
+      - speaker: "charon"
+        style: "bureaucratic observer, ironic wisdom"
+        text: "「仕事は、完成のために与えられた時間いっぱいに膨張する」"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, explaining mechanism"
+        text: "『<sub alias='エコノミスト'>Economist</sub>』誌に発表されたこの<sub alias='エッセイ'>essay</sub>は、皮肉と<sub alias='ユーモア'>humor</sub>に満ちていました。しかし、その洞察は半世紀以上経った今も色褪せていません。締切が1週間なら、1週間かかる。締切が3日なら、3日で終わる。同じ仕事なのに。これは怠けではありません。脳の構造的な傾向です。"
+        break_after: 1500
+      
+      # 展開2：双曲割引 (5セグメント)
+      - speaker: "kore"
+        style: "documentary narration, transitioning to neuroscience"
+        text: "では、なぜ脳はそう振る舞うのか。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "documentary narration, introducing economist"
+        text: "1990年代、行動経済学者<sub alias='ジョージ・エインズリー'>George Ainslie</sub>は、人間の意思決定の歪みを「双曲割引」として定式化しました。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, explaining mechanism"
+        text: "「今日、企画書を書く苦痛」は、目の前にあるから大きく見える。「金曜日の締切」は、遠くにあるから小さく見える。だから、今日の苦痛を避け、<sub alias='ユーチューブ'>YouTube</sub>を開いてしまう。"
+        break_after: 1300
+      
+      - speaker: "kore"
+        style: "documentary narration, explaining reversal"
+        text: "しかし締切が迫ると、状況は逆転する。「間に合わない」という恐怖が巨大化し、午前2時でも手が動く。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, reframing blame"
+        text: "あなたの意志が弱いのではない。脳が、時間を歪めて見ている。それは、目の前の危険に即座に対応するために進化した、生存本能の名残なのです。"
+        break_after: 1500
+      
+      # 展開3：ベルクソンの「持続」 (6セグメント)
+      - speaker: "kore"
+        style: "documentary narration, shifting to philosophy"
+        text: "1889年、<sub alias='パリ'>Paris</sub>。若き哲学者<sub alias='アンリ・ベルクソン'>Henri Bergson</sub>は、博士論文でひとつの問いを立てました。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "documentary narration, posing question"
+        text: "時計の時間と、私たちが「生きる」時間は、同じものだろうか？"
+        break_after: 1200
+      
+      - speaker: "charon"
+        style: "philosophical insight, temporal wisdom"
+        text: "「純粋な持続とは、私たちの意識状態の継起がとる形である」"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, contrasting experiences"
+        text: "時計は、1時間をいつでも同じ長さに刻む。しかし、楽しい時間は一瞬で過ぎ、退屈な会議は永遠に続く。恋人との1時間と、満員電車の1時間。時計の針は同じ速さで進んでいるのに、まるで別の時間を生きている。"
+        break_after: 1300
+      
+      - speaker: "kore"
+        style: "documentary narration, naming concept"
+        text: "<sub alias='ベルクソン'>Bergson</sub>は、この「生きられる時間」を「持続（<sub alias='デュレ'>durée</sub>）」と呼びました。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, connecting to deadline"
+        text: "締切前夜、なぜあれほど集中できるのか。それは、「持続」の密度が変わるからです。時計の針は同じ速さで進んでいる。しかし、あなたの内側では時間が濃縮されている。では、なぜ普段はその濃密な時間を生きられないのか。"
+        break_after: 1500
+      
+      # 転換：道元の「而今」 (6セグメント)
+      - speaker: "kore"
+        style: "documentary narration, transitioning to zen"
+        text: "時間の密度。その鍵は、もう一人の思想家が握っていました。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "documentary narration, introducing zen master"
+        text: "13世紀、鎌倉。宋での修行から帰国した<sub alias='どうげん'>道元</sub>は、京都を離れ、越前の山奥に<sub alias='えいへいじ'>永平寺</sub>を開きました。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "documentary narration, context of writing"
+        text: "都の権力から距離を置き、ただ坐禅に打ち込む日々。その中で書かれた『<sub alias='しょうぼうげんぞう'>正法眼蔵</sub>』に、こんな言葉があります。"
+        break_after: 1200
+      
+      - speaker: "charon"
+        style: "zen master, immediate presence"
+        text: "「而今の山水は、古仏の道現成なり」——「今、ここの山水こそが、仏の道の現れである」"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, explaining zen teaching"
+        text: "過去も未来も、心が作り出した幻。あるのは「今」だけだ、と。私たちが仕事に着手できないのは、「未来」を見すぎているからかもしれません。「金曜日の締切」という未来を見るから、「まだ時間がある」と油断する。あるいは、「間に合わないかも」と不安になる。油断も不安も、どちらも心が「今」にいない証拠です。"
+        break_after: 1400
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, ironic realization"
+        text: "締切前夜、追い詰められて「未来」が消滅する。「明日」を考える余裕がなくなり、強制的に「今」に釘付けにされる。皮肉にも、その時初めて、私たちは「而今」を生きている。ただし、それは恐怖に駆り立てられた「強制された今」です。"
+        break_after: 1500
+      
+      # リフレーミング (3セグメント)
+      - speaker: "kore"
+        style: "documentary narration, distinguishing states"
+        text: "恐怖による集中と、穏やかな没入。外から見れば同じでも、内側はまるで違う。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "documentary narration, clarifying teaching"
+        text: "<sub alias='どうげん'>道元</sub>が説いたのは、「仕事を早く終わらせる技術」ではありませんでした。「間に合わせなければ」という未来への執着から離れ、今という瞬間に立ち返ること。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, acknowledging paradox"
+        text: "しかし、「今に集中しよう」と思った瞬間、私たちはすでに「未来の自分」を想像している。「集中できている自分」という未来像を追いかけている。この矛盾から、逃れる術はあるのでしょうか。"
+        break_after: 1500
+      
+      # 着地 (4セグメント)
+      - speaker: "aoede"
+        style: "gentle, introspective narration"
+        text: "次の締切がやってくる。また同じことを繰り返すかもしれない。でも、一つだけ知っておいてください。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, reframing experience"
+        text: "午前2時のあの集中。あれは「追い詰められた自分」ではなく、「今に引き戻された自分」だった。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, acknowledging mystery"
+        text: "その状態に、恐怖なしで入れるかどうか。答えはまだ、見つかっていません。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, hopeful"
+        text: "でも、問いの形が変わるだけで、締切前夜の景色は少し違って見えるかもしれない。"
+        break_after: 1500
+      
+      # クロージング (3セグメント)
+      - speaker: "kore"
+        style: "contemplative documentary narration, looking up"
+        text: "夜空を見上げると、<sub alias='オリオン'>Orion</sub>座が輝いています。星の光は、何百年も前に発せられたもの。私たちは「過去」を見ている。しかし、それを「今」見ているのは、紛れもなくこの瞬間です。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, poetic wisdom"
+        text: "知識の星座は、見る人によって違う物語を紡ぎます。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "warm documentary narration, final question"
+        text: "次の締切が来たとき、あなたは何を見るでしょうか。遠い金曜日か、それとも、今この<sub alias='キーストローク'>keystroke</sub>か。"
+        break_after: 2000
+
+production_notes:
+  - "総セグメント数: 42（目標40前後）"
+  - "各セグメントは意味のまとまりを重視"
+  - "kore: メインナレーター（瞑想的ドキュメンタリー）"
+  - "charon: 学者・哲学者・禅師の引用"
+  - "aoede: 没入シーンと着地部分の内省的ナレーション"
+  - "英単語・外来語・固有名詞に発音ガイド適用"
+  - "日本語固有名詞（道元、正法眼蔵、永平寺）に読み仮名"
+  - "「古今東西」に<sub alias='ここんとうざい'>を適用（定型ルール）"
+  - "ブレークタイムは文脈に応じて1000ms-1500msで調整"

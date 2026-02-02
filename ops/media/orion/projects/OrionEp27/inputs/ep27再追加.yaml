@@ -1,0 +1,38 @@
+# S2E12「休めない症候群」第2回追加セグメント
+# 既存YAMLへの挿入用
+
+# グリンパティックシステムセクション（展開2）への追加
+# 「マウスの脳を観察していて、奇妙なことに気づきました。」の後に挿入
+additional_glymphatic_research_context:
+  - speaker: "kore"
+    style: "documentary narration, research background"
+    text: "彼女は脳内の老廃物がどう排出されるかを調べていました。身体には老廃物を流す<sub alias='リンパ'>lymph</sub>系があるのに、脳にはそれがない。では、脳の<sub alias='ゴミ'>waste</sub>はどこへ行くのか。"
+    break_after: 1300
+  
+  - speaker: "kore"
+    style: "documentary narration, moment of discovery"
+    text: "ある時、眠っている<sub alias='マウス'>mouse</sub>の脳を観察していると、何かが「流れている」のが見えた。起きている時には見えなかった流れが、眠った途端に現れたのです。"
+    break_after: 1300
+
+# 南隠セクション（リフレーミング）への追加
+# 「あなたはこの茶碗と同じだ...」の引用の後に挿入
+additional_nanin_paradox:
+  - speaker: "kore"
+    style: "contemplative documentary narration, noting irony"
+    text: "皮肉なことに、学べば学ぶほど、茶碗は満タンになっていく。知識があるほど、「すでに知っている」という思い込みが邪魔をする。忙しい人ほど、予定で埋まった<sub alias='カレンダー'>calendar</sub>を手放せない。"
+    break_after: 1300
+
+# 着地セクションへの追加
+# 「そして、茶碗を空にする。」の後に挿入
+additional_practical_steps:
+  - speaker: "kore"
+    style: "contemplative documentary narration, practical guidance"
+    text: "小さなことから始めてみてください。<sub alias='スマホ'>smartphone</sub>を寝室に持ち込まない。寝る前の一時間は、仕事のことを考えない。それだけで、脳の掃除係は働きやすくなる。"
+    break_after: 1300
+
+production_notes_for_second_additions:
+  - "グリンパティックシステムセクションに2セグメント追加（研究背景と発見の瞬間）"
+  - "南隠セクションに1セグメント追加（知識人の罠というパラドックス）"
+  - "着地セクションに1セグメント追加（具体的な実践アクション）"
+  - "合計4セグメント追加により、総セグメント数は40→44に増加"
+  - "発見のドラマ性と実践への橋渡しを強化"

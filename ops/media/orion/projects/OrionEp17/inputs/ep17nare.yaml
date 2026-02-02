@@ -1,0 +1,283 @@
+episodes:
+  - episode_number: "S2E02"
+    title: "雑談ができない私たち"
+    duration_target: "8:00"
+    
+    segments:
+      # アバン (4セグメント)
+      - speaker: "kore"
+        style: "contemplative documentary narration, slightly melancholic"
+        text: "エレベーターで「今日は暑いですね」と言おうとして、やめる。——あの人、忙しそうだし。"
+        break_after: 900
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration"
+        text: "会議前の雑談が消え、<sub alias='スラック'>Slack</sub>のやり取りは用件だけ。"
+        break_after: 900
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, questioning"
+        text: "無駄を削ぎ落としたとき、私たちの関係性は「整理」されるのでしょうか。それとも——「断絶」されるのでしょうか？"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "warm documentary welcome"
+        text: "ようこそ、<sub alias='オリオン'>Orion</sub>の会議室へ。今夜のテーマは「雑談ができない私たち」。"
+        break_after: 1500
+      
+      # 星座の提示 (5セグメント)
+      - speaker: "kore"
+        style: "contemplative documentary narration, introducing concept"
+        text: "古今東西の叡智を星座のように結び、現代の悩みに新しい視座を見つける8分間。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, presenting framework"
+        text: "今夜結ぶのは、こんな星座——"
+        break_after: 800
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration"
+        text: "「中身のない会話」に隠された、つながりの秘密。"
+        break_after: 700
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration"
+        text: "「人」と「間」という漢字が教える、関係性の本質。機械の中にあえて残された、必要な「緩み」。"
+        break_after: 900
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, connecting threads"
+        text: "そして、何も描かないことで生まれる、緊張と余韻。バラバラの知恵が、「余白」という一本の糸で結ばれていきます。"
+        break_after: 1500
+      
+      # 現代の痛み (4セグメント)
+      - speaker: "kore"
+        style: "matter-of-fact documentary narration"
+        text: "月曜日の午後。定例会議。アジェンダ、ゴール、ネクストアクション。30分で終了。完璧だ。"
+        break_after: 900
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, questioning"
+        text: "でも、会議室を出た瞬間、ふと思う。「あれ、あの人、今どんな顔をしていただろう？」"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, realizing emptiness"
+        text: "情報を完璧に交換したはずなのに、相手のことが何も分からない。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, melancholic"
+        text: "まるで、自動販売機とやり取りをしたような虚しさ。"
+        break_after: 1500
+      
+      # 展開1：マリノフスキーの発見 (7セグメント)
+      - speaker: "kore"
+        style: "documentary narration, historical introduction"
+        text: "1920年代。ポーランド出身の人類学者<sub alias='ブロニスワフ・マリノフスキー'>ブロニスワフ・マリノフスキー</sub>は——"
+        break_after: 800
+      
+      - speaker: "kore"
+        style: "documentary narration, discovery moment"
+        text: "南太平洋の村に何年も住み込み、現地の人々と暮らしながら、ある奇妙な言語行為に気づきます。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "documentary narration, explaining observation"
+        text: "人々は、情報を伝えるためではない言葉を、頻繁に交わしている。「今日はいい天気だね」「元気かい？」"
+        break_after: 900
+      
+      - speaker: "kore"
+        style: "documentary narration, analytical"
+        text: "答えを求めているわけではない。新しい情報を伝えているわけでもない。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "documentary narration, introducing concept"
+        text: "彼はこれを「<sub alias='ファティック・コミュニケーション'>ファティック・コミュニケーション</sub>」と名付けました。"
+        break_after: 1200
+      
+      - speaker: "charon"
+        style: "academic English, measured scholarly delivery"
+        text: "There are utterances which do not serve the purpose of communicating ideas—but of establishing bonds of personal union."
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, revelation"
+        text: "「観念の伝達ではなく、人と人との結びつきを確立するために機能する発話がある。」つまり、「無駄話」は無駄ではなかった。それは、人と人との間に「つながり」を編み上げる、見えない糸だったのです。"
+        break_after: 1500
+      
+      # 展開2：和辻哲郎の「間柄」 (7セグメント)
+      - speaker: "kore"
+        style: "documentary narration, transitioning time and place"
+        text: "同じ頃、京都——。哲学者・和辻哲郎は、西洋哲学が前提とする「個人」という概念に疑問を抱いていました。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "documentary narration, introducing concept"
+        text: "哲学者・和辻哲郎は「人間」という日本語に注目します。「人」と「間」。文字通り、人と人の間（あいだ）で成り立つ存在。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "documentary narration, contrasting worldviews"
+        text: "英語の<sub alias='インディビジュアル'>individual</sub>——分割できないもの——とは、まったく違う世界観がそこにある。"
+        break_after: 1200
+      
+      - speaker: "charon"
+        style: "philosophical conviction, quiet authority"
+        text: "「倫理問題の場所は、孤立的個人の意識にではなく、人と人との間柄にある。」"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, explaining philosophy"
+        text: "和辻にとって、人間とは孤立した個体ではない。人と人との「間」において、初めて「人間」として存在する。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "documentary narration, critical insight"
+        text: "効率化の名のもとに雑談を排除するとき、私たちは相手を「人間」ではなく「情報処理端末」として扱っている。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "documentary narration, emphatic"
+        text: "それは効率化ではありません。人間性そのものの否定なのです。"
+        break_after: 1500
+      
+      # 展開3：ハンドルの「遊び」 (6セグメント)
+      - speaker: "kore"
+        style: "documentary narration, shifting perspective"
+        text: "視点を変えて工学の世界へ。車のハンドルには「遊び」——正式には「<sub alias='ステアリング・プレイ'>ステアリング・プレイ</sub>」があります。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "documentary narration, explaining"
+        text: "少し回しても、タイヤはすぐには反応しない。これは設計ミスではありません。意図的に作られた「余白」です。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "documentary narration, hypothetical scenario"
+        text: "ハンドルと車輪が直結していたら、路面のわずかな凹凸が即座に伝わり、ドライバーは常に微調整を強いられる。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "documentary narration, explaining function"
+        text: "この「遊び」があるからこそ、ノイズに振り回されず、本当に必要な操舵に集中できる。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "documentary narration, key insight"
+        text: "遊びは「あった方がいい余裕」ではない。遊びがなければ、システムは機能しない。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, connecting insight"
+        text: "雑談もまた、組織を成り立たせている本質的な構造なのかもしれません。"
+        break_after: 1500
+      
+      # 転換：余白の美学 (6セグメント)
+      - speaker: "kore"
+        style: "documentary narration, transitioning to art"
+        text: "17世紀、京都——。俵屋宗達という絵師がいました。生没年も不詳、謎に包まれた人物ですが——"
+        break_after: 900
+      
+      - speaker: "kore"
+        style: "documentary narration, reverent"
+        text: "彼が残した一双の屏風は、今なお日本美術の最高峰に数えられています。国宝『風神雷神図屏風』。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, describing composition"
+        text: "風神と雷神は画面の両端に描かれ、中央には——何もない。金箔だけの広大な余白。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, art historical interpretation"
+        text: "美術史では、この「描かない選択」こそが二神の緊張感を生み出していると評されています。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "documentary narration, hypothetical"
+        text: "中央が埋め尽くされていたら、関係性は窒息していたでしょう。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, connecting themes"
+        text: "雑談もまた、そうした「余白」なのかもしれません。埋め尽くされた関係は、窒息する。"
+        break_after: 1500
+      
+      # リフレーミング (6セグメント)
+      - speaker: "kore"
+        style: "documentary narration, practical question"
+        text: "<sub alias='タイムパフォーマンス'>タイパ</sub>の時代に「雑談」を取り戻すには？大切なのは、雑談を「スキル」として捉えないこと。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "documentary narration, critiquing approach"
+        text: "「雑談力の磨き方」——そうしたハウツーは、雑談を「目的を持つ活動」に変えてしまう。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "documentary narration, core principle"
+        text: "<sub alias='ファティック・コミュニケーション'>ファティック・コミュニケーション</sub>の本質は、目的がないことにあります。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "gentle, permissive tone"
+        text: "天気の話でいい。中身なんてなくていい。「今日も暑いですね」"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, profound"
+        text: "その一言で、あなたは相手に伝えているのです。"
+        break_after: 800
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, profound message"
+        text: "「私はここにいる。あなたもそこにいる。私たちは機能ではなく、人間として、ここにいる」と。"
+        break_after: 1500
+      
+      # 着地 (4セグメント)
+      - speaker: "kore"
+        style: "gentle documentary narration, inviting action"
+        text: "次の会議。始まる前に、少しだけ余白を作ってみる。「最近どうですか？」"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "gentle documentary narration, acknowledging simplicity"
+        text: "大した会話じゃない。情報としての価値はゼロに近い。「いやあ、ちょっとバタバタしてて」「わかります、私もです」"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "gentle documentary narration, moment of recognition"
+        text: "たったそれだけ。でも、相手の顔が「自動販売機」ではなく「人」に見えた。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, reframing"
+        text: "雑談は「本題」の前座ではありません。乾いた関係に水を差す、静かな仕事なのです。"
+        break_after: 1500
+      
+      # クロージング (3セグメント)
+      - speaker: "kore"
+        style: "contemplative documentary narration, looking up"
+        text: "夜空を見上げると、<sub alias='オリオン'>Orion</sub>座が輝いています。星座は、星だけでは成り立ちません。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, poetic"
+        text: "星と星の「間」にある暗闇——その見えない距離を、私たちが線で結ぶから、物語が生まれる。知識の星座は、見る人によって違う物語を紡ぎます。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "warm documentary narration, gentle invitation"
+        text: "明日、誰かに会ったら、ほんの一言、無駄な言葉を交わしてみてください。その「間」にこそ、人と人をつなぐ、見えない糸が息づいているはずです。"
+        break_after: 2000
+
+production_notes:
+  - "総セグメント数: 42（目標40前後）"
+  - "各セグメントは意味のまとまりを重視"
+  - "文字数は40文字前後を目標、最大60文字"
+  - "哲学者の引用部分はcharonを使用"
+  - "英単語・外来語には発音ガイド(<sub alias>)を適用"
+  - "ブレークタイムは文脈に応じて700ms-1500msで調整"

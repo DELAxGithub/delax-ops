@@ -1,0 +1,68 @@
+# 追加セグメント（既存YAMLへの挿入用）
+
+# 展開1（ヘーゲル）への追加 - 既存の引用の後に挿入
+additional_segments_for_hegel:
+  - speaker: "kore"
+    style: "documentary narration, explaining reciprocity"
+    text: "興味深いのは、<sub alias='ヘーゲル'>Hegel</sub>が承認を「相互的なもの」として捉えたことです。一方的に認められるだけでは、本当の承認にならない。"
+    break_after: 1200
+  
+  - speaker: "kore"
+    style: "documentary narration, explaining dynamic"
+    text: "認める側と認められる側が、互いにその価値を確認し合う。その往復運動の中で、初めて「自分が何者か」が立ち上がってくる。"
+    break_after: 1200
+  
+  # 既存の最終段落を置き換え
+  - speaker: "kore"
+    style: "contemplative documentary narration, affirming desire"
+    text: "だから、「褒められたい」と思うことを恥じる必要はない。それは、あなたが人間として他者との関係の中で生きている証拠にすぎません。"
+    break_after: 1500
+
+# 展開2（クーリー）への追加 - 引用の後に挿入
+additional_segments_for_cooley:
+  - speaker: "kore"
+    style: "documentary narration, explaining three stages"
+    text: "<sub alias='クーリー'>Cooley</sub>によれば、私たちは三つの段階を経て自己像を作り上げます。"
+    break_after: 1000
+  
+  - speaker: "kore"
+    style: "documentary narration, detailing process"
+    text: "まず、他者の目に自分がどう映っているかを想像する。次に、その姿がどう評価されているかを想像する。そして、その想像に基づいて、誇りや恥ずかしさといった感情が生まれる。"
+    break_after: 1300
+
+# 転換（文化の違い）への追加 - 文化の違いの説明の後に挿入
+additional_segments_for_cultural_difference:
+  - speaker: "kore"
+    style: "documentary narration, concrete example"
+    text: "たとえば、会議で良い<sub alias='アイデア'>idea</sub>を出した<sub alias='メンバー'>member</sub>がいたとして。「佐藤さん、素晴らしい発想ですね」と名指しで褒めると、本人は嬉しいかもしれない。"
+    break_after: 1200
+  
+  - speaker: "kore"
+    style: "documentary narration, noting tension"
+    text: "でも、周囲には微妙な空気が流れることがある。「出る杭」になってしまったような居心地の悪さ。"
+    break_after: 1100
+  
+  # 既存の文を拡張
+  - speaker: "kore"
+    style: "contemplative documentary narration, explaining hesitation"
+    text: "私たちが褒めるのを躊躇するのは、個人を突出させることが、<sub alias='チーム'>team</sub>全体の調和を乱すと感じるからかもしれません。"
+    break_after: 1200
+  
+  - speaker: "kore"
+    style: "contemplative documentary narration, recognizing difference"
+    text: "どちらが正しいわけでもない。ただ、鏡の種類が違うのです。そして、その違いを知っておくことで、「褒めにくさ」の正体が少し見えてくる。"
+    break_after: 1500
+
+# クロージングの最終文を置き換え
+updated_closing_segment:
+  - speaker: "kore"
+    style: "warm documentary narration, gentle invitation"
+    text: "明日は、誰かに小さな「鏡」を差し出してみてください。そしてあなた自身は、誰の目も気にせず、ただ静かに輝き続けてください。"
+    break_after: 2000
+
+production_notes_for_additions:
+  - "ヘーゲルセクションに2セグメント追加（相互承認の説明）"
+  - "クーリーセクションに2セグメント追加（三段階プロセスの説明）"
+  - "文化の違いセクションに4セグメント追加（具体例と詳細説明）"
+  - "合計8セグメント追加により、総セグメント数は約51に増加"
+  - "より詳細な説明で理解を深める構成に"

@@ -1,0 +1,242 @@
+episodes:
+  - episode_number: "S2E15"
+    title: "引き継ぎという贈り物"
+    duration_target: "8:00"
+    
+    segments:
+      # アバン (4セグメント)
+      - speaker: "aoede"
+        style: "introspective narration, receiving legacy"
+        text: "退職する先輩から、分厚い<sub alias='マニュアル'>manual</sub>を渡された。でも、本当に大切なことは、そこには書かれていない気がする。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, questioning"
+        text: "「引き継ぎ」とは何でしょうか。業務の移管か、それとも、もっと深い何かを手渡す行為なのでしょうか。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "warm documentary welcome"
+        text: "ようこそ、<sub alias='オリオン'>Orion</sub>の会議室へ。今夜のテーマは「引き継ぎという贈り物」。"
+        break_after: 1500
+      
+      # 星座の提示 (4セグメント)
+      - speaker: "kore"
+        style: "contemplative documentary narration, introducing concept"
+        text: "<sub alias='ここんとうざい'>古今東西</sub>の叡智を星座のように結び、現代の悩みに新しい視座を見つける8分間。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, presenting framework"
+        text: "今夜めぐる星々は——<sub alias='マニュアル'>manual</sub>には書けない「暗黙知」という発見。贈り物に宿る送り手の魂。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration"
+        text: "言葉を超えて心から心へ渡るもの。そして、他者が自分の中で生き続ける脳の不思議。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, connecting threads"
+        text: "バラバラの星々が、「引き継ぎ」という行為に新しい意味を与え始めます。"
+        break_after: 1500
+      
+      # 没入 (5セグメント)
+      - speaker: "aoede"
+        style: "introspective narration, new beginning"
+        text: "4月。先輩が去った後、新しい<sub alias='プロジェクト'>project</sub>が始まる。"
+        break_after: 1000
+      
+      - speaker: "aoede"
+        style: "introspective narration, struggling"
+        text: "<sub alias='マニュアル'>manual</sub>を開く。手順は書いてある。でも、なぜこの順番なのかが分からない。"
+        break_after: 1000
+      
+      - speaker: "aoede"
+        style: "introspective narration, disconnect"
+        text: "<sub alias='クライアント'>client</sub>に電話する。なぜか話が噛み合わない。先輩なら、どう対応しただろう。"
+        break_after: 1100
+      
+      - speaker: "aoede"
+        style: "introspective narration, realization"
+        text: "その瞬間、気づく。"
+        break_after: 800
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, naming emptiness"
+        text: "<sub alias='マニュアル'>manual</sub>は「抜け殻」だったのだ。"
+        break_after: 1500
+      
+      # 展開1：野中郁次郎の「暗黙知」 (6セグメント)
+      - speaker: "kore"
+        style: "documentary narration, historical introduction"
+        text: "1990年代、一橋大学。経営学者・<sub alias='のなかいくじろう'>野中郁次郎</sub>は、日本企業の強さの源泉を探っていました。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "documentary narration, research question"
+        text: "なぜ<sub alias='ホンダ'>Honda</sub>や<sub alias='キヤノン'>Canon</sub>は、欧米企業が真似できない<sub alias='イノベーション'>innovation</sub>を生み出せるのか。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "documentary narration, revealing focus"
+        text: "彼が着目したのは、<sub alias='マニュアル'>manual</sub>に書かれていない知識でした。"
+        break_after: 1000
+      
+      - speaker: "charon"
+        style: "scholarly insight, defining concept"
+        text: "「暗黙知は個人的で、文脈に依存し、それゆえ形式化や伝達が難しい」"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, contrasting knowledge types"
+        text: "<sub alias='マニュアル'>manual</sub>に書けるのは「形式知」。手順、数字、<sub alias='ルール'>rule</sub>。しかし、先輩が持っていた「勘」や「<sub alias='コツ'>knack</sub>」——<sub alias='クライアント'>client</sub>の声の<sub alias='トーン'>tone</sub>で機嫌を察する力、<sub alias='トラブル'>trouble</sub>の予兆を感じ取る嗅覚——それは「暗黙知」。"
+        break_after: 1300
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, transmission method"
+        text: "<sub alias='のなか'>野中</sub>は、この暗黙知を伝えるには「共体験」が必要だと説きました。一緒にやる。隣で見る。同じ空気を吸う。<sub alias='マニュアル'>manual</sub>は蝉の抜け殻。魂は、共に過ごした時間の中にしか宿らない。"
+        break_after: 1500
+      
+      # 展開2：モースの「ハウ」 (6セグメント)
+      - speaker: "kore"
+        style: "documentary narration, transitioning context"
+        text: "1925年、<sub alias='パリ'>Paris</sub>。人類学者<sub alias='マルセル・モース'>Marcel Mauss</sub>は、経済学の常識に挑戦していました。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "documentary narration, anthropological question"
+        text: "なぜ「未開」とされる社会では、贈り物をもらったら必ずお返しをするのか。それは単なる義理ではない、もっと深い何かがある。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, introducing concept"
+        text: "彼は<sub alias='ニュージーランド'>New Zealand</sub>の<sub alias='マオリ'>Māori</sub>族の概念に注目しました。「<sub alias='ハウ'>hau</sub>」。"
+        break_after: 1100
+      
+      - speaker: "charon"
+        style: "anthropological insight, spirit in gift"
+        text: "「贈り物において義務を生じさせるのは、受け取ったものが不活性ではないからだ」"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, explaining hau"
+        text: "贈り物には、贈る人の霊（<sub alias='ハウ'>hau</sub>）が宿る。だから受け取った人は、それをお返ししないと、霊に復讐される——と彼らは信じていた。贈与とは、ただの物品移動ではない。「魂の移植」なのです。"
+        break_after: 1300
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, applying to handover"
+        text: "あなたが先輩から受け取った<sub alias='ファイル'>file</sub>。そこには、先輩の苦悩、工夫、徹夜の記憶——つまり「<sub alias='ハウ'>hau</sub>」が宿っている。それを「ただの<sub alias='データ'>data</sub>」として扱うと、仕事は死ぬ。"
+        break_after: 1500
+      
+      # 転換：以心伝心 (5セグメント)
+      - speaker: "kore"
+        style: "documentary narration, posing question"
+        text: "暗黙知も、<sub alias='ハウ'>hau</sub>も、言葉では伝えられない。では、どうやって渡すのか。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "documentary narration, transitioning to zen"
+        text: "その答えを、禅は一つの逸話で示しています。ある日、<sub alias='りょうじゅせん'>霊鷲山</sub>で<sub alias='しゃか'>釈迦</sub>は弟子たちの前に立ちました。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "documentary narration, telling parable"
+        text: "説法を期待する大勢の前で、<sub alias='しゃか'>釈迦</sub>はただ一輪の花をかざした。誰も意味が分からず沈黙する中、弟子の<sub alias='まかかしょう'>摩訶迦葉</sub>だけが微笑んだ。"
+        break_after: 1300
+      
+      - speaker: "charon"
+        style: "zen teaching, wordless transmission"
+        text: "「<sub alias='ふりゅうもんじ'>不立文字</sub>、<sub alias='きょうげべつでん'>教外別伝</sub>」——「文字に立てず、教えの外に別に伝える」"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, connecting wisdom"
+        text: "言葉では伝えられないもの。しかし、心と心の間で確かに渡されるもの。<sub alias='のなか'>野中</sub>の「暗黙知」、<sub alias='モース'>Mauss</sub>の「<sub alias='ハウ'>hau</sub>」、禅の「<sub alias='いしんでんしん'>以心伝心</sub>」。東西の知恵が、同じ真実を指し示しています。"
+        break_after: 1500
+      
+      # リフレーミング：ミラーニューロン (6セグメント)
+      - speaker: "kore"
+        style: "documentary narration, transitioning to neuroscience"
+        text: "1990年代、<sub alias='イタリア'>Italy</sub>・<sub alias='パルマ'>Parma</sub>大学。神経科学者<sub alias='ジャコモ・リゾラッティ'>Giacomo Rizzolatti</sub>の研究室で、偶然の発見がありました。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "documentary narration, describing experiment"
+        text: "<sub alias='マカクザル'>macaque monkey</sub>の脳に電極をつけて運動神経を測定していた時、奇妙なことが起きた。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "documentary narration, revealing discovery"
+        text: "<sub alias='サル'>monkey</sub>が自分で<sub alias='ピーナッツ'>peanut</sub>を掴んだ時だけでなく、研究者が<sub alias='ピーナッツ'>peanut</sub>を掴むのを「見た」だけで、同じ神経が発火したのです。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, naming discovery"
+        text: "「<sub alias='ミラー・ニューロン'>mirror neuron</sub>」——他者の行動を見るだけで、自分の脳内でも同じ神経が発火する。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, applying to mentorship"
+        text: "先輩が去った後、<sub alias='トラブル'>trouble</sub>が起きる。あなたは考える。「あの人なら、どうするか？」その瞬間、かつて先輩を見ていた時の<sub alias='ミラー・ニューロン'>mirror neuron</sub>が発火する。"
+        break_after: 1300
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, redefining handover"
+        text: "脳科学的に見れば、それは神経細胞の模倣に過ぎません。しかし、その時、あなたの脳を使って、いなくなったはずの先輩が思考し始めている。引き継ぎとは、単なる業務連絡ではありません。「私の思考回路を、あなたの脳に<sub alias='コピー'>copy</sub>すること」。組織という生命体の中で起きる、一種の「転生」なのです。"
+        break_after: 1500
+      
+      # 着地 (5セグメント)
+      - speaker: "aoede"
+        style: "gentle, introspective narration, role reversal"
+        text: "3月末。今度は、あなたが去る番。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, acknowledging limits"
+        text: "<sub alias='マニュアル'>manual</sub>は残す。でも、それは抜け殻に過ぎない。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, true transmission"
+        text: "大切なのは、姿を見せること。隣に座り、電話をし、悩み、判断する姿を、後輩の<sub alias='ミラー・ニューロン'>mirror neuron</sub>に焼き付ける。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, wordless teaching"
+        text: "言葉はいらない。<sub alias='しゃか'>釈迦</sub>が花をかざしたように、ただ見せるだけでいい。"
+        break_after: 1100
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, continuity"
+        text: "私はいなくなる。でも、私の仕事は、彼らの中で生き続ける。"
+        break_after: 1500
+      
+      # クロージング (3セグメント)
+      - speaker: "kore"
+        style: "contemplative documentary narration, looking up"
+        text: "夜空を見上げると、<sub alias='オリオン'>Orion</sub>座が輝いています。星々は、光年という距離で離れている。でも、私たちの視線が、それらを結んで「星座」にする。いなくなった者の光が、まだ届いている。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, poetic wisdom"
+        text: "知識の星座は、見る人によって違う物語を紡ぎます。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "warm documentary narration, final blessing"
+        text: "あなたが誰かから受け取ったもの。それを、次の誰かに渡してください。その連鎖の中に、私たちは生き続けるのですから。"
+        break_after: 2000
+
+production_notes:
+  - "総セグメント数: 41"
+  - "各セグメントは意味のまとまりを重視"
+  - "kore: メインナレーター（瞑想的ドキュメンタリー）"
+  - "charon: 経営学者・人類学者・禅師の引用"
+  - "aoede: 没入シーンと着地部分の内省的ナレーション"
+  - "英単語・外来語・固有名詞に発音ガイド適用"
+  - "日本語固有名詞（野中郁次郎、以心伝心、摩訶迦葉、霊鷲山、不立文字、教外別伝、釈迦）に読み仮名"
+  - "「古今東西」に<sub alias='ここんとうざい'>を適用（定型ルール）"
+  - "フランス語・英語の引用は日本語訳のみ使用"
+  - "ブレークタイムは文脈に応じて800ms-1500msで調整"
+  - "シーズン2最終話：継承と連鎖のテーマで締めくくり"

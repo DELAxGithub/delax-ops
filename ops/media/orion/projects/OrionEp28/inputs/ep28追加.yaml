@@ -1,0 +1,63 @@
+# S2E13「会議という時間」追加セグメント
+# 既存YAMLへの挿入用
+
+# バフチンセクション（展開2）への追加
+# 「スターリン体制下で「単一の声」が強制される時代に...」を置き換え
+updated_bakhtin_context:
+  - speaker: "kore"
+    style: "documentary narration, oppressive context"
+    text: "1920年代、<sub alias='ソビエト'>Soviet</sub>連邦。文学理論家<sub alias='ミハイル・バフチン'>Mikhail Bakhtin</sub>は、<sub alias='スターリン'>Stalin</sub>体制下で「単一の声」が強制される時代を生きていました。"
+    break_after: 1100
+  
+  - speaker: "kore"
+    style: "documentary narration, describing totalitarianism"
+    text: "異論は許されない。全員が同じ結論に向かって発言する。会議とは、すでに決まった方針を追認する儀式に過ぎない——そんな時代に、<sub alias='バフチン'>Bakhtin</sub>は真逆の概念を練り上げていました。"
+    break_after: 1200
+
+# バフチンの引用と説明の後に追加
+additional_bakhtin_resistance:
+  - speaker: "kore"
+    style: "contemplative documentary narration, subtle defiance"
+    text: "<sub alias='バフチン'>Bakhtin</sub>はこれを「<sub alias='ポリフォニー'>polyphony</sub>（多声性）」と呼びました。それは、体制への静かな抵抗でもありました。"
+    break_after: 1200
+
+# 確率共鳴セクション（転換）への追加
+# 「1981年、イタリアの物理学者たちが...」を置き換え
+updated_stochastic_resonance_intro:
+  - speaker: "kore"
+    style: "documentary narration, scientific puzzle"
+    text: "1981年、<sub alias='イタリア'>Italy</sub>の物理学者たちは、氷河期の周期について頭を悩ませていました。地球の軌道変化だけでは、10万年周期の氷河期を説明できない。計算上、軌道の変化が与える<sub alias='エネルギー'>energy</sub>は小さすぎるのです。"
+    break_after: 1300
+  
+  - speaker: "kore"
+    style: "documentary narration, revealing discovery"
+    text: "彼らが発見したのは「確率共鳴（<sub alias='ストカスティック・レゾナンス'>stochastic resonance</sub>）」という現象でした。"
+    break_after: 1100
+
+# ノイズの説明の後に追加
+additional_climate_mechanism:
+  - speaker: "kore"
+    style: "documentary narration, climate application"
+    text: "気候<sub alias='システム'>system</sub>の中の「<sub alias='ノイズ'>noise</sub>」が、微弱な軌道変化の信号を増幅し、氷河期という大きな変動を引き起こしていた。"
+    break_after: 1200
+
+# 世阿弥セクション（リフレーミング）への追加
+# 「しかし、義満の死後、世阿弥は次の将軍に疎まれ...」を置き換え
+updated_zeami_downfall:
+  - speaker: "kore"
+    style: "documentary narration, biographical tragedy"
+    text: "しかし、<sub alias='よしみつ'>義満</sub>の死後、<sub alias='ぜあみ'>世阿弥</sub>は次の将軍・<sub alias='よしのり'>義教</sub>に疎まれます。息子は先立ち、後継者と定めた甥も亡くなり、最終的には七十歳を過ぎて佐渡島へ流されました。"
+    break_after: 1300
+  
+  - speaker: "kore"
+    style: "contemplative documentary narration, connecting experience to wisdom"
+    text: "栄光から転落へ——予定通りにいかない人生を歩んだ<sub alias='ぜあみ'>世阿弥</sub>だからこそ、こんな言葉を残したのかもしれません。"
+    break_after: 1200
+
+production_notes_for_additions:
+  - "バフチンセクションに3セグメント追加（体制の抑圧と抵抗）"
+  - "確率共鳴セクションに3セグメント追加（氷河期研究の文脈）"
+  - "世阿弥セクションに2セグメント追加（転落の詳細）"
+  - "合計8セグメント追加により、総セグメント数は41→49に増加"
+  - "各思想家の歴史的文脈をより深く理解できる構成に"
+  - "義教（よしのり）に読み仮名追加"

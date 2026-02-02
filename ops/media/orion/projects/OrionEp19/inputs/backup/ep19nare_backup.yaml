@@ -1,0 +1,248 @@
+episodes:
+  - episode_number: "S2E04"
+    title: "沈黙の重力"
+    duration_target: "8:00"
+    
+    segments:
+      # 導入 (5セグメント)
+      - speaker: "kore"
+        style: "contemplative documentary narration, slightly anxious"
+        text: "会議で、すぐに意見が出てこない。隣の人はすらすら話している。自分だけ、置いていかれる。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, questioning"
+        text: "「すぐに反応できる人」が評価される時代。でも、そもそも「速さ」は「正しさ」なのでしょうか。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "warm documentary welcome"
+        text: "ようこそ、<sub alias='オリオン'>Orion</sub>の会議室へ。今夜のケースは「沈黙の重力」。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, introducing concept"
+        text: "<sub alias='ここんとうざい'>古今東西</sub>の叡智を星座のように結び、現代の悩みに新しい視座を見つける8分間。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, presenting framework"
+        text: "今夜めぐる星々は——思考を外に出すタイミングには「型」があるという発見。寝かせることでしか生まれない、アイデアの孵化。「永遠の相」という、構造全体を俯瞰する眼差し。そして、言葉を超えた沈黙が雄弁に語るという逆説。バラバラの星々が、「即<sub alias='レス'>response</sub>」の時代に、沈黙の重力を照らし始めます。"
+        break_after: 1500
+      
+      # 展開1：思考の「出力タイミング」 (9セグメント)
+      - speaker: "kore"
+        style: "documentary narration, historical introduction"
+        text: "20世紀初頭、スイス。精神科医<sub alias='カール・グスタフ・ユング'>Carl Gustav Jung</sub>は、人間の心の深層を探究していました。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "documentary narration"
+        text: "<sub alias='フロイト'>Freud</sub>の弟子として出発しながら、やがて独自の道を歩み始めた人物です。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "documentary narration, introducing concept"
+        text: "<sub alias='ユング'>Jung</sub>は、人間の性格を「内向型」と「外向型」に分類しました。"
+        break_after: 1200
+      
+      - speaker: "charon"
+        style: "psychological insight, measured delivery"
+        text: "「外向型は、外界の出来事を即座に受け入れることを特徴とする」"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, clarifying"
+        text: "これは「社交的かどうか」の話ではありません。"
+        break_after: 900
+      
+      - speaker: "kore"
+        style: "documentary narration, explaining mechanism"
+        text: "外向型は「話しながら考える」。会話の中でアイデアが生まれ、言葉にすることで輪郭がはっきりする。対して内向型は「考えてから話す」。思考を内側で完成させてから出力する。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, key insight"
+        text: "つまり、思考の深さは同じでも、「出力のタイミング」が決定的に違うのです。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, critical observation"
+        text: "現代の会議室は、外向型のルールで動いています。その場で発言する。すぐに反応する。内向型にとって、それは不利な<sub alias='ゲーム'>game</sub>を強いられているようなもの。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, reframing"
+        text: "でも、問題は「自分」ではなく、「ルール」の方かもしれません。"
+        break_after: 1500
+      
+      # 展開2：寝かせる時間の科学 (6セグメント)
+      - speaker: "kore"
+        style: "documentary narration, shifting to science"
+        text: "では、その「考えている時間」に、脳内では何が起きているのか。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "documentary narration, introducing research"
+        text: "認知科学に「遠隔連想課題」という実験があります。一見無関係な3つの単語——たとえば「夜」「飛行」「深い」——を結ぶ共通語を見つける課題です。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, research findings"
+        text: "興味深いことに、休憩を挟んだ群は、連続して取り組んだ群より正答率が高かった。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "documentary narration, explaining mechanism"
+        text: "脳が意識下で情報を再編成している。これが「<sub alias='インキュベーション'>incubation</sub>（孵化）効果」です。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, contrasting insights"
+        text: "会議の場で即座に出る意見は、すでに持っている知識の組み合わせにすぎないことが多い。本当に新しい洞察は、熟成の時間を必要とします。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, reframing"
+        text: "「すぐに答えられない」ことは、脳がまだ深く処理している証拠。即答できないのは、遅いのではない。深いのです。"
+        break_after: 1500
+      
+      # 展開3：永遠の相 (7セグメント)
+      - speaker: "kore"
+        style: "documentary narration, transitioning to philosophy"
+        text: "17世紀、オランダ。<sub alias='レンズ'>lens</sub>磨きで生計を立てながら、哲学者<sub alias='バルーフ・スピノザ'>Baruch Spinoza</sub>は——"
+        break_after: 800
+      
+      - speaker: "kore"
+        style: "documentary narration"
+        text: "物事を見る視点について考え抜いていました。<sub alias='ユダヤ'>Jewish</sub>教共同体から追放され、孤独の中で主著『<sub alias='エチカ'>Ethica</sub>』を書き上げた人物です。"
+        break_after: 1200
+      
+      - speaker: "charon"
+        style: "philosophical conviction, profound tone"
+        text: "「永遠の相の下に」"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, clarifying concept"
+        text: "これは「長い目で見て落ち着こう」という処世術ではありません。"
+        break_after: 900
+      
+      - speaker: "kore"
+        style: "documentary narration, explaining philosophy"
+        text: "感情的に反応するのではなく、その議論がどこから来てどこへ行くのか、構造と必然の全体を俯瞰しようとする、厳格な理性の働きです。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, practical application"
+        text: "誰かの<sub alias='マウント'>dominance</sub>発言。焦る空気。それらに感情で反応するのではなく、なぜその発言が出たのか、議論全体がどこへ向かおうとしているのかを見極める。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, key insight"
+        text: "全体像が見えるまで、口を開かない。それは遅いのではなく、「永遠の相」を掴もうとする理性の発動なのです。"
+        break_after: 1500
+      
+      # 転換：維摩の沈黙 (6セグメント)
+      - speaker: "kore"
+        style: "documentary narration, transitioning to ancient wisdom"
+        text: "この「沈黙の力」を、古代<sub alias='インド'>India</sub>の賢者は体現していました。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "documentary narration, introducing text"
+        text: "紀元1世紀頃に成立した仏典『<sub alias='ゆいまぎょう'>維摩経</sub>』に、こんな場面があります。"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "documentary narration, storytelling"
+        text: "<sub alias='もんじゅぼさつ'>文殊菩薩</sub>が、在家の賢者・<sub alias='ゆいまこじ'>維摩居士</sub>に問いかけました。「不二の法門——対立を超えた真理とは何か」居並ぶ菩薩たちは、それぞれ言葉を尽くして答えました。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, dramatic pause"
+        text: "しかし維摩は——"
+        break_after: 800
+      
+      - speaker: "charon"
+        style: "ancient text, reverent tone"
+        text: "「時維摩詰默然無言」——そのとき維摩、黙然として言うこと無し。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, profound"
+        text: "<sub alias='もんじゅぼさつ'>文殊菩薩</sub>は、その沈黙を讃えました。「これこそが、真の不二の入り口である」維摩の沈黙は、「答えられなかった」のではない。言葉では語れない真理を、沈黙という行為で示したのです。沈黙もまた、雄弁な回答になりうる。"
+        break_after: 1500
+      
+      # リフレーミング (4セグメント)
+      - speaker: "kore"
+        style: "documentary narration, cautionary tone"
+        text: "ただし、注意が必要です。維摩の沈黙は、「萎縮して黙っていた」のではありません。究極の真理を示すために、「沈黙を選んだ」のです。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, practical distinction"
+        text: "会議室での沈黙も同じです。<sub alias='オロオロ'>nervously</sub>と黙っているのと、「今、深く潜っている」という意思を持って黙るのとでは、まったく違う。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, poetic"
+        text: "後者の沈黙には、重力がある。軽薄な議論に流されそうな空気を、その沈黙が引き留める。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "documentary narration, reframing"
+        text: "「発言しないこと」は「参加していないこと」ではありません。思考の深海に碇を下ろし、場を安定させる——それは、見えない仕事なのです。"
+        break_after: 1500
+      
+      # 着地 (5セグメント)
+      - speaker: "aoede"
+        style: "gentle, introspective narration"
+        text: "次の会議。無理に発言しようとしなくていい。"
+        break_after: 900
+      
+      - speaker: "aoede"
+        style: "gentle, introspective narration"
+        text: "焦る周囲を、<sub alias='スピノザ'>Spinoza</sub>のような静かな目で見つめてみる。「私は今、深く潜っている」と、自分に言い聞かせる。"
+        break_after: 1100
+      
+      - speaker: "aoede"
+        style: "gentle, introspective narration"
+        text: "そして、本当に必要な言葉が浮かび上がってきた時だけ、口を開けばいい。"
+        break_after: 1000
+      
+      - speaker: "aoede"
+        style: "warm conversational tone, confident"
+        text: "「それって、こういうことですか？」"
+        break_after: 1000
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, reassuring"
+        text: "たった一言。でも、その言葉には、30分の議論をひっくり返す重力があるはずです。沈黙は、空白ではない。それは、あなたが本質に触れようとしている時間なのです。"
+        break_after: 1500
+      
+      # クロージング (3セグメント)
+      - speaker: "kore"
+        style: "contemplative documentary narration, looking up"
+        text: "夜空を見上げると、<sub alias='オリオン'>Orion</sub>座が輝いています。星々は、音を立てません。でも、その重力が、宇宙の秩序を支えている。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "contemplative documentary narration, poetic wisdom"
+        text: "深さは、速さとは別の場所にある。知識の星座は、見る人によって違う物語を紡ぎます。"
+        break_after: 1200
+      
+      - speaker: "kore"
+        style: "warm documentary narration, gentle invitation"
+        text: "沈黙を恐れないでください。それは、あなたが本質に触れようとしている、静かな知性の時間なのですから。"
+        break_after: 2000
+
+production_notes:
+  - "総セグメント数: 41（目標40前後）"
+  - "各セグメントは意味のまとまりを重視"
+  - "kore: メインナレーター（瞑想的ドキュメンタリー）"
+  - "charon: 哲学者・心理学者の引用、古代仏典"
+  - "aoede: 着地部分の内省的シーン"
+  - "英単語・外来語・仏教用語に発音ガイド適用"
+  - "「古今東西」に<sub alias='ここんとうざい'>を適用（定型ルール）"
+  - "ブレークタイムは文脈に応じて800ms-1500msで調整"

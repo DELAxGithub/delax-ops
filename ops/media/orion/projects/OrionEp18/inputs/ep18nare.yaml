@@ -1,0 +1,227 @@
+episodes:
+- episode_number: S2E03
+  title: 褒められない、褒めない
+  duration_target: '8:00'
+  segments:
+  - speaker: kore
+    style: contemplative documentary narration, introspective
+    text: 「よくやったね」と言われて、とっさに「いえいえ」と返してしまう。逆に、部下を褒めようとして、言葉が出てこない。
+    break_after: 1000
+  - speaker: kore
+    style: contemplative documentary narration, questioning
+    text: 承認を求めることは、弱さなのか。それとも、人として当然の渇きなのか？
+    break_after: 1200
+  - speaker: kore
+    style: warm documentary welcome
+    text: ようこそ、<sub alias='オリオン'>Orion</sub>の会議室へ。今夜のケースは「褒められない、褒めない」。
+    break_after: 1500
+  - speaker: kore
+    style: contemplative documentary narration, introducing concept
+    text: <sub alias='ここんとうざい'>古今東西</sub>の叡智を星座のように結び、現代の悩みに新しい視座を見つける8分間。
+    break_after: 1000
+  - speaker: kore
+    style: contemplative documentary narration, presenting framework
+    text: 今夜結ぶのは、こんな星座——
+    break_after: 800
+  - speaker: kore
+    style: contemplative documentary narration
+    text: 「認められたい」という欲求の、意外な正体。
+    break_after: 700
+  - speaker: kore
+    style: contemplative documentary narration
+    text: 他者という「鏡」が映し出す、自分の輪郭。その「鏡」の使い方が、文化によって違うという発見。
+    break_after: 1000
+  - speaker: kore
+    style: contemplative documentary narration, connecting threads
+    text: そして、誰にも見られていなくても果たすべき「務め」という考え方。バラバラの知恵が、「承認」という一本の糸で結ばれていきます。
+    break_after: 1500
+  - speaker: kore
+    style: matter-of-fact documentary narration
+    text: プロジェクトが無事に終わった。3ヶ月間、チームで走り続けた。納期も守った。クライアントからの評価も悪くない。
+    break_after: 1000
+  - speaker: kore
+    style: contemplative documentary narration, questioning
+    text: でも、誰も何も言わない。「お疲れさまでした」——その一言すら、なぜか出てこない。
+    break_after: 1000
+  - speaker: kore
+    style: contemplative documentary narration, introspective
+    text: 評価を求めるのは、みっともないことなのだろうか。
+    break_after: 900
+  - speaker: kore
+    style: contemplative documentary narration, melancholic
+    text: でも、誰にも認められない仕事を続けることは、砂漠に水を撒くような虚しさがある。
+    break_after: 1000
+  - speaker: kore
+    style: contemplative documentary narration, questioning
+    text: 私たちは「承認」と、どう向き合えばいいのでしょうか。
+    break_after: 1500
+  - speaker: kore
+    style: documentary narration, historical introduction
+    text: 19世紀、ドイツ——。哲学者<sub alias='ヘーゲル'>Hegel</sub>は、<sub alias='ナポレオン'>Napoleon</sub>戦争の時代を生き——
+    break_after: 800
+  - speaker: kore
+    style: documentary narration
+    text: 人間と社会の本質を問い続けました。彼は「認められたい」という欲求を、人間の根源的な営みだと見抜いていました。
+    break_after: 1200
+  - speaker: charon
+    style: philosophical conviction, quiet authority
+    text: 「自己意識は、承認されることによって、そしてそのことによってこそ成り立つ。」
+    break_after: 1200
+  - speaker: kore
+    style: documentary narration, explaining reciprocity
+    text: 興味深いのは、<sub alias='ヘーゲル'>Hegel</sub>が承認を「相互的なもの」として捉えたことです。一方的に認められるだけでは、本当の承認にならない。
+    break_after: 1200
+  - speaker: kore
+    style: documentary narration, explaining dynamic
+    text: 認める側と認められる側が、互いにその価値を確認し合う。その往復運動の中で、初めて「自分が何者か」が立ち上がってくる。
+    break_after: 1200
+  - speaker: kore
+    style: documentary narration, explaining philosophy
+    text: 人間は、ただ生きているだけでは「自分が何者か」を知ることができない。
+    break_after: 900
+  - speaker: kore
+    style: documentary narration, key insight
+    text: 他者に認められて初めて、自分の存在が確かなものになる。
+    break_after: 1000
+  - speaker: kore
+    style: contemplative documentary narration, affirming desire
+    text: だから、「褒められたい」と思うことを恥じる必要はない。それは、あなたが人間として他者との関係の中で生きている証拠にすぎません。
+    break_after: 1500
+  - speaker: kore
+    style: documentary narration, transitioning time and place
+    text: 20世紀初頭、アメリカ——。社会学者<sub alias='チャールズ・クーリー'>Charles Cooley</sub>は——
+    break_after: 700
+  - speaker: kore
+    style: documentary narration, introducing concept
+    text: この「承認」がどのように自己を形作るかを明らかにしました。
+    break_after: 1000
+  - speaker: charon
+    style: sociological insight, clear explanation
+    text: 「私たちの自己は、他者という鏡に映った像から形づくられる。」
+    break_after: 1200
+  - speaker: kore
+    style: documentary narration, explaining three stages
+    text: <sub alias='クーリー'>Cooley</sub>によれば、私たちは三つの段階を経て自己像を作り上げます。
+    break_after: 1000
+  - speaker: kore
+    style: documentary narration, detailing process
+    text: まず、他者の目に自分がどう映っているかを想像する。次に、その姿がどう評価されているかを想像する。そして、その想像に基づいて、誇りや恥ずかしさといった感情が生まれる。
+    break_after: 1300
+  - speaker: kore
+    style: documentary narration, explaining mechanism
+    text: 「あなたは優秀だ」と言われ続けた人は、自分を優秀だと思うようになる。「お前はダメだ」と言われ続けた人は、自分をダメだと思い込む。
+    break_after: 1100
+  - speaker: kore
+    style: documentary narration, key insight
+    text: 評価とは単なる情報ではない。人の自己像を形作る「素材」なのです。
+    break_after: 1200
+  - speaker: kore
+    style: documentary narration, metaphorical
+    text: だとすれば、誰かを褒めることは、その人に「鏡」を差し出すこと。褒めないことは、鏡を差し出さないこと。
+    break_after: 1000
+  - speaker: kore
+    style: contemplative documentary narration, poetic
+    text: 相手は、自分の姿を確認できないまま、霧の中を歩くことになる。
+    break_after: 1500
+  - speaker: kore
+    style: documentary narration, shifting perspective
+    text: しかし、この「鏡」の使い方は、文化によって違います。
+    break_after: 1000
+  - speaker: kore
+    style: documentary narration, concrete example
+    text: たとえば、会議で良い<sub alias='アイデア'>idea</sub>を出した<sub alias='メンバー'>member</sub>がいたとして。「佐藤さん、素晴らしい発想ですね」と名指しで褒めると、本人は嬉しいかもしれない。
+    break_after: 1200
+  - speaker: kore
+    style: documentary narration, noting tension
+    text: でも、周囲には微妙な空気が流れることがある。「出る杭」になってしまったような居心地の悪さ。
+    break_after: 1100
+  - speaker: kore
+    style: contemplative documentary narration, explaining hesitation
+    text: 私たちが褒めるのを躊躇するのは、個人を突出させることが、<sub alias='チーム'>team</sub>全体の調和を乱すと感じるからかもしれません。
+    break_after: 1200
+  - speaker: kore
+    style: contemplative documentary narration, recognizing difference
+    text: どちらが正しいわけでもない。ただ、鏡の種類が違うのです。そして、その違いを知っておくことで、「褒めにくさ」の正体が少し見えてくる。
+    break_after: 1500
+  - speaker: kore
+    style: documentary narration, contrasting cultures
+    text: 西洋の鏡は「個人の能力」を映しますが、東<sub alias='アジア'>Asia</sub>の鏡は「周囲との調和」を映す。
+    break_after: 1100
+  - speaker: kore
+    style: documentary narration, cultural insight
+    text: 私たちが褒めるのを躊躇するのは、個人を突出させることが、鏡全体の調和を乱すと感じるからかもしれません。どちらが正しいわけでもない。ただ、鏡の種類が違うのです。
+    break_after: 1500
+  - speaker: kore
+    style: documentary narration, transitioning to new framework
+    text: では、「他者の鏡」に映らなければ、自分の価値は確かめられないのでしょうか。
+    break_after: 1000
+  - speaker: kore
+    style: documentary narration, presenting solution
+    text: ここで、私たちは二つの知恵を使い分ける必要があります。
+    break_after: 1000
+  - speaker: kore
+    style: documentary narration, clear instruction
+    text: 他者に対しては、「鏡」を差し出すこと。しかし、自分自身に対しては、古代<sub alias='インド'>India</sub>の知恵「<sub
+      alias='ダルマ'>Dharma</sub>」に立つこと。
+    break_after: 1200
+  - speaker: charon
+    style: ancient wisdom, reverent tone
+    text: ——「<sub alias='ダルマ'>Dharma</sub>は善き営みの土台である。」
+    break_after: 1200
+  - speaker: kore
+    style: documentary narration, explaining concept
+    text: <sub alias='ダルマ'>Dharma</sub>とは、その人がその場にいる「意味」そのもの。果たすべき務め、担うべき役割のことです。
+    break_after: 1100
+  - speaker: kore
+    style: documentary narration, giving examples
+    text: 看護師が患者を<sub alias='ケア'>care</sub>するのは、感謝されるためではない。それが看護師の<sub alias='ダルマ'>Dharma</sub>だから。
+    break_after: 900
+  - speaker: kore
+    style: documentary narration, giving examples
+    text: 教師が生徒に向き合うのは、評価されるためではない。それが教師の<sub alias='ダルマ'>Dharma</sub>だから。
+    break_after: 1100
+  - speaker: kore
+    style: contemplative documentary narration, profound
+    text: 誰も見ていなくても、誰からも褒められなくても、あなたがその務めを果たすことで、この世界の秩序は確実に保たれている。他者には「鏡」を、自分には「役割」を。その使い分けこそが、承認の迷宮から抜け出す道なのかもしれません。
+    break_after: 1500
+  - speaker: aoede
+    style: gentle, introspective narration
+    text: 次の月曜日。あのプロジェクトを一緒に乗り越えた後輩と、廊下ですれ違う。
+    break_after: 900
+  - speaker: aoede
+    style: gentle, introspective narration
+    text: いつもなら「お疲れさま」で終わっていた。でも今日は、少しだけ言葉を足してみる。
+    break_after: 900
+  - speaker: aoede
+    style: warm, conversational tone
+    text: 「あの資料、助かったよ」
+    break_after: 1000
+  - speaker: kore
+    style: gentle documentary narration
+    text: 大げさな評価じゃない。事実を伝えただけ。でも、後輩の表情が、ほんの少し明るくなった。
+    break_after: 1100
+  - speaker: kore
+    style: contemplative documentary narration, practical wisdom
+    text: 気の利いた褒め言葉なんていらない。「あなたの仕事は、ここに届いていた」——その事実を、言葉にするだけでいい。
+    break_after: 1500
+  - speaker: kore
+    style: contemplative documentary narration, looking up
+    text: 夜空を見上げると、<sub alias='オリオン'>Orion</sub>座が輝いています。星々は、「綺麗だね」と言われるために光っているわけではありません。
+    break_after: 1100
+  - speaker: kore
+    style: contemplative documentary narration, poetic wisdom
+    text: 誰が見ていようといまいと、ただそこで燃えることが、星としての「務め（<sub alias='ダルマ'>Dharma</sub>）」だからです。知識の星座は、見る人によって違う物語を紡ぎます。
+    break_after: 1200
+  - speaker: kore
+    style: warm documentary narration, gentle invitation
+    text: 明日は、誰かに小さな「鏡」を差し出してみてください。そしてあなた自身は、誰の目も気にせず、ただ静かに輝き続けてください。
+    break_after: 2000
+production_notes:
+- '総セグメント数: 53（拡張版）'
+- 各セグメントは意味のまとまりを重視
+- 'kore: メインナレーター（瞑想的ドキュメンタリー）'
+- 'charon: 哲学者・社会学者の引用'
+- 'aoede: 着地部分の内省的シーン'
+- 英単語・外来語・サンスクリット語に発音ガイド適用
+- 【新規ルール】「古今東西」には必ず<sub alias='ここんとうざい'>を適用
+- ブレークタイムは文脈に応じて700ms-1500msで調整
