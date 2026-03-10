@@ -28,7 +28,8 @@ TTS_DIR = REPO_ROOT / "tts"
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
-from tts import load_merged_tts_config, OrionTTSGenerator  # type: ignore  # noqa: E402
+from tts.tts_config_loader import load_merged_tts_config  # type: ignore  # noqa: E402
+from tts.orion_tts_generator import OrionTTSGenerator  # type: ignore  # noqa: E402
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger(__name__)

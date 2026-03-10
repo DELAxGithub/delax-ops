@@ -5,3 +5,10 @@ settings.local.json
 .DS_Store
 **/supabase/.temp/
 **/supabase/.branches/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Log files
+*.log
