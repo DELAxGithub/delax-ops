@@ -12,3 +12,7 @@ __pycache__/
 
 # Log files
 *.log
+
+# TTS output (generated audio)
+script/tts_output_all/
+script/tts_test_output/
