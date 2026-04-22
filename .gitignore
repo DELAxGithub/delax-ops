@@ -1,6 +1,9 @@
 .env
 .env.*
+!.env.tpl
+!.env.*.tpl
 *.local.*
+!*.local.tpl
 settings.local.json
 .DS_Store
 **/supabase/.temp/
