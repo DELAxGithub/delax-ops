@@ -19,6 +19,3 @@ __pycache__/
 # TTS output (generated audio)
 script/tts_output_all/
 script/tts_test_output/
-
-# fastlane auto-generated docs
-fastlane/README.md
