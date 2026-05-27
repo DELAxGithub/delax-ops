@@ -1,0 +1,32 @@
+# delax-ops
+
+> Operational nucleus for DELAX. Holds shared ops docs, database schemas, and automation scripts that power the other DELAX repos. No vendored shared packages — those live in `delax-shared-packages`.
+
+## What this is
+
+delax-ops is the cross-cutting operational layer for DELAX projects. It tracks the repo map, owns shared DB design and migrations, and houses scheduled jobs and media-pipeline automation. Secrets are kept out of the repo; runtime credentials come from environment variables and GitHub Actions secrets.
+
+- Scope: db schemas, scheduled jobs, media pipeline utilities
+- Secrets: never committed — env / GitHub Actions only
+- Vendoring policy: this repo does not vendor shared packages
+
+## Where to start
+
+- [README](https://github.com/DELAxGithub/delax-ops/blob/main/README.md) — scope overview
+- [OPERATIONS](https://github.com/DELAxGithub/delax-ops/blob/main/OPERATIONS.md) — rules on references, extraction, safety
+- [SECURITY](https://github.com/DELAxGithub/delax-ops/blob/main/SECURITY.md) — security policy
+- [DEVLOG](https://github.com/DELAxGithub/delax-ops/blob/main/DEVLOG.md) — development log
+- [references/repos.md](https://github.com/DELAxGithub/delax-ops/blob/main/references/repos.md) — repo map and labels
+- [ops/](https://github.com/DELAxGithub/delax-ops/tree/main/ops) — ops categories
+- [script/](https://github.com/DELAxGithub/delax-ops/tree/main/script) — automation scripts
+
+## Related repos
+
+- [delax-shared-packages](https://github.com/DELAxGithub/delax-shared-packages) — shared TypeScript packages (`@delax/agent-harness`, `@delax/review-commons`, etc.)
+
+## What this is NOT
+
+- Not a public-facing product — this is internal ops infrastructure
+- Not a code library — runtime code lives in `delax-shared-packages`, not here
+- Not a secrets store — all secrets are external to the repo
+- Not a single-app monorepo — projects live in their own repos and reference this one
